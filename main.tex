@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+\definecolor{ipnBrown}{RGB}{123,48,42}
+\definecolor{gold}{RGB}{212,175,55}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Prueba de Proyecto}
+\author{Luis Alberto Cordero Montes de Oca}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{titlepage}
+    % Establecer márgenes específicos para la portada
+    \newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+    
+    % Logo IPN y líneas decorativas
+    \begin{tikzpicture}[remember picture, overlay]
+        % Logo IPN
+        \node[anchor=north west, xshift=1cm, yshift=-2cm] at (current page.north west) {
+            \includegraphics[height=3cm]{logo-ipn-guinda.png}
+        };
+        % Líneas decorativas
+        \draw[thick, gold] (-1.5cm,-2.5cm) -- (-1.5cm,-22cm);
+        \draw[thick, ipnBrown] (-0.5cm,-2.5cm) -- (-0.5cm,-22cm);
+        % Logo UPIITA
+        \node[anchor=south west, xshift=1cm, yshift=2cm] at (current page.south west) {
+            \includegraphics[height=2.5cm]{logo-upiita.png}
+        };
+    \end{tikzpicture}
+
+    % Contenido principal (movido hacia la derecha)
+    \begin{flushright}
+    \begin{minipage}{0.85\textwidth}
+        \begin{center}
+            \vspace{1cm}   % Agrega 2cm de espacio vertical
+            {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL}\par
+            \vspace{1.5cm}
+            {\Large\bfseries UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\ 
+            INGENIERÍA Y TECNOLOGÍAS AVANZADAS}\par
+            \vspace{1cm}
+            {\Large\bfseries U P I I T A}\par
+            \vspace{1.5cm}
+            
+            % Título del proyecto
+            {\large\itshape ``Arquitectura IoT para la Detección de\\
+            Consumos Anómalos y Seguimiento en\\
+            Tiempo Real de Dispositivos Eléctricos''}\par
+            \vspace{1.5cm}
+            
+            % Tipo de documento
+            {\large Que para obtener el título de}\par
+            \vspace{0.5cm}
+            {\large\bfseries``Ingeniero en Telemática''}\par
+            \vspace{1.5cm}
+            
+            % Datos del alumno
+            {\large Presenta el alumno:}\par
+            \vspace{0.5cm}
+            {\large\bfseries Cordero Montes de Oca Luis Alberto}\par
+            \vspace{1.5cm}
+            
+            % Asesores
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \rule{6cm}{0.4pt}\\
+                {\large Huerta Trujillo Iliac}
+            \end{minipage}
+            \hfill
+            \begin{minipage}{0.45\textwidth}
+                \centering
+                \rule{6cm}{0.4pt}\\
+                {\large Villordo Jimenez Iclia}
+            \end{minipage}
+            
+            \vfill
+            \vspace{2cm}   % Agrega 2cm de espacio vertical
+            % Fecha
+            {\large México, Ciudad de México, a \today}\par
+        \end{center}
+    \end{minipage}
+    \end{flushright}
+
+\end{titlepage}
+
+% Restaurar la geometría original para el resto del documento
+\restoregeometry
+
+% Índice de contenido
+\tableofcontents
+
+% Índice de tablas
+\listoftables
+
+% Índice de figuras
+\listoffigures
+
+\chapter{}  
+
+\end{document}
