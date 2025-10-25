@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  26 AUG 2025 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  25 OCT 2025 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,6 +827,30 @@ Cap\'{\i }tulo 1.
 
 [4
 
+]
+Cap\'{\i }tulo 2.
+
+
+[5
+
+]
+Cap\'{\i }tulo 3.
+
+
+[6
+
+]
+Cap\'{\i }tulo 4.
+
+
+[7
+
+]
+Cap\'{\i }tulo 5.
+
+
+[8
+
 ] (d:\LaTeX\Pro_Terminal\build\main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -845,9 +869,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,6n,105p,737b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (5 pages, 385099 bytes).
+Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (9 pages, 389961 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
