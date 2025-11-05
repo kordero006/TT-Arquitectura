@@ -1,6 +1,7 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}}{4}{}%
-\contentsline {chapter}{\numberline {2}}{5}{}%
-\contentsline {chapter}{\numberline {3}}{6}{}%
-\contentsline {chapter}{\numberline {4}}{7}{}%
-\contentsline {chapter}{\numberline {5}}{8}{}%
+\contentsline {chapter}{\numberline {1}Planteamiento del Problema}{4}{}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{5}{}%
+\contentsline {chapter}{\numberline {3}Análisis del Sistema}{6}{}%
+\contentsline {chapter}{\numberline {4}Diseño del Sistema}{7}{}%
+\contentsline {chapter}{\numberline {5}Implementación del Sistema}{8}{}%
+\contentsline {chapter}{\numberline {6}Pruebas y Resultados del Sistema}{9}{}%
