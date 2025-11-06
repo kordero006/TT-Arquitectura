@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  6 NOV 2025 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  6 NOV 2025 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,36 +858,410 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip150
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+Package: glossaries 2025/08/11 v4.8 (NLCT)
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks57
+\XKV@tempa@toks=\toks58
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 95.
- (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+\XKV@depth=\count377
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks59
+\@glsmrest=\toks60
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+Package tracklang Info: Tracking dialect `english' (language `english') on input line 264.
+Package tracklang Info: Tracking dialect `english' (language `english') on input line 264.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 264.
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
+File: glossaries-spanish.ldf 2014/11/23 v1.0
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf)) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glossaries-english.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
+)
+\@dtl@toks=\toks61
+\@dtl@tmpcount=\count378
+\dtl@tmplength=\skip151
+\l__datatool_measure_box=\box84
+\dtl@sortresult=\count379
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
+)
+\@dtl@datatype=\count380
+\l__datatool_tmpa_int=\count381
+\l__datatool_tmpb_int=\count382
+\l__datatool_tmpc_int=\count383
+\l__datatool_tmpd_int=\count384
+\l__datatool_count_int=\count385
+\l__datatool_tmp_datatype_int=\count386
+\l__datatool_tmpa_dim=\dimen338
+\l__datatool_tmpb_dim=\dimen339
+\c_datatool_unknown_int=\count387
+\l__datatool_year_int=\count388
+\l__datatool_month_int=\count389
+\l__datatool_day_int=\count390
+\l__datatool_hour_int=\count391
+\l__datatool_minute_int=\count392
+\l__datatool_second_int=\count393
+\l__datatool_tzhour_int=\count394
+\l__datatool_tzminute_int=\count395
+\l__datatool_julian_int=\count396
+\l__datatool_local_julian_int=\count397
+\l__datatool_prefix_int=\count398
+\l__datatool_suffix_int=\count399
+\@dtl@foreach@level=\count400
+
+
+Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9908.
+
+
+Package tracklang Warning: No `datatool' support for dialect `english'  on input line 9908.
+
+\dtl@codeA=\count401
+\dtl@codeB=\count402
+)
+\gls@level=\count403
+\@gls@tmpb=\toks62
+\gls@tmplen=\skip152
+\l__glossaries_tmpa_dim=\dimen340
+\l__glossaries_tmpb_dim=\dimen341
+\glskeylisttok=\toks63
+\glslabeltok=\toks64
+\glsshorttok=\toks65
+\glslongtok=\toks66
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-hypernav.sty
+Package: glossary-hypernav 2025/08/11 v4.8 (NLCT)
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-list.sty
+Package: glossary-list 2025/08/11 v4.8 (NLCT)
+\glslistdottedwidth=\skip153
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-long.sty
+Package: glossary-long 2025/08/11 v4.8 (NLCT)
+\glsdescwidth=\skip154
+\glspagelistwidth=\skip155
+) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-super.sty
+Package: glossary-super 2025/08/11 v4.8 (NLCT)
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabular.sty
+Package: supertabular 2024/07/20 v4.2c the supertabular environment
+\c@tracingst=\count404
+\ST@wd=\dimen342
+\ST@rightskip=\skip156
+\ST@leftskip=\skip157
+\ST@parfillskip=\skip158
+\ST@pageleft=\dimen343
+\ST@headht=\dimen344
+\ST@tailht=\dimen345
+\ST@pagesofar=\dimen346
+\ST@pboxht=\dimen347
+\ST@rowht=\dimen348
+\ST@prevht=\dimen349
+\ST@toadd=\dimen350
+\ST@dimen=\dimen351
+\ST@pbox=\box85
+)) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glossary-tree.sty
+Package: glossary-tree 2025/08/11 v4.8 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count405
+\l__glossaries_tree_offset_dim=\dimen352
+\l__glossaries_tree_namewidth_dim=\dimen353
+\l__glossaries_tree_symbolwidth_dim=\dimen354
+\l__glossaries_tree_prenamesym_width_dim=\dimen355
+\l__glossaries_tree_presubnamesym_width_dim=\dimen356
+\l__glossaries_tree_namewidth_padding_dim=\dimen357
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen358
+\l__glossaries_tree_namesymbolwidth_dim=\dimen359
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen360
+\l__glossaries_tree_level_int=\count406
+\glstreeindent=\skip159
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 81.
+\glo@acronym@file=\write6
+\openout6 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 81.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count407
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count408
+\c@listtotal=\count409
+\c@listcount=\count410
+\c@liststart=\count411
+\c@liststop=\count412
+\c@citecount=\count413
+\c@citetotal=\count414
+\c@multicitecount=\count415
+\c@multicitetotal=\count416
+\c@instcount=\count417
+\c@maxnames=\count418
+\c@minnames=\count419
+\c@maxitems=\count420
+\c@minitems=\count421
+\c@citecounter=\count422
+\c@maxcitecounter=\count423
+\c@savedcitecounter=\count424
+\c@uniquelist=\count425
+\c@uniquename=\count426
+\c@refsection=\count427
+\c@refsegment=\count428
+\c@maxextratitle=\count429
+\c@maxextratitleyear=\count430
+\c@maxextraname=\count431
+\c@maxextradate=\count432
+\c@maxextraalpha=\count433
+\c@abbrvpenalty=\count434
+\c@highnamepenalty=\count435
+\c@lownamepenalty=\count436
+\c@maxparens=\count437
+\c@parenlevel=\count438
+\blx@tempcnta=\count439
+\blx@tempcntb=\count440
+\blx@tempcntc=\count441
+\c@blx@maxsection=\count442
+\blx@maxsegment@0=\count443
+\blx@notetype=\count444
+\blx@parenlevel@text=\count445
+\blx@parenlevel@foot=\count446
+\blx@sectionciteorder@0=\count447
+\blx@sectionciteorderinternal@0=\count448
+\blx@entrysetcounter=\count449
+\blx@biblioinstance=\count450
+\labelnumberwidth=\skip160
+\labelalphawidth=\skip161
+\biblabelsep=\skip162
+\bibitemsep=\skip163
+\bibnamesep=\skip164
+\bibinitsep=\skip165
+\bibparsep=\skip166
+\bibhang=\skip167
+\blx@bcfin=\read4
+\blx@bcfout=\write7
+\blx@langwohyphens=\language80
+\c@mincomprange=\count451
+\c@maxcomprange=\count452
+\c@mincompwidth=\count453
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count454
+\c@savedafterword=\count455
+\c@annotator=\count456
+\c@savedannotator=\count457
+\c@author=\count458
+\c@savedauthor=\count459
+\c@bookauthor=\count460
+\c@savedbookauthor=\count461
+\c@commentator=\count462
+\c@savedcommentator=\count463
+\c@editor=\count464
+\c@savededitor=\count465
+\c@editora=\count466
+\c@savededitora=\count467
+\c@editorb=\count468
+\c@savededitorb=\count469
+\c@editorc=\count470
+\c@savededitorc=\count471
+\c@foreword=\count472
+\c@savedforeword=\count473
+\c@holder=\count474
+\c@savedholder=\count475
+\c@introduction=\count476
+\c@savedintroduction=\count477
+\c@namea=\count478
+\c@savednamea=\count479
+\c@nameb=\count480
+\c@savednameb=\count481
+\c@namec=\count482
+\c@savednamec=\count483
+\c@translator=\count484
+\c@savedtranslator=\count485
+\c@shortauthor=\count486
+\c@savedshortauthor=\count487
+\c@shorteditor=\count488
+\c@savedshorteditor=\count489
+\c@labelname=\count490
+\c@savedlabelname=\count491
+\c@institution=\count492
+\c@savedinstitution=\count493
+\c@lista=\count494
+\c@savedlista=\count495
+\c@listb=\count496
+\c@savedlistb=\count497
+\c@listc=\count498
+\c@savedlistc=\count499
+\c@listd=\count500
+\c@savedlistd=\count501
+\c@liste=\count502
+\c@savedliste=\count503
+\c@listf=\count504
+\c@savedlistf=\count505
+\c@location=\count506
+\c@savedlocation=\count507
+\c@organization=\count508
+\c@savedorganization=\count509
+\c@origlocation=\count510
+\c@savedoriglocation=\count511
+\c@origpublisher=\count512
+\c@savedorigpublisher=\count513
+\c@publisher=\count514
+\c@savedpublisher=\count515
+\c@language=\count516
+\c@savedlanguage=\count517
+\c@origlanguage=\count518
+\c@savedoriglanguage=\count519
+\c@pageref=\count520
+\c@savedpageref=\count521
+\shorthandwidth=\skip168
+\shortjournalwidth=\skip169
+\shortserieswidth=\skip170
+\shorttitlewidth=\skip171
+\shortauthorwidth=\skip172
+\shorteditorwidth=\skip173
+\locallabelnumberwidth=\skip174
+\locallabelalphawidth=\skip175
+\localshorthandwidth=\skip176
+\localshortjournalwidth=\skip177
+\localshortserieswidth=\skip178
+\localshorttitlewidth=\skip179
+\localshortauthorwidth=\skip180
+\localshorteditorwidth=\skip181
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count522
+\c@textcitetotal=\count523
+\c@textcitemaxnames=\count524
+\c@biburlbigbreakpenalty=\count525
+\c@biburlbreakpenalty=\count526
+\c@biburlnumpenalty=\count527
+\c@biburlucpenalty=\count528
+\c@biburllcpenalty=\count529
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count530
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count531
+\c@bbx:relatedtotal=\count532
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-verb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-07-20 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count533
+\@quotereset=\count534
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 94.
+(C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (d:\LaTeX\Pro_Terminal\build\main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -925,17 +1299,17 @@ LaTeX Font Info:    ... okay on input line 95.
 
 (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
-\scratchdimen=\dimen338
-\scratchbox=\box84
-\nofMPsegments=\count378
-\nofMParguments=\count379
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count380
-\MPscratchDim=\dimen339
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count535
+\scratchdimen=\dimen361
+\scratchbox=\box86
+\nofMPsegments=\count536
+\nofMParguments=\count537
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count538
+\MPscratchDim=\dimen362
+\MPnumerator=\count539
+\makeMPintoPDFobject=\count540
+\everyMPtoPDFconversion=\toks68
 ) (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -944,15 +1318,36 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 94.
 (d:\LaTeX\Pro_Terminal\build\main.out) (d:\LaTeX\Pro_Terminal\build\main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout7 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (d:\LaTeX\Pro_Terminal\build\main.bbl)
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -985,48 +1380,50 @@ Package hyperref Info: Link coloring OFF on input line 95.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo-ipn-guinda.png, id=198, 397.485pt x 614.295pt>
+<logo-ipn-guinda.png, id=286, 397.485pt x 614.295pt>
 File: logo-ipn-guinda.png Graphic file (type png)
 <use logo-ipn-guinda.png>
-Package pdftex.def Info: logo-ipn-guinda.png  used on input line 105.
+Package pdftex.def Info: logo-ipn-guinda.png  used on input line 104.
 (pdftex.def)             Requested size: 55.22902pt x 85.35826pt.
-<logo-upiita.png, id=200, 284.7438pt x 284.7438pt>
+<logo-upiita.png, id=288, 284.7438pt x 284.7438pt>
 File: logo-upiita.png Graphic file (type png)
 <use logo-upiita.png>
-Package pdftex.def Info: logo-upiita.png  used on input line 112.
+Package pdftex.def Info: logo-upiita.png  used on input line 111.
 (pdftex.def)             Requested size: 71.12929pt x 71.13188pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 148.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 148.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 148.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 148.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 148.
+(Font)              <12> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 148.
+(Font)              <8> on input line 147.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 148.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 148.
+(Font)              <6> on input line 147.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 148.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
+
+\openout4 = `main.ist'.
 
 
 {C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logo-ipn-guinda.png> <./logo-upiita.png>]
@@ -1039,15 +1436,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2
 
 ]
-LaTeX Info: Redefining \. on input line 182.
-LaTeX Info: Redefining \% on input line 182.
+LaTeX Info: Redefining \sptext on input line 181.
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
 
 
 [3
 
 ] (d:\LaTeX\Pro_Terminal\build\main.toc
+LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \sptext on input line 7.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 
@@ -1055,15 +1455,16 @@ LaTeX Info: Redefining \% on input line 7.
 [4
 
 ])
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
 
 
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
+LaTeX Info: Redefining \sptext on input line 186.
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 187.
+(babel)             Reported on input line 186.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1072,26 +1473,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
 
 [5] (d:\LaTeX\Pro_Terminal\build\main.lot
+LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \sptext on input line 4.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 )
-\tf@lot=\write6
-\openout6 = `main.lot'.
+\tf@lot=\write10
+\openout10 = `main.lot'.
 
 
 
 [6
 
 ] (d:\LaTeX\Pro_Terminal\build\main.lof
+LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \sptext on input line 4.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 )
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write11
+\openout11 = `main.lof'.
 
 
 
@@ -1105,108 +1510,251 @@ Cap\'{\i }tulo 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 \chapter
+l.202 \chapter
               {Estado del Arte} [1
 
 
 ]
 Cap\'{\i }tulo 2.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 210.
+(C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (1.96129pt too wide) in paragraph at lines 214--215
+[]\T1/lmr/bx/n/12 Arquitectura 5C \T1/lmr/m/n/12 (Con-nec-tion, Con-ver-sion, Cy-ber, Cog-ni-tion, Con-fi-gu-ra-tion): Cen-
+ []
+
 
 
 [2
 
-]
+{C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (28.63988pt too wide) in paragraph at lines 223--224
+[]\T1/lmr/bx/n/12 Capa de Dis-po-si-ti-vo/Percepción\T1/lmr/m/n/12 : Sen-so-res/actuadores, me-di-ción de po-ten-cia/energía,
+ []
+
+
+Overfull \hbox (46.3827pt too wide) in paragraph at lines 234--235
+[]\T1/lmr/bx/n/12 Seguridad \T1/lmr/m/n/12 (\T1/lmr/m/it/12 se-cu-rity by de-sign\T1/lmr/m/n/12 ): iden-ti-dad del dis-po-si-ti-vo (X.509), au-ten-ti-ca-ción/autorización
+ []
+
+
+
+LaTeX Info: Redefining \sptext on input line 241.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+LaTeX Info: Redefining \sptext on input line 268.
+LaTeX Info: Redefining \. on input line 268.
+LaTeX Info: Redefining \% on input line 268.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 269.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (58.79735pt too wide) in paragraph at lines 269--270
+[]\T1/lmr/m/it/12 Topologías y con-tra-tos\T1/lmr/m/n/12 : la se-mán-ti-ca de tó-pi-cos sue-le ser je-rár-qui-ca (\T1/lmtt/m/n/12 site/area/device/metric\T1/lmr/m/n/12 )
+ []
+
+
+
+LaTeX Info: Redefining \sptext on input line 292.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Overfull \hbox (5.93665pt too wide) in paragraph at lines 300--301
+\T1/lmr/m/n/12 Se re-co-mien-da ver-sio-nar es-que-mas, in-cluir mar-cas de tiem-po nor-ma-li-za-das (UTC, ISO 8601)
+ []
+
+
+
+LaTeX Info: Redefining \sptext on input line 321.
+LaTeX Info: Redefining \. on input line 321.
+LaTeX Info: Redefining \% on input line 321.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+LaTeX Info: Redefining \sptext on input line 343.
+LaTeX Info: Redefining \. on input line 343.
+LaTeX Info: Redefining \% on input line 343.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+LaTeX Info: Redefining \sptext on input line 373.
+LaTeX Info: Redefining \. on input line 373.
+LaTeX Info: Redefining \% on input line 373.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+LaTeX Info: Redefining \sptext on input line 394.
+LaTeX Info: Redefining \. on input line 394.
+LaTeX Info: Redefining \% on input line 394.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
 Cap\'{\i }tulo 3.
-
-
-[3
-
-]
-Cap\'{\i }tulo 4.
-
-
-[4
-
-]
-Cap\'{\i }tulo 5.
-
-
-[5
-
-]
-Cap\'{\i }tulo 6.
-
-
-[6
-
-]
-Cap\'{\i }tulo 7.
-
-
-[7
-
-]
-Cap\'{\i }tulo 8.
-
-
-[8
-
-]
-Ap\'{e}ndice A.
-
-
-[9
-
-]
-Ap\'{e}ndice B.
 
 
 [10
 
 ]
-Ap\'{e}ndice C.
+Cap\'{\i }tulo 4.
 
 
 [11
 
 ]
+Cap\'{\i }tulo 5.
+
 
 [12
 
-
 ]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 264.
-
+Cap\'{\i }tulo 6.
 
 
 [13
 
-] (d:\LaTeX\Pro_Terminal\build\main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
+]
+Cap\'{\i }tulo 7.
+
+
+[14
+
+]
+Cap\'{\i }tulo 8.
+
+
+[15
+
+]
+Ap\'{e}ndice A.
+
+
+[16
+
+]
+Ap\'{e}ndice B.
+
+
+[17
+
+]
+Ap\'{e}ndice C.
+
+
+[18
+
+]
+Overfull \hbox (10.28845pt too wide) in paragraph at lines 443--443
+[]\T1/lmr/m/n/12 Google, \T1/lmr/m/it/12 Pro-to-col Buf-fers\T1/lmr/m/n/12 , Ac-ces-sed 2025-11-06, 2024. di-rec-ción: []$\T1/lmtt/m/n/12 https : / / developers .
+ []
+
+
+
+[19
+
+
+]
+Overfull \hbox (5.45786pt too wide) in paragraph at lines 443--443
+\T1/lmr/m/n/12 11-06, 2020. di-rec-ción: []$\T1/lmtt/m/n/12 https : / / www . omaspecworks . org / what -[] is -[] oma -[] specworks /
+ []
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+
+
+LaTeX Info: Redefining \sptext on input line 445.
+LaTeX Info: Redefining \. on input line 445.
+LaTeX Info: Redefining \% on input line 445.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20] (d:\LaTeX\Pro_Terminal\build\main.aux
+LaTeX Info: Redefining \sptext on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+LaTeX Info: Redefining \sptext on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 )
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C76BDAA38AB7E930B9A6510D7BED758;8059.
+(rerunfilecheck)             Checksum: 4C75F2F847A7587CEBC13D5B7230D2A9;14086.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 38541 strings out of 468134
- 893290 string characters out of 5430740
- 1531333 words of memory out of 5000000
- 66461 multiletter control sequences out of 15000+600000
- 685244 words of font info for 78 fonts, out of 8000000 for 9000
+ 53169 strings out of 468134
+ 1218142 string characters out of 5430740
+ 2315704 words of memory out of 5000000
+ 80875 multiletter control sequences out of 15000+600000
+ 696362 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,91p,754b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (21 pages, 451905 bytes).
+ 84i,11n,91p,2509b,2468s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:iot} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (28 pages, 600340 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 407 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
