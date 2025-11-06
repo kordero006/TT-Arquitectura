@@ -1,31 +1,42 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{report}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% !TeX program = pdflatex
+\documentclass[12pt,openright,oneside]{report}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[spanish]{babel}
+% ========================= Codificación y tipografía (pdfLaTeX) =========================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% ========================= Idiomas =========================
+\usepackage[spanish,english]{babel}
+\selectlanguage{spanish}
+
+% ========================= Geometría, espaciado y tablas =========================
 \usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\usepackage{setspace}
+% \onehalfspacing % Activa si tu normativa lo exige
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+
+% ========================= Gráficos y dibujo =========================
 \usepackage{graphicx}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{amsthm}
+\graphicspath{{./}{figuras/}} % Ajusta si tus logos están en otra ruta
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.18}
+
+% ========================= Matemáticas y entornos =========================
+\usepackage{amsmath, amssymb, amsthm, bm}
 \usepackage{empheq}
 \usepackage{mdframed}
-\usepackage{booktabs}
-\usepackage{lipsum}
-\usepackage{graphicx}
-\usepackage{color}
-\usepackage{psfrag}
-\usepackage{pgfplots}
-\usepackage{bm}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Other Settings
-
-%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\geometry{a4paper}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+% ========================= Colores =========================
+\usepackage{xcolor}
 \definecolor{ocre}{RGB}{243,102,25}
 \definecolor{mygray}{RGB}{243,243,244}
 \definecolor{deepGreen}{RGB}{26,111,0}
@@ -34,86 +45,102 @@
 \definecolor{shallowBlue}{RGB}{235,249,255}
 \definecolor{ipnBrown}{RGB}{123,48,42}
 \definecolor{gold}{RGB}{212,175,55}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+% Caja sencilla
 \newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Entornos tipo teorema (nombres en inglés como en tu versión)
 \newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
 \newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
 \theoremstyle{mytheoremstyle}
-\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt]{theorem}{Theorem}[section]
 \theoremstyle{mytheoremstyle}
-\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt]{definition}{Definition}[section]
 \theoremstyle{myproblemstyle}
-\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt]{problem}{Problem}[section]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepgfplotslibrary{colorbrewer}
-\pgfplotsset{width=8cm,compat=1.9}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ========================= Encabezados y pies =========================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\fancyhead[RE]{\nouppercase{\rightmark}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ========================= Hipervínculos y metadatos =========================
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={Prueba de Proyecto},
+  pdfauthor={Luis Alberto Cordero Montes de Oca},
+  pdfsubject={Arquitectura IoT para la detección de consumos anómalos},
+  pdfkeywords={IoT, energía, anomalías, tiempo real}
+}
+
+% ========================= Glosarios/Acrónimos (opcional) =========================
+% Si tu guía lo permite, puedes descomentar para lista de acrónimos.
+% \usepackage[acronym]{glossaries}
+% \makeglossaries
+% \newacronym{iot}{IoT}{Internet de las Cosas}
+% \newacronym{mqtt}{MQTT}{Message Queuing Telemetry Transport}
+
+% ========================= Bibliografía (opcional, recomendado) =========================
+% Descomenta si vas a usar .bib
+% \usepackage[backend=biber,style=ieee,sorting=nty]{biblatex}
+% \addbibresource{referencias.bib}
+
+% ========================= Título y autor (para metadatos; no se usa portada automática) =========================
 \title{Prueba de Proyecto}
 \author{Luis Alberto Cordero Montes de Oca}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
+% ========================= Portada (MANTENIDA TAL CUAL) =========================
 \begin{titlepage}
-    % Establecer márgenes específicos para la portada
+    \thispagestyle{empty}
     \newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
-    
-    % Logo IPN y líneas decorativas
+
     \begin{tikzpicture}[remember picture, overlay]
-        % Logo IPN
+        % Logo IPN (arriba izquierda)
         \node[anchor=north west, xshift=1cm, yshift=-2cm] at (current page.north west) {
             \includegraphics[height=3cm]{logo-ipn-guinda.png}
         };
-        % Líneas decorativas
-        \draw[thick, gold] (-1.5cm,-2.5cm) -- (-1.5cm,-22cm);
-        \draw[thick, ipnBrown] (-0.5cm,-2.5cm) -- (-0.5cm,-22cm);
-        % Logo UPIITA
+        % Líneas decorativas verticales
+        \draw[line width=3pt, gold] (-1.5cm,-2.5cm) -- (-1.5cm,-22cm);
+        \draw[line width=3pt, ipnBrown] (-0.5cm,-2.5cm) -- (-0.5cm,-22cm);
+        % Logo UPIITA (abajo izquierda)
         \node[anchor=south west, xshift=1cm, yshift=2cm] at (current page.south west) {
             \includegraphics[height=2.5cm]{logo-upiita.png}
         };
     \end{tikzpicture}
 
-    % Contenido principal (movido hacia la derecha)
+    % Contenido principal
     \begin{flushright}
     \begin{minipage}{0.85\textwidth}
         \begin{center}
-            \vspace{1cm}   % Agrega 2cm de espacio vertical
-            {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL}\par
-            \vspace{1.5cm}
-            {\Large\bfseries UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\ 
-            INGENIERÍA Y TECNOLOGÍAS AVANZADAS}\par
             \vspace{1cm}
-            {\Large\bfseries U P I I T A}\par
+            {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL\par}
             \vspace{1.5cm}
-            
-            % Título del proyecto
+            {\Large\bfseries UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\
+            INGENIERÍA Y TECNOLOGÍAS AVANZADAS\par}
+            \vspace{1cm}
+            {\Large\bfseries U P I I T A\par}
+            \vspace{1.5cm}
+
             {\large\itshape ``Arquitectura IoT para la Detección de\\
             Consumos Anómalos y Seguimiento en\\
-            Tiempo Real de Dispositivos Eléctricos''}\par
+            Tiempo Real de Dispositivos Eléctricos''\par}
             \vspace{1.5cm}
-            
-            % Tipo de documento
-            {\large Que para obtener el título de}\par
+
+            {\large Que para obtener el título de\par}
             \vspace{0.5cm}
-            {\large\bfseries``Ingeniero en Telemática''}\par
+            {\large\bfseries ``Ingeniero en Telemática''\par}
             \vspace{1.5cm}
-            
-            % Datos del alumno
-            {\large Presenta el alumno:}\par
+
+            {\large Presenta el alumno:\par}
             \vspace{0.5cm}
-            {\large\bfseries Cordero Montes de Oca Luis Alberto}\par
-            \vspace{1.5cm}
-            
-            % Asesores
+            {\large\bfseries Cordero Montes de Oca Luis Alberto\par}
+            \vspace{3cm}
+
             \begin{minipage}{0.45\textwidth}
                 \centering
                 \rule{6cm}{0.4pt}\\
@@ -125,43 +152,115 @@
                 \rule{6cm}{0.4pt}\\
                 {\large Villordo Jimenez Iclia}
             \end{minipage}
-            
-            \vfill
-            \vspace{2cm}   % Agrega 2cm de espacio vertical
-            % Fecha
-            {\large México, Ciudad de México, a \today}\par
+
         \end{center}
     \end{minipage}
     \end{flushright}
 
 \end{titlepage}
-
-% Restaurar la geometría original para el resto del documento
 \restoregeometry
 
-% Índice de contenido
+% ========================= Páginas preliminares =========================
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\chapter*{Agradecimientos}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+% Texto de agradecimientos.
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+\markboth{Resumen}{Resumen}
+% Escribe aquí tu resumen en español.
+% Palabras clave: IoT; detección de anomalías; energía; tiempo real.
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\markboth{Abstract}{Abstract}
+\selectlanguage{english}
+% Write here your abstract in English.
+% Keywords: IoT; anomaly detection; energy; real-time.
+\selectlanguage{spanish}
+
+% \printglossary[type=\acronymtype,title={Lista de Acrónimos}] % Si usas glossaries
+
 \tableofcontents
-
-% Índice de tablas
 \listoftables
-
-% Índice de figuras
 \listoffigures
 
-\chapter{Planteamiento del Problema}  
+% ========================= Cuerpo principal =========================
+\clearpage
+\pagenumbering{arabic}
 
-\chapter{Marco Teórico}  
+\chapter{Introducción}
+\section{Contexto y motivación}
+\section{Planteamiento del problema}
+\section{Objetivos}
+\subsection{Objetivo general}
+\subsection{Objetivos específicos}
+\section{Alcance y limitaciones}
+\section{Estructura del documento}
 
-\chapter{Análisis del Sistema}  
+\chapter{Estado del Arte}
+\section{Arquitecturas IoT}
+\section{Protocolos y mensajería}
+\section{Plataformas y servicios}
+\section{Trabajos relacionados}
 
-\chapter{Diseño del Sistema}  
+\chapter{Marco Teórico}
+\section{Fundamentos de medición y energía}
+\section{Protocolos IoT y seguridad}
+\section{Modelos y técnicas de detección de anomalías}
+
+\chapter{Análisis del Sistema}
+\section{Requerimientos funcionales}
+\section{Requerimientos no funcionales}
+\section{Casos de uso y actores}
+\section{Riesgos y supuestos}
+
+\chapter{Diseño del Sistema}
+\section{Arquitectura propuesta}
+\section{Diseño de datos y tópicos}
+\section{Diseño de servicios e interfaces}
+\section{Diagramas de componentes y secuencia}
 
 \chapter{Implementación del Sistema}
+\section{Entorno y herramientas}
+\section{Módulos implementados}
+\section{Configuración y despliegue}
+\section{Ejemplos de código}
+% \begin{mdframed}
+% \begin{verbatim}
+%   Fragmentos de configuración o comandos
+% \end{verbatim}
+% \end{mdframed}
 
-\chapter{Pruebas y Resultados del Sistema}
+\chapter{Pruebas y Resultados}
+\section{Plan y metodología de pruebas}
+\section{Pruebas funcionales e integración}
+\section{Rendimiento y escalabilidad}
+\section{Resultados y discusión}
 
-\chapter{Conclusiones}
+\chapter{Conclusiones y Trabajo Futuro}
+\section{Conclusiones}
+\section{Limitaciones}
+\section{Líneas de trabajo futuro}
 
-\chapter{Referencias Bibliográficas}
+% ========================= Apéndices =========================
+\appendix
+\chapter{Guía de despliegue}
+\chapter{Datasets e instrumentación}
+\chapter{Documentación adicional}
+
+% ========================= Referencias =========================
+\clearpage
+\chapter*{Referencias}
+\addcontentsline{toc}{chapter}{Referencias}
+% Si usas biblatex:
+% \printbibliography
+
+% Si NO usas biblatex, puedes listar manualmente:
+\begin{thebibliography}{99}
+% \bibitem{ref1} Autor, Título, Editorial, Año.
+\end{thebibliography}
 
 \end{document}
