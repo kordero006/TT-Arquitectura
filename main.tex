@@ -350,6 +350,29 @@ Las \textbf{TSDB} optimizan escrituras en ráfaga, compresión y \emph{downsampl
   \item \textit{Retención}: políticas multi-\emph{tier} (crudo por días, agregados por meses) para optimizar costos.
 \end{itemize}
 
+\begin{table}[H]
+\centering
+\caption{Comparativa de TSDBs para telemetría IoT energética}
+\label{tab:tsdb-comparativa}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}p{3.0cm} p{3.2cm} p{3.2cm} p{3.2cm}@{}}
+\toprule
+\textbf{Criterio} & \textbf{InfluxDB} & \textbf{TimescaleDB} & \textbf{Prometheus} \\
+\midrule
+Modelo de datos & Measurements + tags/fields; series identificadas por tags & PostgreSQL + extensiones; hypertables/particiones por tiempo & Series etiquetadas (metrics + labels); enfoque en métricas operativas \\
+Ingesta & Alta tasa nativa; Line Protocol; conectores MQTT/Kafka & Ingesta vía SQL/FDW/ingestores; buena integración con ecosistema SQL & Pull (scrape) y push vía gateway; formato de texto \\
+Consultas & Flux/SQL (según edición); agregaciones y downsampling & SQL estándar + funciones de time-series; facilidad de joins & PromQL; consultas operativas para monitoreo/alertas \\
+Compresión & Delta-of-delta, Gorilla, TSM/TSI & Compresión de PostgreSQL + compresión por chunks & Compresión específica por bloques en TSDB \\
+Retención & Políticas por bucket; downsampling automático & Políticas por partición/retención; administración vía SQL & Retención por tiempo/espacio; pensado para métricas \\
+Escalabilidad & OSS single-node; Enterprise/Cloud con clustering & Escala vertical + particionado; replicación nativa de Postgres & Federación y sharding vía proyectos complementarios \\
+Casos de uso típicos & Telemetría IoT, sensores, analítica temporal general & IoT + analítica relacional; integración con datos de negocio & Observabilidad (métricas app/infra), alertas, paneles \\
+Licencia & OSS + ofertas comerciales (Cloud/Enterprise) & OSS (Timescale License para algunas features) & OSS (Apache 2.0) \\
+Ecosistema & Conectores a Grafana, Telegraf, Kapacitor & Ecosistema Postgres, extensiones, Grafana & Stack de observabilidad, Grafana, Alertmanager \\
+Adecuación a consumo energético & Muy buena para series densas y downsampling & Excelente si necesitas joins con datos de negocio y SQL & Útil para métricas operativas; menos óptimo para series crudas densas \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \subsection{Procesamiento de flujos y lotes}
 La detección de anomalías requiere tanto \textbf{stream processing} (detección temprana) como \textbf{batch} (modelado y recalibración):
 \begin{itemize}
@@ -388,6 +411,8 @@ Las plataformas deben incorporar \emph{security-by-default} y gobernanza de dato
   \item \textbf{Stream processor} con ventanas y estado para reglas de primer nivel; \textbf{batch} para recalibración de modelos.
   \item \textbf{Dashboards} con soportes de anotaciones y correlaciones; APIs bien definidas para integración externa.
 \end{itemize}
+
+
 
 \section{Trabajos relacionados}
 

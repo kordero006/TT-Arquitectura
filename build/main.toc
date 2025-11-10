@@ -34,41 +34,41 @@
 \contentsline {subsection}{\numberline {2.3.1}Brokers de mensajería y gateways}{7}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Ingesta y canalización}{7}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Almacenamiento de series temporales (TSDB)}{8}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Procesamiento de flujos y lotes}{8}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Orquestación y contenedores}{8}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Dashboards, APIs y alertamiento}{9}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Seguridad, gobernanza y cumplimiento}{9}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Criterios de selección para IoT energético}{9}{subsection.2.3.8}%
-\contentsline {section}{\numberline {2.4}Trabajos relacionados}{9}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Fundamentos de medición y energía}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Protocolos IoT y seguridad}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Modelos y técnicas de detección de anomalías}{10}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Requerimientos funcionales}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Requerimientos no funcionales}{11}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Casos de uso y actores}{11}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Riesgos y supuestos}{11}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Arquitectura propuesta}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Diseño de datos y tópicos}{12}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Diseño de servicios e interfaces}{12}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Diagramas de componentes y secuencia}{12}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Entorno y herramientas}{13}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Módulos implementados}{13}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Configuración y despliegue}{13}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Ejemplos de código}{13}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{14}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Plan y metodología de pruebas}{14}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Pruebas funcionales e integración}{14}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Rendimiento y escalabilidad}{14}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Resultados y discusión}{14}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{15}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Conclusiones}{15}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Limitaciones}{15}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Líneas de trabajo futuro}{15}{section.8.3}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{16}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{17}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{18}{appendix.C}%
-\contentsline {chapter}{Referencias}{19}{appendix*.7}%
+\contentsline {subsection}{\numberline {2.3.4}Procesamiento de flujos y lotes}{10}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Orquestación y contenedores}{10}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Dashboards, APIs y alertamiento}{10}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Seguridad, gobernanza y cumplimiento}{10}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Criterios de selección para IoT energético}{11}{subsection.2.3.8}%
+\contentsline {section}{\numberline {2.4}Trabajos relacionados}{11}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fundamentos de medición y energía}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Protocolos IoT y seguridad}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Modelos y técnicas de detección de anomalías}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Requerimientos funcionales}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Requerimientos no funcionales}{13}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Casos de uso y actores}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Riesgos y supuestos}{13}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Arquitectura propuesta}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Diseño de datos y tópicos}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Diseño de servicios e interfaces}{14}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Diagramas de componentes y secuencia}{14}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Entorno y herramientas}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Módulos implementados}{15}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Configuración y despliegue}{15}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Ejemplos de código}{15}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{16}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Plan y metodología de pruebas}{16}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Pruebas funcionales e integración}{16}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Rendimiento y escalabilidad}{16}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Resultados y discusión}{16}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Conclusiones}{17}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Limitaciones}{17}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Líneas de trabajo futuro}{17}{section.8.3}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{18}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{19}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{20}{appendix.C}%
+\contentsline {chapter}{Referencias}{21}{appendix*.8}%

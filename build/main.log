@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  6 NOV 2025 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  6 NOV 2025 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1613,10 +1613,310 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
+Underfull \hbox (badness 1430) in paragraph at lines 362--362
+[]|\T1/lmr/m/n/12 Measurements +
+ []
 
-LaTeX Info: Redefining \sptext on input line 373.
-LaTeX Info: Redefining \. on input line 373.
-LaTeX Info: Redefining \% on input line 373.
+
+Underfull \hbox (badness 3049) in paragraph at lines 362--362
+\T1/lmr/m/n/12 iden-ti-fi-ca-das por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]|\T1/lmr/m/n/12 PostgreSQL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\T1/lmr/m/n/12 + ex-ten-sio-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\T1/lmr/m/n/12 nes; hy-per-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+\T1/lmr/m/n/12 bles/particiones
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+[]|\T1/lmr/m/n/12 Series eti-que-ta-
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 362--363
+\T1/lmr/m/n/12 das (me-trics +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+\T1/lmr/m/n/12 la-bels); en-fo-que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\T1/lmr/m/n/12 Li-ne Pro-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\T1/lmr/m/n/12 col; co-nec-to-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]|\T1/lmr/m/n/12 Ingesta vía
+ []
+
+
+Overfull \hbox (25.75528pt too wide) in paragraph at lines 363--363
+\T1/lmr/m/n/12 SQL/FDW/ingestores;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\T1/lmr/m/n/12 con eco-sis-te-ma
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 363--364
+[]|\T1/lmr/m/n/12 Pull (scra-pe) y
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 364--364
+\T1/lmr/m/n/12 edi-ción); agre-ga-
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 364--364
+\T1/lmr/m/n/12 cio-nes y down-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\T1/lmr/m/n/12 SQL es-tán-dar
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 364--364
+\T1/lmr/m/n/12 + fun-cio-nes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+[]|\T1/lmr/m/n/12 PromQL; con-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 364--365
+\T1/lmr/m/n/12 sul-tas ope-ra-ti-vas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+\T1/lmr/m/n/12 pa-ra mo-ni-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\T1/lmr/m/n/12 Delta-of-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/lmr/m/n/12 delta, Go-ri-lla,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\T1/lmr/m/n/12 Compresión de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/lmr/m/n/12 Post-greSQL +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+\T1/lmr/m/n/12 com-pre-sión por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\T1/lmr/m/n/12 ket; down-sam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\T1/lmr/m/n/12 ti-ción/retención;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+\T1/lmr/m/n/12 ad-mi-nis-tra-ción
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+[]|\T1/lmr/m/n/12 Retención por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+\T1/lmr/m/n/12 tiem-po/espacio;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+\T1/lmr/m/n/12 pen-sa-do pa-ra
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 367--367
+[]|\T1/lmr/m/n/12 OSS single-node;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\T1/lmr/m/n/12 En-ter-pri-se/Cloud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[]|\T1/lmr/m/n/12 Escala ver-ti-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+\T1/lmr/m/n/12 + par-ti-cio-na-do;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+[]|\T1/lmr/m/n/12 Federación y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+\T1/lmr/m/n/12 shar-ding vía
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+\T1/lmr/m/n/12 pro-yec-tos com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+[]|\T1/lmr/m/n/12 Telemetría IoT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+\T1/lmr/m/n/12 sen-so-res, ana-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+\T1/lmr/m/n/12 lí-ti-ca tem-po-ral
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 368--368
+[]|\T1/lmr/m/n/12 IoT + ana-lí-ti-ca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--368
+\T1/lmr/m/n/12 re-la-cio-nal; in-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+[]|\T1/lmr/m/n/12 Observabilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+\T1/lmr/m/n/12 (mé-tri-cas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+\T1/lmr/m/n/12 app/infra),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\T1/lmr/m/n/12 OSS + ofer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\T1/lmr/m/n/12 tas co-mer-cia-les
+ []
+
+
+Overfull \hbox (7.42058pt too wide) in paragraph at lines 369--369
+\T1/lmr/m/n/12 (Cloud/Enterprise)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+[]|\T1/lmr/m/n/12 OSS (Ti-mes-ca-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+\T1/lmr/m/n/12 Li-cen-se pa-ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]|\T1/lmr/m/n/12 Conectores a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+\T1/lmr/m/n/12 Gra-fa-na, Te-le-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+[]|\T1/lmr/m/n/12 Adecuación a
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 371--371
+[]|\T1/lmr/m/n/12 Muy bue-na pa-
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 371--372
+[]|\T1/lmr/m/n/12 Útil pa-ra mé-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+\T1/lmr/m/n/12 cas ope-ra-ti-vas;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+\T1/lmr/m/n/12 me-nos óp-ti-mo
+ []
+
+
+
+LaTeX Info: Redefining \sptext on input line 375.
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1626,9 +1926,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Info: Redefining \sptext on input line 394.
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
+LaTeX Info: Redefining \sptext on input line 379.
+LaTeX Info: Redefining \. on input line 379.
+LaTeX Info: Redefining \% on input line 379.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1637,71 +1937,95 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
+
+LaTeX Info: Redefining \sptext on input line 410.
+LaTeX Info: Redefining \. on input line 410.
+LaTeX Info: Redefining \% on input line 410.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+LaTeX Info: Redefining \sptext on input line 419.
+LaTeX Info: Redefining \. on input line 419.
+LaTeX Info: Redefining \% on input line 419.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
 Cap\'{\i }tulo 3.
-
-
-[10
-
-]
-Cap\'{\i }tulo 4.
-
-
-[11
-
-]
-Cap\'{\i }tulo 5.
 
 
 [12
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 4.
 
 
 [13
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 5.
 
 
 [14
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 6.
 
 
 [15
 
 ]
-Ap\'{e}ndice A.
+Cap\'{\i }tulo 7.
 
 
 [16
 
 ]
-Ap\'{e}ndice B.
+Cap\'{\i }tulo 8.
 
 
 [17
 
 ]
-Ap\'{e}ndice C.
+Ap\'{e}ndice A.
 
 
 [18
 
 ]
-Overfull \hbox (10.28845pt too wide) in paragraph at lines 443--443
+Ap\'{e}ndice B.
+
+
+[19
+
+]
+Ap\'{e}ndice C.
+
+
+[20
+
+]
+Overfull \hbox (10.28845pt too wide) in paragraph at lines 468--468
 []\T1/lmr/m/n/12 Google, \T1/lmr/m/it/12 Pro-to-col Buf-fers\T1/lmr/m/n/12 , Ac-ces-sed 2025-11-06, 2024. di-rec-ción: []$\T1/lmtt/m/n/12 https : / / developers .
  []
 
 
 
-[19
+[21
 
 
 ]
-Overfull \hbox (5.45786pt too wide) in paragraph at lines 443--443
+Overfull \hbox (5.45786pt too wide) in paragraph at lines 468--468
 \T1/lmr/m/n/12 11-06, 2020. di-rec-ción: []$\T1/lmtt/m/n/12 https : / / www . omaspecworks . org / what -[] is -[] oma -[] specworks /
  []
 
@@ -1712,9 +2036,9 @@ This document will not have a glossary.
 
 
 
-LaTeX Info: Redefining \sptext on input line 445.
-LaTeX Info: Redefining \. on input line 445.
-LaTeX Info: Redefining \% on input line 445.
+LaTeX Info: Redefining \sptext on input line 470.
+LaTeX Info: Redefining \. on input line 470.
+LaTeX Info: Redefining \% on input line 470.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1722,7 +2046,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20] (d:\LaTeX\Pro_Terminal\build\main.aux
+[22] (d:\LaTeX\Pro_Terminal\build\main.aux
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -1735,16 +2059,16 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4C75F2F847A7587CEBC13D5B7230D2A9;14086.
+(rerunfilecheck)             Checksum: 8946F1CA1B62F39F32BEAF887D7F9354;14086.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53169 strings out of 468134
- 1218142 string characters out of 5430740
- 2315704 words of memory out of 5000000
- 80875 multiletter control sequences out of 15000+600000
+ 53184 strings out of 468134
+ 1218422 string characters out of 5430740
+ 2315788 words of memory out of 5000000
+ 80887 multiletter control sequences out of 15000+600000
  696362 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,91p,2509b,2468s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1752,9 +2076,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{glo:iot} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (28 pages, 600340 bytes).
+Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (30 pages, 604250 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
