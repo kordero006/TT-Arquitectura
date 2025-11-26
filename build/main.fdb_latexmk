@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1762466524.69156 "build/main.bcf" "build/main.bbl" "build/main" 1764190038.4457 0
-  "build/main.bcf" 1764190038 111838 29c665ce21073138f75ed8cce886e9f9 "pdflatex"
+["biber build/main"] 1762466524.69156 "build/main.bcf" "build/main.bbl" "build/main" 1764190053.34334 0
+  "build/main.bcf" 1764190053 111838 29c665ce21073138f75ed8cce886e9f9 "pdflatex"
   "referencias.bib" 1762466519 10102 aca2e69ddfde9cd7411eec3f6bd93b8f ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1764190035.90689 "d:/LaTeX/Pro_Terminal/main.tex" "build/main.pdf" "main" 1764190038.44617 2
+["pdflatex"] 1764190050.8948 "d:/LaTeX/Pro_Terminal/main.tex" "build/main.pdf" "main" 1764190053.3438 2
   "C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762465142 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1756245923 13257295 9410c487089aa6db55fe95e39bd70578 ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -291,9 +291,9 @@
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
-  "build/main.aux" 1764190038 6642 055481132e58edf62d1f6b83de243a75 "pdflatex"
+  "build/main.aux" 1764190053 6642 055481132e58edf62d1f6b83de243a75 "pdflatex"
   "build/main.bbl" 1762466526 42974 25bf1462a68c82039526ab90b5b0af12 "biber build/main"
-  "build/main.out" 1764190038 374 b575b7e7f07a4783ee4acb988f4fea70 "pdflatex"
+  "build/main.out" 1764190053 374 b575b7e7f07a4783ee4acb988f4fea70 "pdflatex"
   "d:/LaTeX/Pro_Terminal/main.tex" 1764190032 31548 4f3d7d8603d422c212af730f76a2f595 ""
   "logo-ipn-guinda.png" 1756246063 336660 2239702f3eb35a00ec7470f258cafb69 ""
   "logo-upiita.png" 1756246067 103144 dfd5c4728aba7d468d5459dfc3c3be7f ""
