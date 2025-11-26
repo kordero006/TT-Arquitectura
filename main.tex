@@ -1,5 +1,5 @@
 % !TeX program = pdflatex
-\documentclass[12pt,openright,oneside]{letter}
+\documentclass[12pt,openright,oneside]{report}
 
 % ========================= Codificación y tipografía (pdfLaTeX) =========================
 \usepackage[utf8]{inputenc}
@@ -12,7 +12,7 @@
 
 % ========================= Geometría, espaciado y tablas =========================
 \usepackage{geometry}
-\geometry{a4paper, margin=2.5cm}
+\geometry{letterpaper, margin=2.5cm}
 \usepackage{setspace}
 % \onehalfspacing % Activa si tu normativa lo exige
 \usepackage{booktabs}
@@ -26,6 +26,7 @@
 \usepackage{float}
 \usepackage{subcaption}
 \usepackage{tikz}
+\usetikzlibrary{calc}  % <-- añade esta línea
 \usepackage{pgfplots}
 \usepgfplotslibrary{colorbrewer}
 \pgfplotsset{width=8cm,compat=1.18}
@@ -99,62 +100,66 @@
     \newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
 
     \begin{tikzpicture}[remember picture, overlay]
+
         % Logo IPN (arriba izquierda)
-        \node[anchor=north west, xshift=1cm, yshift=-2cm] at (current page.north west) {
+        \node[anchor=north west] at ($(current page.north west)+(1.6cm,-1.8cm)$) {%
             \includegraphics[height=3cm]{logo-ipn-guinda.png}
         };
-        % Líneas decorativas verticales
-        \draw[line width=3pt, gold] (-1.5cm,-2.5cm) -- (-1.5cm,-22cm);
-        \draw[line width=3pt, ipnBrown] (-0.5cm,-2.5cm) -- (-0.5cm,-22cm);
+
+        % Líneas decorativas verticales (alineadas con la portada ejemplo)
+        % Usamos current page para que funcione igual en letter
+        \draw[line width=3pt, gold]
+            ($(current page.north west)+(2.1cm,-5.2cm)$) --
+            ($(current page.south west)+(2.1cm,5.2cm)$);
+
+        \draw[line width=3pt, ipnBrown]
+            ($(current page.north west)+(3.3cm,-5.2cm)$) --
+            ($(current page.south west)+(3.3cm,5.2cm)$);
+
         % Logo UPIITA (abajo izquierda)
-        \node[anchor=south west, xshift=1cm, yshift=2cm] at (current page.south west) {
+        \node[anchor=south west] at ($(current page.south west)+(1.4cm,2.0cm)$) {%
             \includegraphics[height=2.5cm]{logo-upiita.png}
         };
+
     \end{tikzpicture}
 
-    % Contenido principal
-    \begin{flushright}
-    \begin{minipage}{0.85\textwidth}
-        \begin{center}
-            \vspace{1cm}
-            {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL\par}
-            \vspace{1.5cm}
-            {\Large\bfseries UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\
-            INGENIERÍA Y TECNOLOGÍAS AVANZADAS\par}
-            \vspace{1cm}
-            {\Large\bfseries U P I I T A\par}
-            \vspace{1.5cm}
-            
-            {\large\itshape ``Arquitectura IoT para el Monitoreo\\
-            y Detección de Anomalías en\\
-            el Consumo Eléctrico Residencial''\par}
-            \vspace{1.5cm}
+    % ------- CONTENIDO PRINCIPAL --------
+    \begin{center}
+    \vspace*{1.5cm}
 
-            {\large Que para obtener el título de\par}
-            \vspace{0.5cm}
-            {\large\bfseries ``Ingeniero en Telemática''\par}
-            \vspace{1.5cm}
+    {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL\par}
+    \vspace{1.5cm}
 
-            {\large Presenta el alumno:\par}
-            \vspace{0.5cm}
-            {\large\bfseries Cordero Montes de Oca Luis Alberto\par}
-            \vspace{3cm}
+    {\Large\bfseries
+    UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\
+    INGENIERÍA Y TECNOLOGÍAS AVANZADAS\par}
+    \vspace{1cm}
 
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \rule{6cm}{0.4pt}\\
-                {\large Huerta Trujillo Iliac}
-            \end{minipage}
-            \hfill
-            \begin{minipage}{0.45\textwidth}
-                \centering
-                \rule{6cm}{0.4pt}\\
-                {\large Villordo Jimenez Iclia}
-            \end{minipage}
+    {\Large\bfseries U P I I T A\par}
+    \vspace{1.5cm}
 
-        \end{center}
-    \end{minipage}
-    \end{flushright}
+    {\large\itshape ``Arquitectura IoT para el Monitoreo\\
+    y Detección de Anomalías en\\
+    el Consumo Eléctrico Residencial''\par}
+    \vspace{1.8cm}
+
+    {\large Que para obtener el título de\par}
+    \vspace{0.4cm}
+    {\large\bfseries ``Ingeniero en Telemática''\par}
+    \vspace{1.8cm}
+
+    {\large Presenta el alumno:\par}
+    \vspace{0.4cm}
+    {\large\bfseries Cordero Montes de Oca Luis Alberto\par}
+    \vspace{3cm}
+
+    % -------- SINODALES (con líneas) ----------
+    \begin{tabular}{p{6cm}p{6cm}}
+        \centering\rule{6cm}{0.4pt} & \centering\rule{6cm}{0.4pt} \tabularnewline
+        \centering Huerta Trujillo Iliac & \centering Villordo Jimenez Iclia
+    \end{tabular}
+
+    \end{center}
 
 \end{titlepage}
 \restoregeometry
