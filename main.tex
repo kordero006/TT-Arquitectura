@@ -119,43 +119,43 @@
 
 % Texto centrado principal
 \begin{center}
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   {\Large\bfseries INSTITUTO POLITÉCNICO NACIONAL\\[0.5cm]}
-  \hspace{1.5cm}
+  \hspace{2cm}
   {\large\bfseries
     UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\
-  \hspace{1.5cm}
+  \hspace{2.5cm}
     INGENIERÍA Y TECNOLOGÍAS AVANZADAS\\[0.4cm]
-  \hspace{1.5cm}
+  \hspace{2.5cm}
     U P I I T A
   }
 
   \vspace{1.5cm}
 
   {\normalsize
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   \textit{``Arquitectura IoT para el Monitoreo\\
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   y Detección de Anomalías en\\
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   el Consumo Eléctrico Residencial''}
   }
 
   \vspace{1.5cm}
 
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   {\normalsize
   Para obtener el título de\\[0.3cm]
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   {\bfseries ``Ingeniero en Telemática''}
   }
 
   \vspace{1.5cm}
 
   {\normalsize
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   Presenta el alumno:\\[0.3cm]
-  \hspace{1.5cm}
+  \hspace{2.5cm}
   {\bfseries Cordero Montes de Oca Luis Alberto}
   }
 
@@ -164,9 +164,9 @@
   % Directores (debajo centrado)
   {\small
   \begin{tabular}{c@{\hspace{3cm}}c}
-  \hspace{1.5cm}
+  \hspace{2.5cm}
     \rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
-  \hspace{1.5cm}
+  \hspace{2.5cm}
     Huerta Trujillo Isaac & Villordo Jimenez Ilcia \\
   \end{tabular}
   }
@@ -227,221 +227,7 @@
 \section{Estructura del documento}
 
 \chapter{Estado del Arte}
-\section{Arquitecturas IoT}
-Las arquitecturas de \gls{iot} proporcionan marcos de referencia para estructurar sistemas distribuidos que abarcan dispositivos físicos, comunicación, procesamiento y aplicaciones. Su correcta selección e implementación es de gran importancia para asegurar requisitos no funcionales como escalabilidad, resiliencia y seguridad, especialmente en escenarios de telemetría energética y detección de consumos anómalos en tiempo real.
 
-\subsection{Modelos de referencia y estandarización}
-Existen diversos modelos de referencia que guían el diseño de soluciones IoT, cada uno con énfasis distinto en dominios industriales, interoperabilidad o gobernanza:
-
-\begin{itemize}
-  \item \textbf{IoT-A (The IoT Architectural Reference Model)}: Proporciona abstracciones de alto nivel (dominio, información, comunicación, funcional, seguridad) y un metamodelo que promueve interoperabilidad semántica entre objetos y servicios \cite{iota-arm-2013}. Es útil para mantener consistencia conceptual en sistemas heterogéneos.
-  \item \textbf{IIRA (Industrial Internet Reference Architecture)} del Industrial Internet Consortium: Estructura el sistema en \emph{viewpoints} (business, usage, functional, implementation) y define dominios funcionales (control, operaciones, información, aplicación) con foco en integración OT/IT y requisitos industriales (seguridad, confiabilidad, disponibilidad) \cite{iic-iira-2019}. Adecuado para plantas industriales y energía.
-  \item \textbf{RAMI 4.0} (Reference Architectural Model Industry 4.0): Modelo tridimensional que alinea capas (del activo físico a la comunicación y la integración), jerarquía de la ISA-95 y ciclo de vida del producto \cite{rami4-0}. Útil para trazabilidad, gemelos digitales y conformidad en manufactura/energía.
-  \item \textbf{NIST IoT-Reference}: Define funciones nucleares (sensing, communication, data processing, applications, y seguridad transversal) con énfasis en gestión de riesgos y conformidad \cite{nist-sp800-183, nist-iot-core-baseline}.
-  \item \textbf{Arquitectura 5C} (Connection, Conversion, Cyber, Cognition, Configuration): Centrada en manufactura inteligente y mantenimiento predictivo, introduce una progresión desde adquisición hasta realimentación autónoma \cite{lee2015cyber}.
-\end{itemize}
-
-Para proyectos de monitoreo energético residencial o industrial ligero, IoT-A y NIST facilitan la interoperabilidad y la gestión del riesgo; para entornos industriales con integración de SCADA/PLC, IIRA y RAMI 4.0 aportan patrones robustos y vocabularios alineados a estándares.
-
-\subsection{Capas funcionales y patrón Edge–Fog–Cloud}
-Un patrón ampliamente adoptado organiza la solución en capas: \emph{device/edge}, \emph{fog/gateway} y \emph{cloud}, lo que permite distribuir cómputo, almacenamiento y control según latencia y costo \cite{shi2016edge, satyanarayanan2017}.
-
-\begin{enumerate}
-  \item \textbf{Capa de Dispositivo/Percepción}: Sensores/actuadores, medición de potencia/energía, muestreo, preprocesamiento ligero (filtro, compresión, extracción de rasgos básicos). Requisitos: bajo consumo, fiabilidad, sincronización temporal.
-  \item \textbf{Capa de Borde (Edge/Fog/Gateway)}: Agregación de flujos, normalización, seguridad (terminación TLS), control de calidad de servicio, inferencia de baja latencia (detección temprana de anomalías) y \emph{store-and-forward}. Protocolos típicos: MQTT, CoAP, OPC UA \cite{mqtt-oasis, coap-rfc7252, opcuabook}.
-  \item \textbf{Capa de Nube}: Ingesta a gran escala, almacenamiento \emph{time-series}, procesamiento por lotes/streaming, entrenamiento de modelos y visualización. Aquí se prioriza elasticidad, gestión de datos históricos y analítica avanzada.
-\end{enumerate}
-
-Este desacoplamiento reduce latencia, delimita dominios de fallo y permite optimizar costos (cómputo intensivo en la nube; decisiones inmediatas en el borde). En detección de consumos anómalos, ejecutar reglas de primer nivel (umbrales, z-scores, modelos ligeros) en el edge mitiga eventos falsos y mejora tiempos de reacción, mientras que la nube refina detecciones con modelos estacionales o de \emph{deep learning}.
-
-\subsection{Planos transversales: seguridad, gestión y observabilidad}
-Independientemente del particionado en capas, tres planos transversales sostienen la operación:
-
-\begin{itemize}
-  \item \textbf{Seguridad} (\emph{security by design}): identidad del dispositivo (X.509), autenticación/autorización por tópicos MQTT, cifrado extremo a extremo (TLS 1.2+), rotación de credenciales y \emph{secure boot} \cite{nist-iot-core-baseline, mqtt-oasis}. El principio de privilegio mínimo debe reflejarse en ACLs y particionamiento de redes.
-  \item \textbf{Gestión del ciclo de vida} (device management): provisión, configuración remota, actualización OTA, inventario y retirada. Estándares como LwM2M/OMA facilitan interoperabilidad \cite{lwm2m}.
-  \item \textbf{Observabilidad}: métricas, logs y trazas distribuidas desde edge a cloud; retención diferenciada para series temporales; paneles de control y alertamiento con umbrales adaptativos.
-\end{itemize}
-
-\subsection{Mensajería y acoplamiento}
-Los buses de mensajería desacoplados permiten elasticidad y resiliencia. \textbf{MQTT} es dominante por su ligereza y soporte de QoS, \textbf{CoAP} para dispositivos extremadamente restringidos, y \textbf{OPC UA} en entornos industriales que requieren modelado semántico y seguridad integrada \cite{mqtt-oasis, coap-rfc7252, opcuabook}. La selección debe considerar:
-\begin{enumerate}
-  \item \emph{Patrones de comunicación}: \emph{publish/subscribe} vs. \emph{request/response}.
-  \item \emph{QoS y latencia}: QoS 1/2 para eventos críticos; retención para últimas lecturas; \emph{backpressure}.
-  \item \emph{Esquemas de tópicos y contratos}: nombres jerárquicos (`site/area/device/metric`) y formatos auto-descriptivos (JSON/CBOR) con versión.
-\end{enumerate}
-
-\subsection{Datos y analítica para detección de anomalías}
-Para consumos anómalos, el diseño de datos es determinante: granularidad temporal, agregaciones por ventana, manejo de estacionalidad, metadatos de dispositivo y normalización. En el borde, modelos ligeros (EWMA, ARIMA básico, bosque aleatorio compacto) pueden filtrar anomalías evidentes; en la nube, enfoques más pesados (LSTM, autoencoders, Prophet) capturan estacionalidad diaria/semanal \cite{laptev2015, malhotra2015, taylor2018prophet}. Es recomendable separar:
-\begin{itemize}
-  \item \emph{Plano de características} (extracción/ingeniería de variables).
-  \item \emph{Plano de inferencia} (serving de modelos con control de versiones).
-  \item \emph{Plano de explicación} (importancias, SHAP, reglas).
-\end{itemize}
-
-\subsection{Buenas prácticas y decisiones de diseño}
-\begin{itemize}
-  \item \textbf{Criterio de colocación}: colocar lógica donde minimice latencia y costo y maximice confiabilidad (p. ej., cortes de red → lógica esencial en edge).
-  \item \textbf{Desacoplar por contratos}: usar contratos versionados de mensajes y pruebas de compatibilidad.
-  \item \textbf{Seguridad desde el inicio}: identidades por dispositivo, TLS obligatorio, ACL por tópico, rotación periódica.
-  \item \textbf{Observabilidad end-to-end}: trazabilidad desde sensor hasta alerta; KPIs por etapa.
-\end{itemize}
-
-\section{Protocolos y mensajería}
-La selección de protocolos de mensajería en \gls{iot} condiciona latencia, consumo energético, confiabilidad y seguridad del sistema. En monitoreo de consumo eléctrico y detección de anomalías, predominan protocolos ligeros orientados a telemetría (\textbf{MQTT}, \textbf{CoAP}) junto con \textbf{HTTP/REST} y \textbf{WebSockets} para integración de aplicaciones, y \textbf{OPC UA} en escenarios industriales con fuerte semántica y requisitos de conformidad \cite{mqtt-oasis,coap-rfc7252,fielding2000rest,opcuabook}.
-
-\subsection{MQTT: telemetría ligera con publish/subscribe}
-\textbf{MQTT} es un protocolo de mensajería ligero sobre TCP con patrón \emph{publish/subscribe} y un \emph{broker} central (por ejemplo, Mosquitto, EMQX). Ofrece niveles de calidad de servicio (QoS 0, 1 y 2), retención de mensajes y sesiones persistentes, lo que lo hace idóneo para enlaces inestables y dispositivos con recursos limitados \cite{mqtt-oasis}.
-\begin{itemize}
-  \item \textit{Topologías y contratos}: la semántica de tópicos suele ser jerárquica (\texttt{site/area/device/metric}) y conviene versionar (\texttt{v1/}) para evitar acoplamiento rígido.
-  \item \textit{QoS}: QoS 1/2 reducen pérdida de datos a costa de mayor latencia y tráfico; en energía, métricas críticas (alarmas) suelen usar QoS 1 y lecturas de alta frecuencia, QoS 0.
-  \item \textit{Retained \& LWT}: el mensaje retenido entrega el último estado a suscriptores tardíos; el \emph{Last Will and Testament} notifica desconexiones inesperadas para mejorar observabilidad.
-  \item \textit{Seguridad}: TLS 1.2+ con autenticación por certificados X.509 y ACL por tópico en el broker; para clientes muy restringidos, credenciales rotadas y políticas de mínimo privilegio \cite{nist-iot-core-baseline}.
-\end{itemize}
-Variantes como \textbf{MQTT-SN} operan sobre UDP y reducen cabeceras para redes muy restringidas (LPWAN).
-
-\subsection{CoAP: request/response ligero sobre UDP}
-\textbf{CoAP} implementa un estilo \emph{RESTful} para dispositivos restringidos sobre UDP, con confirmación opcional (CON/NON), \emph{observe} para notificaciones tipo \emph{server push} y soporte de \textbf{DTLS} para seguridad \cite{coap-rfc7252,dtls-rfc9147}. Su modelo \emph{resource-oriented} y payloads compactos (p. ej., CBOR) son útiles en redes LLN (6LoWPAN).
-\begin{itemize}
-  \item \textit{Modos confiables}: mensajes confirmables (CON) ofrecen fiabilidad similar a QoS 1; \emph{block-wise transfer} soporta cargas mayores.
-  \item \textit{Seguridad}: DTLS 1.3 o OSCORE para cifrado extremo a extremo a nivel de objeto en entornos con proxies.
-\end{itemize}
-
-\subsection{HTTP/REST y WebSockets: integración y streaming a aplicaciones}
-\textbf{HTTP/REST} sigue dominando la integración con sistemas TI y paneles de control por su ubicuidad y semántica clara \cite{fielding2000rest}. Para telemetría en tiempo casi real a dashboards, \textbf{WebSockets} permiten canal bidireccional y estable reduciendo la sobrecarga de sondeo.
-\begin{itemize}
-  \item \textit{Patrones}: IoT ingiere vía MQTT/CoAP y expone APIs REST para consulta histórica y gestión; WebSockets para actualizaciones en vivo.
-  \item \textit{Seguridad}: TLS obligatorio (HTTPS/WSS), OAuth2/OpenID Connect para autenticación de usuarios y \emph{API keys} o mTLS para \emph{machine-to-machine}.
-\end{itemize}
-
-\subsection{OPC UA: semántica y seguridad integradas en OT}
-\textbf{OPC UA} combina modelo de información rico, servicios de descubrimiento, suscripción y seguridad integrada (cifrado, firma, políticas de usuario) \cite{opcuabook}. En energía industrial, facilita interoperabilidad con PLC/SCADA y modelado semántico de activos. Para dispositivos muy restringidos, su costo puede ser elevado; es común integrarlo en gateway/edge que publica hacia la nube vía MQTT (puente MQTT–OPC UA).
-
-\subsection{Formatos de payload y serialización}
-La carga útil debe equilibrar compacidad, legibilidad y costos de serialización:
-\begin{itemize}
-  \item \textbf{JSON}: legible y ampliamente soportado; mayor tamaño. Útil para integración rápida.
-  \item \textbf{CBOR}: binario compacto y eficiente para dispositivos y CoAP \cite{cbor-rfc8949}.
-  \item \textbf{Protocol Buffers}: esquemas versionados y eficientes, ventajosos para pipelines de alto volumen y control de contratos \cite{protobuf}.
-\end{itemize}
-Se recomienda versionar esquemas, incluir marcas de tiempo normalizadas (UTC, ISO~8601) y metadatos (ID de dispositivo, calidad, unidad) para reproducibilidad y detección de anomalías.
-
-\subsection{Patrones de diseño de mensajería}
-\begin{itemize}
-  \item \textbf{Topic design}: jerarquías por ubicación/activo/métrica, evitando comodines en producción para limitar exposición y costos.
-  \item \textbf{Backpressure}: uso de colas/búferes en edge (\emph{store-and-forward}), límites de \emph{in-flight} y gestión de reconexiones exponenciales.
-  \item \textbf{Idempotencia y orden}: claves de deduplicación y \emph{sequencing} para series temporales; en MQTT, no hay garantía de orden global con múltiples publicadores.
-  \item \textbf{QoS-aware routing}: enrutar mensajes críticos por canales con QoS superior; agrupar telemetría de baja prioridad en lotes para eficiencia.
-\end{itemize}
-
-\subsection{Seguridad de transporte y extremos}
-\begin{itemize}
-  \item \textbf{TLS/DTLS}: cifrado en tránsito, PFS y suites modernas (AES-GCM/ChaCha20-Poly1305) \cite{dtls-rfc9147}.
-  \item \textbf{mTLS}: autenticación mutua para dispositivos y gateways; gestión de PKI con rotación y revocación.
-  \item \textbf{Autorización por tópico/recurso}: ACL por patrón de tópico (MQTT) o ruta (CoAP/HTTP); principio de mínimo privilegio.
-  \item \textbf{E2E en entornos con proxy}: OSCORE (CoAP) y cifrado a nivel de payload cuando el proxy debe operar solo con metadatos.
-\end{itemize}
-
-\subsection{Criterios de selección para consumo energético y anomalías}
-Para detección de consumos anómalos:
-\begin{itemize}
-  \item \textbf{MQTT} con QoS 1 para eventos/alarmas y QoS 0 para telemetría de alta frecuencia, retenidos para estados; TLS y ACL estrictas en broker.
-  \item \textbf{CoAP} con confirmables (CON) y CBOR cuando los dispositivos sean muy restringidos o operen sobre 6LoWPAN/LPWAN.
-  \item \textbf{HTTP/REST} para APIs de consulta histórica y administración; \textbf{WebSockets} para dashboards en vivo.
-  \item \textbf{Puentes OPC UA–MQTT} cuando se integra OT/SCADA con analítica en la nube.
-\end{itemize}
-La decisión final debe balancear consumo de ancho de banda, latencia requerida para alertas, capacidad del dispositivo y requisitos de seguridad y conformidad.
-\section{Plataformas y servicios}
-Las plataformas para \gls{iot} integran la cadena de valor desde la ingesta de telemetría hasta la analítica y visualización. En escenarios de consumo energético y detección de anomalías, los componentes clave incluyen: \emph{brokers} de mensajería, \emph{ingestors}, almacenamiento de series temporales, procesamiento de flujos y lotes, orquestación y tableros. La selección debe balancear latencia, costo, elasticidad, gobernanza y seguridad.
-
-\subsection{Brokers de mensajería y gateways}
-Los \textbf{brokers MQTT} (Eclipse Mosquitto, EMQX, HiveMQ) son la columna vertebral de la telemetría \cite{mqtt-oasis}. Ofrecen \emph{topic ACLs}, persistencia, retención, \emph{bridges} y plugins para extender autenticación/autorización y observabilidad. \textbf{CoAP} suele desplegarse con \emph{proxies} y \emph{resource directories} para descubrimiento \cite{coap-rfc7252}. En entornos industriales, \textbf{OPC UA} se integra en \emph{gateways} que traducen a MQTT para la nube \cite{opcuabook}.
-\begin{itemize}
-  \item \textit{Criterios}: soporte de TLS/mTLS, control fino de ACL por tópico, cuotas, gestión de sesiones, \emph{bridging} multi-\emph{tenant}, métricas nativas.
-  \item \textit{Operación}: alta disponibilidad con clúster activo-activo y \emph{retained stores} replicados; backpressure y límites \emph{in-flight}.
-\end{itemize}
-
-\subsection{Ingesta y canalización}
-La ingesta desacopla dispositivos de servicios de almacenamiento/analítica. Patrones comunes:
-\begin{itemize}
-  \item \textbf{Puentes MQTT→TSDB/Stream}: conectores nativos o \emph{functions} del broker para enrutar a bases de series de tiempo o buses de streaming.
-  \item \textbf{Buses de datos} (Kafka/Pulsar): proporcionan \emph{durability}, particionado y \emph{replay} para flujos de alta tasa \cite{kafka, pulsar}. Útiles cuando múltiples consumidores (detección online, archivado, aprendizaje) comparten el mismo \emph{topic}.
-  \item \textbf{ETL/ELT}: normalización, validación de esquemas (JSON Schema/Protobuf), enriquecimiento (metadatos de dispositivo) y control de versiones de contratos.
-\end{itemize}
-
-\subsection{Almacenamiento de series temporales (TSDB)}
-Las \textbf{TSDB} optimizan escrituras en ráfaga, compresión y \emph{downsampling} con retención por políticas. Alternativas populares incluyen \textbf{InfluxDB}, \textbf{TimescaleDB} y \textbf{Prometheus} (sobre todo para métricas operativas) \cite{influxdb, timescale, prometheus}. Para consumo energético:
-\begin{itemize}
-  \item \textit{Requisitos}: escrituras sostenidas, agregaciones por ventana, alineación temporal, etiquetado por \texttt{device/site/metric}, y consultas por rango.
-  \item \textit{Esquemas}: diseño basado en \emph{measurement} + \emph{tags} (InfluxDB) o tablas particionadas por tiempo (TimescaleDB); compresión \emph{delta-of-delta} y \emph{gorilla} para eficiencia.
-  \item \textit{Retención}: políticas multi-\emph{tier} (crudo por días, agregados por meses) para optimizar costos.
-\end{itemize}
-
-\begin{table}[H]
-\centering
-\caption{Comparativa de TSDBs para telemetría IoT energética}
-\label{tab:tsdb-comparativa}
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{}p{3.0cm} p{3.2cm} p{3.2cm} p{3.2cm}@{}}
-\toprule
-\textbf{Criterio} & \textbf{InfluxDB} & \textbf{TimescaleDB} & \textbf{Prometheus} \\
-\midrule
-Modelo de datos & Measurements + tags/fields; series identificadas por tags & PostgreSQL + extensiones; hypertables/particiones por tiempo & Series etiquetadas (metrics + labels); enfoque en métricas operativas \\
-Ingesta & Alta tasa nativa; Line Protocol; conectores MQTT/Kafka & Ingesta vía SQL/FDW/ingestores; buena integración con ecosistema SQL & Pull (scrape) y push vía gateway; formato de texto \\
-Consultas & Flux/SQL (según edición); agregaciones y downsampling & SQL estándar + funciones de time-series; facilidad de joins & PromQL; consultas operativas para monitoreo/alertas \\
-Compresión & Delta-of-delta, Gorilla, TSM/TSI & Compresión de PostgreSQL + compresión por chunks & Compresión específica por bloques en TSDB \\
-Retención & Políticas por bucket; downsampling automático & Políticas por partición/retención; administración vía SQL & Retención por tiempo/espacio; pensado para métricas \\
-Escalabilidad & OSS single-node; Enterprise/Cloud con clustering & Escala vertical + particionado; replicación nativa de Postgres & Federación y sharding vía proyectos complementarios \\
-Casos de uso típicos & Telemetría IoT, sensores, analítica temporal general & IoT + analítica relacional; integración con datos de negocio & Observabilidad (métricas app/infra), alertas, paneles \\
-Licencia & OSS + ofertas comerciales (Cloud/Enterprise) & OSS (Timescale License para algunas features) & OSS (Apache 2.0) \\
-Ecosistema & Conectores a Grafana, Telegraf, Kapacitor & Ecosistema Postgres, extensiones, Grafana & Stack de observabilidad, Grafana, Alertmanager \\
-Adecuación a consumo energético & Muy buena para series densas y downsampling & Excelente si necesitas joins con datos de negocio y SQL & Útil para métricas operativas; menos óptimo para series crudas densas \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Procesamiento de flujos y lotes}
-La detección de anomalías requiere tanto \textbf{stream processing} (detección temprana) como \textbf{batch} (modelado y recalibración):
-\begin{itemize}
-  \item \textbf{Stream}: Apache Flink, Spark Structured Streaming, Kafka Streams permiten ventanas deslizantes/tumbling, \emph{watermarks} y estado gestionado para reglas y modelos online \cite{flink, spark-ss}.
-  \item \textbf{Batch}: Spark/Beam para entrenamiento y análisis histórico; orquestado por Airflow/Luigi con \emph{feature stores}.
-  \item \textit{Model serving}: \emph{microservicios} con REST/gRPC o \emph{serverless} para inferencia; control de versiones de modelos y \emph{shadow deployments}.
-\end{itemize}
-
-\subsection{Orquestación y contenedores}
-La estandarización de despliegues facilita portabilidad del borde a la nube:
-\begin{itemize}
-  \item \textbf{Contenedores} (Docker/OCI) y \textbf{Kubernetes} para elasticidad y gestión declarativa \cite{kubernetes}. En el borde, \textbf{K3s} y \textbf{Azure IoT Edge}/\textbf{AWS IoT Greengrass} facilitan módulos, \emph{twin state} y despliegues OTA \cite{azure-iot-edge, aws-greengrass}.
-  \item \textbf{IaC}: Terraform/Ansible para reproducibilidad; \emph{secrets management} (Vault/KMS) y políticas de seguridad.
-\end{itemize}
-
-\subsection{Dashboards, APIs y alertamiento}
-La plataforma debe exponer:
-\begin{itemize}
-  \item \textbf{APIs} REST/GraphQL para consulta histórica y administración; \textbf{WebSockets} para actualizaciones en vivo.
-  \item \textbf{Dashboards} (Grafana, Kibana, superset) con paneles por dispositivo, métricas agregadas y eventos \cite{grafana}.
-  \item \textbf{Alertas}: umbrales dinámicos, detecciones por modelo y correlación de eventos; integración con email, webhooks y mensajería.
-\end{itemize}
-
-\subsection{Seguridad, gobernanza y cumplimiento}
-Las plataformas deben incorporar \emph{security-by-default} y gobernanza de datos:
-\begin{itemize}
-  \item \textbf{Identidad y acceso}: mTLS para dispositivos/gateways; IAM centralizado; ACL por tópico/recurso; rotación de credenciales y revocación.
-  \item \textbf{Data governance}: clasificación de datos, \emph{data lineage}, retención y anonimización donde aplique.
-  \item \textbf{Cumplimiento}: lineamientos NIST para capacidad base de ciberseguridad en IoT \cite{nist-iot-core-baseline}.
-\end{itemize}
-
-\subsection{Criterios de selección para IoT energético}
-\begin{itemize}
-  \item \textbf{Broker} con TLS/mTLS, ACL por tópico, sesiones persistentes y métricas exportables.
-  \item \textbf{TSDB} con retención por niveles y consultas eficientes por \emph{tags}.
-  \item \textbf{Stream processor} con ventanas y estado para reglas de primer nivel; \textbf{batch} para recalibración de modelos.
-  \item \textbf{Dashboards} con soportes de anotaciones y correlaciones; APIs bien definidas para integración externa.
-\end{itemize}
-
-
-
-\section{Trabajos relacionados}
 
 \chapter{Marco Teórico}
 \section{Fundamentos de medición y energía}
