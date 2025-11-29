@@ -1,4 +1,3 @@
-% !TeX program = pdflatex
 \documentclass[12pt,openright,oneside]{report}
 
 % ========================= Codificación y tipografía (pdfLaTeX) =========================
@@ -94,77 +93,100 @@
 
 \begin{document}
 
-% ========================= Portada (MANTENIDA TAL CUAL) =========================
+% ==== Portada (UNA SOLA PÁGINA) ====
 \begin{titlepage}
-    \thispagestyle{empty}
-    \newgeometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\thispagestyle{empty}
 
-    \begin{tikzpicture}[remember picture, overlay]
+% Fondo de márgenes y líneas verticales con TikZ
+\begin{tikzpicture}[remember picture,overlay]
+  % Línea guinda (ipnBrown)
+  \draw[ipnBrown, line width=0.2cm]
+    ($(current page.north west) + (3cm,-5cm)$) --
+    ($(current page.south west) + (3cm,5cm)$);
+  % Línea dorada (gold), un poco a la derecha
+  \draw[gold, line width=0.2cm]
+    ($(current page.north west) + (3.6cm,-5cm)$) --
+    ($(current page.south west) + (3.6cm,5cm)$);
+\end{tikzpicture}
 
-        % Logo IPN (arriba izquierda)
-        \node[anchor=north west] at ($(current page.north west)+(1.6cm,-1.8cm)$) {%
-            \includegraphics[height=3cm]{logo-ipn-guinda.png}
-        };
+% Logo IPN superior izquierdo (ajusta nombre y tamaño)
+\begin{flushleft}
+  \vspace*{-1cm}
+  \includegraphics[height=2.5cm]{logo-ipn-guinda.png}
+\end{flushleft}
 
-        % Líneas decorativas verticales (alineadas con la portada ejemplo)
-        % Usamos current page para que funcione igual en letter
-        \draw[line width=3pt, gold]
-            ($(current page.north west)+(2.1cm,-5.2cm)$) --
-            ($(current page.south west)+(2.1cm,5.2cm)$);
+\vspace*{-1cm}
 
-        \draw[line width=3pt, ipnBrown]
-            ($(current page.north west)+(3.3cm,-5.2cm)$) --
-            ($(current page.south west)+(3.3cm,5.2cm)$);
-
-        % Logo UPIITA (abajo izquierda)
-        \node[anchor=south west] at ($(current page.south west)+(1.4cm,2.0cm)$) {%
-            \includegraphics[height=2.5cm]{logo-upiita.png}
-        };
-
-    \end{tikzpicture}
-
-    % ------- CONTENIDO PRINCIPAL --------
-    \begin{center}
-    \vspace*{1.5cm}
-
-    {\LARGE\bfseries INSTITUTO POLITÉCNICO NACIONAL\par}
-    \vspace{1.5cm}
-
-    {\Large\bfseries
+% Texto centrado principal
+\begin{center}
+  \hspace{1.5cm}
+  {\Large\bfseries INSTITUTO POLITÉCNICO NACIONAL\\[0.5cm]}
+  \hspace{1.5cm}
+  {\large\bfseries
     UNIDAD PROFESIONAL INTERDISCIPLINARIA EN\\
-    INGENIERÍA Y TECNOLOGÍAS AVANZADAS\par}
-    \vspace{1cm}
+  \hspace{1.5cm}
+    INGENIERÍA Y TECNOLOGÍAS AVANZADAS\\[0.4cm]
+  \hspace{1.5cm}
+    U P I I T A
+  }
 
-    {\Large\bfseries U P I I T A\par}
-    \vspace{1.5cm}
+  \vspace{1.5cm}
 
-    {\large\itshape ``Arquitectura IoT para el Monitoreo\\
-    y Detección de Anomalías en\\
-    el Consumo Eléctrico Residencial''\par}
-    \vspace{1.8cm}
+  {\normalsize
+  \hspace{1.5cm}
+  \textit{``Arquitectura IoT para el Monitoreo\\
+  \hspace{1.5cm}
+  y Detección de Anomalías en\\
+  \hspace{1.5cm}
+  el Consumo Eléctrico Residencial''}
+  }
 
-    {\large Que para obtener el título de\par}
-    \vspace{0.4cm}
-    {\large\bfseries ``Ingeniero en Telemática''\par}
-    \vspace{1.8cm}
+  \vspace{1.5cm}
 
-    {\large Presenta el alumno:\par}
-    \vspace{0.4cm}
-    {\large\bfseries Cordero Montes de Oca Luis Alberto\par}
-    \vspace{3cm}
+  \hspace{1.5cm}
+  {\normalsize
+  Para obtener el título de\\[0.3cm]
+  \hspace{1.5cm}
+  {\bfseries ``Ingeniero en Telemática''}
+  }
 
-    % -------- SINODALES (con líneas) ----------
-    \begin{tabular}{p{6cm}p{6cm}}
-        \centering\rule{6cm}{0.4pt} & \centering\rule{6cm}{0.4pt} \tabularnewline
-        \centering Huerta Trujillo Iliac & \centering Villordo Jimenez Iclia
-    \end{tabular}
+  \vspace{1.5cm}
 
-    \end{center}
+  {\normalsize
+  \hspace{1.5cm}
+  Presenta el alumno:\\[0.3cm]
+  \hspace{1.5cm}
+  {\bfseries Cordero Montes de Oca Luis Alberto}
+  }
+
+  \vfill
+
+  % Directores (debajo centrado)
+  {\small
+  \begin{tabular}{c@{\hspace{3cm}}c}
+  \hspace{1.5cm}
+    \rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
+  \hspace{1.5cm}
+    Huerta Trujillo Isaac & Villordo Jimenez Ilcia \\
+  \end{tabular}
+  }
+
+  \vspace{1cm}
+
+  \hspace{1.5cm}
+  {\small Ciudad de México, \the\year}
+\end{center}
+
+% Logo inferior izquierdo (upita-ipn) – opcional
+\vspace*{0.5cm}
+\begin{flushleft}
+  \includegraphics[height=1.8cm]{logo-upiita.png}
+\end{flushleft}
 
 \end{titlepage}
 \restoregeometry
 
-% ========================= Páginas preliminares =========================
+% ==== Páginas preliminares ====
 \pagenumbering{roman}
 \setcounter{page}{1}
 

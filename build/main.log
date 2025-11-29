@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  26 NOV 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  29 NOV 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -110,10 +110,10 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ))
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 11.
+(babel)             Reported on input line 10.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
@@ -774,11 +774,11 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 )
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 67.
+(fancyhdr)                Please consider using the `twoside' option on input line 66.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 69.
+(fancyhdr)                Please consider using the `twoside' option on input line 68.
 
 (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -993,11 +993,11 @@ Package: glossary-tree 2025/08/11 v4.8 (NLCT)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 82.
+Package glossaries Info: Writing glossary file main.glo on input line 81.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 82.
+Package glossaries Info: Writing glossary file main.acn on input line 81.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
@@ -1235,7 +1235,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count533
 \@quotereset=\count534
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 95.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 94.
 (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (d:\LaTeX\Pro_Terminal\build\main.aux
@@ -1246,24 +1246,24 @@ LaTeX Info: Redefining \% on input line 27.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1325,7 +1325,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 94.
 (d:\LaTeX\Pro_Terminal\build\main.out) (d:\LaTeX\Pro_Terminal\build\main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
@@ -1348,85 +1348,57 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (d:\LaTeX\Pro_Terminal\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 95.
-Package biblatex Info: Reference segment=0 on input line 95.
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=652.70622pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
 <logo-ipn-guinda.png, id=286, 397.485pt x 614.295pt>
 File: logo-ipn-guinda.png Graphic file (type png)
 <use logo-ipn-guinda.png>
-Package pdftex.def Info: logo-ipn-guinda.png  used on input line 106.
-(pdftex.def)             Requested size: 55.22902pt x 85.35826pt.
-<logo-upiita.png, id=288, 284.7438pt x 284.7438pt>
-File: logo-upiita.png Graphic file (type png)
-<use logo-upiita.png>
-Package pdftex.def Info: logo-upiita.png  used on input line 121.
-(pdftex.def)             Requested size: 71.12929pt x 71.13188pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 157.
+Package pdftex.def Info: logo-ipn-guinda.png  used on input line 115.
+(pdftex.def)             Requested size: 46.02216pt x 71.13188pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 157.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 157.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 157.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 157.
+(Font)              <10.95> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 157.
+(Font)              <8> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 157.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 157.
+(Font)              <6> on input line 166.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 157.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 166.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (13.08922pt too wide) in paragraph at lines 166--173
+ [][] 
+ []
+
+<logo-upiita.png, id=288, 284.7438pt x 284.7438pt>
+File: logo-upiita.png Graphic file (type png)
+<use logo-upiita.png>
+Package pdftex.def Info: logo-upiita.png  used on input line 183.
+(pdftex.def)             Requested size: 51.21255pt x 51.21504pt.
+
 
 [1
 
 \openout4 = `main.ist'.
-
 
 {C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logo-ipn-guinda.png> <./logo-upiita.png>]
 
@@ -1438,9 +1410,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2
 
 ]
-LaTeX Info: Redefining \sptext on input line 186.
-LaTeX Info: Redefining \. on input line 186.
-LaTeX Info: Redefining \% on input line 186.
+LaTeX Info: Redefining \sptext on input line 208.
+LaTeX Info: Redefining \. on input line 208.
+LaTeX Info: Redefining \% on input line 208.
 
 
 [3
@@ -1452,6 +1424,8 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \sptext on input line 7.
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 9.
 
 
 [4
@@ -1476,9 +1450,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-LaTeX Info: Redefining \sptext on input line 191.
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \sptext on input line 213.
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.35403pt, for example:
@@ -1524,13 +1498,13 @@ Cap\'{\i }tulo 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \chapter
+l.229 \chapter
               {Estado del Arte} [1
 
 
 ]
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 215.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 237.
 (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1538,20 +1512,20 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [2
 
 {C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (11.85275pt too wide) in paragraph at lines 228--229
+Overfull \hbox (11.85275pt too wide) in paragraph at lines 250--251
 []\T1/lmr/bx/n/12 Capa de Dis-po-si-ti-vo/Percepción\T1/lmr/m/n/12 : Sen-so-res/actuadores, me-di-ción de po-ten-cia/energía,
  []
 
 
-Overfull \hbox (29.59558pt too wide) in paragraph at lines 239--240
+Overfull \hbox (29.59558pt too wide) in paragraph at lines 261--262
 []\T1/lmr/bx/n/12 Seguridad \T1/lmr/m/n/12 (\T1/lmr/m/it/12 se-cu-rity by de-sign\T1/lmr/m/n/12 ): iden-ti-dad del dis-po-si-ti-vo (X.509), au-ten-ti-ca-ción/autorización
  []
 
 
 
-LaTeX Info: Redefining \sptext on input line 242.
-LaTeX Info: Redefining \. on input line 242.
-LaTeX Info: Redefining \% on input line 242.
+LaTeX Info: Redefining \sptext on input line 264.
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1561,9 +1535,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
-LaTeX Info: Redefining \sptext on input line 270.
-LaTeX Info: Redefining \. on input line 270.
-LaTeX Info: Redefining \% on input line 270.
+LaTeX Info: Redefining \sptext on input line 292.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1572,19 +1546,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 274.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 296.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (42.01022pt too wide) in paragraph at lines 274--275
+Overfull \hbox (42.01022pt too wide) in paragraph at lines 296--297
 []\T1/lmr/m/it/12 Topologías y con-tra-tos\T1/lmr/m/n/12 : la se-mán-ti-ca de tó-pi-cos sue-le ser je-rár-qui-ca (\T1/lmtt/m/n/12 site/area/device/metric\T1/lmr/m/n/12 )
  []
 
 
 
-LaTeX Info: Redefining \sptext on input line 290.
-LaTeX Info: Redefining \. on input line 290.
-LaTeX Info: Redefining \% on input line 290.
+LaTeX Info: Redefining \sptext on input line 312.
+LaTeX Info: Redefining \. on input line 312.
+LaTeX Info: Redefining \% on input line 312.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1593,25 +1567,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (19.6959pt too wide) in paragraph at lines 317--318
+Overfull \hbox (19.6959pt too wide) in paragraph at lines 339--340
 []\T1/lmr/bx/n/12 TLS/DTLS\T1/lmr/m/n/12 : ci-fra-do en trán-si-to, PFS y sui-tes mo-der-nas (AES-GCM/ChaCha20-Poly1305)
- []
-
-
-
-LaTeX Info: Redefining \sptext on input line 318.
-LaTeX Info: Redefining \. on input line 318.
-LaTeX Info: Redefining \% on input line 318.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6]
-Overfull \hbox (46.19026pt too wide) in paragraph at lines 319--320
-[]\T1/lmr/bx/n/12 Autorización por tó-pi-co/recurso\T1/lmr/m/n/12 : ACL por pa-trón de tó-pi-co (MQTT) o ru-ta (CoAP/HTTP);
  []
 
 
@@ -1626,311 +1583,328 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[6]
+Overfull \hbox (46.19026pt too wide) in paragraph at lines 341--342
+[]\T1/lmr/bx/n/12 Autorización por tó-pi-co/recurso\T1/lmr/m/n/12 : ACL por pa-trón de tó-pi-co (MQTT) o ru-ta (CoAP/HTTP);
+ []
+
+
+
+LaTeX Info: Redefining \sptext on input line 362.
+LaTeX Info: Redefining \. on input line 362.
+LaTeX Info: Redefining \% on input line 362.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [7]
-Underfull \hbox (badness 1430) in paragraph at lines 367--367
+Underfull \hbox (badness 1430) in paragraph at lines 389--389
 []|\T1/lmr/m/n/12 Measurements +
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 367--367
+Underfull \hbox (badness 3049) in paragraph at lines 389--389
 \T1/lmr/m/n/12 iden-ti-fi-ca-das por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\T1/lmr/m/n/12 PostgreSQL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \T1/lmr/m/n/12 + ex-ten-sio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \T1/lmr/m/n/12 nes; hy-per-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--367
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 \T1/lmr/m/n/12 bles/particiones
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 []|\T1/lmr/m/n/12 Series eti-que-ta-
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 367--368
+Underfull \hbox (badness 5832) in paragraph at lines 389--390
 \T1/lmr/m/n/12 das (me-trics +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 \T1/lmr/m/n/12 la-bels); en-fo-que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 \T1/lmr/m/n/12 Li-ne Pro-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 \T1/lmr/m/n/12 col; co-nec-to-res
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 []|\T1/lmr/m/n/12 Ingesta vía
  []
 
 
-Overfull \hbox (25.75528pt too wide) in paragraph at lines 368--368
+Overfull \hbox (25.75528pt too wide) in paragraph at lines 390--390
 \T1/lmr/m/n/12 SQL/FDW/ingestores;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 390--390
 \T1/lmr/m/n/12 con eco-sis-te-ma
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 368--369
+Underfull \hbox (badness 5008) in paragraph at lines 390--391
 []|\T1/lmr/m/n/12 Pull (scra-pe) y
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 369--369
+Underfull \hbox (badness 3128) in paragraph at lines 391--391
 \T1/lmr/m/n/12 edi-ción); agre-ga-
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 369--369
+Underfull \hbox (badness 5908) in paragraph at lines 391--391
 \T1/lmr/m/n/12 cio-nes y down-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--369
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
 []|\T1/lmr/m/n/12 SQL es-tán-dar
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 369--369
+Underfull \hbox (badness 5533) in paragraph at lines 391--391
 \T1/lmr/m/n/12 + fun-cio-nes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 []|\T1/lmr/m/n/12 PromQL; con-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 369--370
+Underfull \hbox (badness 2020) in paragraph at lines 391--392
 \T1/lmr/m/n/12 sul-tas ope-ra-ti-vas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
 \T1/lmr/m/n/12 pa-ra mo-ni-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\T1/lmr/m/n/12 Delta-of-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 \T1/lmr/m/n/12 delta, Go-ri-lla,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\T1/lmr/m/n/12 Compresión de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 \T1/lmr/m/n/12 Post-greSQL +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 \T1/lmr/m/n/12 com-pre-sión por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \T1/lmr/m/n/12 ket; down-sam-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \T1/lmr/m/n/12 ti-ción/retención;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \T1/lmr/m/n/12 ad-mi-nis-tra-ción
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 []|\T1/lmr/m/n/12 Retención por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 \T1/lmr/m/n/12 tiem-po/espacio;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 \T1/lmr/m/n/12 pen-sa-do pa-ra
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 372--372
+Underfull \hbox (badness 1205) in paragraph at lines 394--394
 []|\T1/lmr/m/n/12 OSS single-node;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \T1/lmr/m/n/12 En-ter-pri-se/Cloud
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 []|\T1/lmr/m/n/12 Escala ver-ti-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \T1/lmr/m/n/12 + par-ti-cio-na-do;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 []|\T1/lmr/m/n/12 Federación y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 \T1/lmr/m/n/12 shar-ding vía
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 \T1/lmr/m/n/12 pro-yec-tos com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\T1/lmr/m/n/12 Telemetría IoT,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \T1/lmr/m/n/12 sen-so-res, ana-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \T1/lmr/m/n/12 lí-ti-ca tem-po-ral
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 373--373
+Underfull \hbox (badness 2689) in paragraph at lines 395--395
 []|\T1/lmr/m/n/12 IoT + ana-lí-ti-ca
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \T1/lmr/m/n/12 re-la-cio-nal; in-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 []|\T1/lmr/m/n/12 Observabilidad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 \T1/lmr/m/n/12 (mé-tri-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 \T1/lmr/m/n/12 app/infra),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 []|\T1/lmr/m/n/12 OSS + ofer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \T1/lmr/m/n/12 tas co-mer-cia-les
  []
 
 
-Overfull \hbox (7.42058pt too wide) in paragraph at lines 374--374
+Overfull \hbox (7.42058pt too wide) in paragraph at lines 396--396
 \T1/lmr/m/n/12 (Cloud/Enterprise)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 []|\T1/lmr/m/n/12 OSS (Ti-mes-ca-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \T1/lmr/m/n/12 Li-cen-se pa-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []|\T1/lmr/m/n/12 Conectores a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 375--375
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \T1/lmr/m/n/12 Gra-fa-na, Te-le-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--376
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
 []|\T1/lmr/m/n/12 Adecuación a
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 376--376
+Underfull \hbox (badness 3417) in paragraph at lines 398--398
 []|\T1/lmr/m/n/12 Muy bue-na pa-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 376--377
+Underfull \hbox (badness 1264) in paragraph at lines 398--399
 []|\T1/lmr/m/n/12 Útil pa-ra mé-tri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 \T1/lmr/m/n/12 cas ope-ra-ti-vas;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 \T1/lmr/m/n/12 me-nos óp-ti-mo
  []
 
 
 
-LaTeX Info: Redefining \sptext on input line 380.
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \sptext on input line 402.
+LaTeX Info: Redefining \. on input line 402.
+LaTeX Info: Redefining \% on input line 402.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1943,9 +1917,9 @@ Overfull \vbox (26.00699pt too high) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \sptext on input line 380.
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \sptext on input line 402.
+LaTeX Info: Redefining \. on input line 402.
+LaTeX Info: Redefining \% on input line 402.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1954,15 +1928,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-Overfull \hbox (12.56036pt too wide) in paragraph at lines 385--386
+Overfull \hbox (12.56036pt too wide) in paragraph at lines 407--408
 []\T1/lmr/bx/n/12 Batch\T1/lmr/m/n/12 : Spark/Beam pa-ra en-tre-na-mien-to y aná-li-sis his-tó-ri-co; or-ques-ta-do por Air-flow/Luigi
  []
 
 
 
-LaTeX Info: Redefining \sptext on input line 415.
-LaTeX Info: Redefining \. on input line 415.
-LaTeX Info: Redefining \% on input line 415.
+LaTeX Info: Redefining \sptext on input line 437.
+LaTeX Info: Redefining \. on input line 437.
+LaTeX Info: Redefining \% on input line 437.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1972,9 +1946,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]
 
-LaTeX Info: Redefining \sptext on input line 424.
-LaTeX Info: Redefining \. on input line 424.
-LaTeX Info: Redefining \% on input line 424.
+LaTeX Info: Redefining \sptext on input line 446.
+LaTeX Info: Redefining \. on input line 446.
+LaTeX Info: Redefining \% on input line 446.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2042,15 +2016,15 @@ Ap\'{e}ndice C.
 
 
 ]
-Overfull \hbox (0.96983pt too wide) in paragraph at lines 473--473
+Overfull \hbox (0.96983pt too wide) in paragraph at lines 495--495
 []\T1/lmr/m/n/12 Microsoft, \T1/lmr/m/it/12 Azu-re IoT Ed-ge do-cu-men-ta-tion\T1/lmr/m/n/12 , Ac-ces-sed 2025-11-06, 2024. di-rec-ción: []$\T1/lmtt/m/n/12 https :
  []
 
 
 
-LaTeX Info: Redefining \sptext on input line 473.
-LaTeX Info: Redefining \. on input line 473.
-LaTeX Info: Redefining \% on input line 473.
+LaTeX Info: Redefining \sptext on input line 495.
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2066,9 +2040,9 @@ This document will not have a glossary.
 
 
 
-LaTeX Info: Redefining \sptext on input line 475.
-LaTeX Info: Redefining \. on input line 475.
-LaTeX Info: Redefining \% on input line 475.
+LaTeX Info: Redefining \sptext on input line 497.
+LaTeX Info: Redefining \. on input line 497.
+LaTeX Info: Redefining \% on input line 497.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2088,27 +2062,36 @@ LaTeX Info: Redefining \% on input line 27.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8946F1CA1B62F39F32BEAF887D7F9354;14086.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53251 strings out of 468134
- 1219888 string characters out of 5430740
+ 53243 strings out of 468134
+ 1219673 string characters out of 5430740
  2317519 words of memory out of 5000000
- 80949 multiletter control sequences out of 15000+600000
- 696362 words of font info for 84 fonts, out of 8000000 for 9000
+ 80937 multiletter control sequences out of 15000+600000
+ 696695 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,91p,2509b,2642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:iot} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (32 pages, 605610 bytes).
+<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (32 pages, 634466 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
+ 707 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 500000)
  583 words of extra memory for PDF output out of 10000 (max. 10000000)
 
