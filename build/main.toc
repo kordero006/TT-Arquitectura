@@ -5,19 +5,24 @@
 \contentsline {chapter}{ABSTRACT}{iii}{chapter*.3}%
 \babel@toc {english}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{5}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{6}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Entorno y herramientas}{6}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Módulos implementados}{6}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Configuración y despliegue}{6}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Ejemplos de código}{6}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{7}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{8}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{9}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{10}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{11}{appendix.C}%
-\contentsline {chapter}{Referencias}{12}{appendix*.7}%
+\contentsline {chapter}{INTRODUCCIÓN}{1}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Planteamiento del problema}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Definición del problema}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Propuesta de solución}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Usuarios no registrados}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Usuarios registrados}{2}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{4}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{7}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Entorno y herramientas}{7}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Módulos implementados}{7}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Configuración y despliegue}{7}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Ejemplos de código}{7}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{8}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{9}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{10}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{11}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{12}{appendix.C}%
+\contentsline {chapter}{Referencias}{13}{appendix*.8}%
