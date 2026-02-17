@@ -2374,6 +2374,17 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">sener-balance-nacional-energia</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">proteccion-civil-incendios-vivienda</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">nom-electricidad-instalaciones</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">malhotra2015</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">laptev2015</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">malhotra2015</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">laptev2015</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">malhotra2015</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">taylor2018prophet</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
