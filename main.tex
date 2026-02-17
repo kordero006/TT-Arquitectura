@@ -239,184 +239,37 @@ Por lo anterior, se identifica una brecha tecnológica y operativa en el sector 
 \section{Propuesta de solución}
 \label{sec:propuesta-solucion}
 
-Con base en la problemática descrita en la sección anterior ---caracterizada por la falta de visibilidad del consumo eléctrico, la ausencia de monitoreo preventivo y la dificultad del usuario para interpretar señales tempranas de degradación o riesgo--- se propone el desarrollo de un \textbf{Sistema de Monitoreo Energético Residencial IoT de Bajo Costo}. La intención principal es \textit{democratizar} el acceso a información de consumo eléctrico en tiempo real dentro del hogar mexicano, facilitando decisiones orientadas al ahorro energético y a la prevención de fallas.
+Ante el contexto descrito, se propone el desarrollo de un \textbf{Sistema de Monitoreo Energético Residencial basado en Internet de las Cosas (IoT)}, diseñado específicamente para el entorno doméstico mexicano. El objetivo primordial es proporcionar un mecanismo de supervisión continua que permita a los usuarios identificar comportamientos anómalos en sus electrodomésticos, fomentando una cultura de mantenimiento preventivo y optimización del consumo eléctrico.
 
-La solución se plantea específicamente para el contexto residencial de México (red de 127\,V y 60\,Hz), priorizando: (i) instalación no invasiva, (ii) costo reducido, (iii) medición continua con actualización frecuente, y (iv) almacenamiento histórico en la nube para análisis posterior y generación de visualizaciones. El enfoque no pretende detectar incendios de forma directa, sino proporcionar \textbf{alertas tempranas ante patrones compatibles con sobrecarga, degradación o comportamiento anómalo}, permitiendo al usuario tomar acciones preventivas antes de que se materialice una falla crítica.
+A diferencia de las soluciones comerciales convencionales, este sistema se plantea como una alternativa de bajo costo y de instalación no invasiva, lo que permite su implementación en viviendas sin necesidad de realizar modificaciones estructurales en la red eléctrica. El sistema se articula a través de una arquitectura modular que abarca desde la adquisición de señales analógicas hasta la gestión de datos en la nube.
 
-\subsection{Justificación técnica}
+\subsection{Descripción de los módulos del sistema}
 
-A diferencia de un enfoque reactivo (identificar el problema únicamente cuando el equipo falla o el recibo aumenta), el monitoreo continuo permite observar el comportamiento eléctrico como una serie de tiempo. Esta perspectiva habilita la identificación de patrones, ciclos de operación y desviaciones respecto a un funcionamiento esperado. En términos prácticos, esto significa que el usuario puede detectar sobreconsumo sostenido, cambios anómalos en la operación de un electrodoméstico o picos de demanda inusuales antes de que se conviertan en fallas costosas o riesgosas.
+Para garantizar la eficiencia y escalabilidad de la solución, el sistema se compone de los siguientes módulos funcionales:
 
-Para lograrlo con un diseño accesible, se selecciona el microcontrolador \textbf{ESP32}, debido a su procesador de doble núcleo, conectividad WiFi integrada y un ecosistema robusto para prototipado y despliegue de soluciones IoT \cite{nist-sp800-183}. En la medición de corriente se utiliza el sensor \textbf{SCT-013-030} (30A/1V), de tipo transformador de corriente (CT) no invasivo, lo que permite instalar el sistema \textbf{sin cortar cables} ni intervenir la instalación eléctrica.
+\subsubsection{Módulo de Adquisición y Acondicionamiento}
+Este módulo constituye la interfaz física con la red eléctrica residencial (127\,V / 60\,Hz). Utiliza un sensor de corriente no invasivo de tipo transformador de corriente (CT), el cual permite capturar la intensidad de corriente que circula por el conductor principal o circuitos específicos. Dado que la señal obtenida es de naturaleza alterna, se integra un circuito de acondicionamiento encargado de adaptar y desplazar la señal a niveles de tensión compatibles con el convertidor analógico-digital (ADC) del microcontrolador, garantizando una digitalización precisa y segura.
 
-Asimismo, se incorpora una interfaz local mediante pantalla \textbf{OLED SSD1306}, para que el usuario reciba retroalimentación inmediata (incluso si la conectividad a internet es intermitente), mostrando corriente RMS en amperes (A) y potencia aparente estimada en watts (W).
+\subsubsection{Módulo de Procesamiento Local (Unidad Central)}
+Basado en el microcontrolador \textbf{ESP32}, este módulo actúa como el núcleo inteligente del sistema. Su función principal es el muestreo de la señal acondicionada para realizar el cálculo de parámetros eléctricos fundamentales, tales como la corriente eficaz (RMS) y la potencia aparente. El procesamiento se realiza en ventanas de tiempo que cubren múltiples ciclos de la red eléctrica para asegurar la estabilidad de las lecturas.
 
-\subsection{Fundamento de medición y ecuaciones empleadas}
+\subsubsection{Módulo de Interfaz Local y Retroalimentación}
+Con el fin de proporcionar información inmediata al usuario, el sistema integra una unidad de visualización local (pantalla OLED). Este módulo despliega en tiempo real las métricas de consumo (Amperes y Watts), permitiendo que el usuario identifique de manera instantánea el impacto energético de los dispositivos conectados, incluso en ausencia de conectividad a la red.
 
-El sistema mide una señal alterna proporcional a la corriente que circula por el conductor. Dado que la corriente en la red residencial es una magnitud alterna, no es suficiente con promediar muestras (el promedio de una señal senoidal centrada en cero tiende a cero). Por esta razón, el indicador eléctrico más útil para cuantificar ``cuánta corriente realmente está consumiendo'' una carga es el valor eficaz o \textbf{RMS} (\textit{Root Mean Square}).
+\subsubsection{Módulo de Conectividad y Gestión Cloud}
+Este módulo gestiona la transmisión inalámbrica de los datos procesados hacia una infraestructura en la nube mediante el protocolo HTTP. Se utiliza una plataforma de gestión de datos (\textbf{Supabase}) para el almacenamiento histórico en una base de datos relacional. Esta centralización de la información es crítica para el proyecto, ya que permite la construcción de perfiles de consumo históricos y facilita la identificación de tendencias o desviaciones que sugieran la degradación de un equipo o la necesidad de una revisión técnica especializada.
 
-\subsubsection{Acondicionamiento de señal para el ADC del ESP32}
+\subsection{Metodología de operación}
 
-La salida del SCT-013-030 es una señal de corriente alterna. El ADC del ESP32, en cambio, solo puede medir tensiones positivas dentro de su rango (típicamente 0 a 3.3\,V). Por ello se utiliza un circuito de acondicionamiento con divisor de voltaje y un sesgo (\textit{bias}) de 1.65\,V, centrando la señal en la mitad del rango del ADC. Conceptualmente, el muestreo produce una señal digital $x[n]$ que oscila alrededor de un valor medio cercano a 1.65\,V, el cual debe removerse para recuperar la componente alterna:
+El flujo de operación del sistema comienza con la captura de la señal eléctrica, la cual es procesada localmente por el ESP32. Una vez obtenidos los valores de consumo, estos se actualizan en la interfaz local y se envían periódicamente a la base de datos en la nube. 
 
-\begin{equation}
-x_{\text{ac}}[n] = x[n] - \mu
-\label{eq:offset-removal}
-\end{equation}
+Este enfoque permite que el sistema no solo funcione como un medidor, sino como una herramienta de diagnóstico. Al comparar las lecturas actuales con el histórico almacenado, es posible detectar incrementos inusuales en el consumo que, en el contexto mexicano de electrodomésticos con vida útil extendida, suelen ser indicadores tempranos de fallas mecánicas o eléctricas. De este modo, el sistema cumple con su propósito de prevención, alertando al usuario sobre la necesidad de reparaciones o sustituciones antes de que ocurran accidentes o gastos excesivos.
 
-donde $\mu$ es el valor promedio de $x[n]$ en una ventana de muestreo. Esta etapa es importante porque el cálculo RMS requiere una señal centrada (componente alterna pura), y elimina el desplazamiento introducido por el bias del circuito de acondicionamiento.
+\subsection{Diagrama de bloques del sistema propuesto}
 
-\subsubsection{Cálculo de corriente RMS}
+En la Figura~\ref{fig:diagrama-bloques} se presenta la interconexión de los módulos descritos, ilustrando el camino de la información desde la red eléctrica hasta el almacenamiento final en la nube.
 
-Una vez obtenida la componente alterna, se calcula el valor RMS sobre una ventana de $N$ muestras. En este proyecto, se toman muestras correspondientes a \textbf{10 ciclos completos de 60\,Hz} (aproximadamente 167\,ms), lo que garantiza estabilidad en el cálculo y reduce el efecto de ruido transitorio. El valor RMS se define como:
 
-\begin{equation}
-I_{\text{RMS}} = K \sqrt{\frac{1}{N}\sum_{n=1}^{N} x_{\text{ac}}^2[n]}
-\label{eq:rms}
-\end{equation}
-
-donde $K$ es un factor de calibración que relaciona las unidades digitales del ADC (voltios muestreados) con unidades físicas de corriente (amperes). Este valor es esencial para el proyecto por dos razones:
-
-\begin{itemize}
-    \item \textbf{Comparabilidad:} $I_{\text{RMS}}$ permite comparar consumos entre diferentes cargas y momentos del tiempo con una métrica estándar.
-    \item \textbf{Detección de anomalías:} cambios sostenidos o patrones atípicos en $I_{\text{RMS}}$ pueden indicar degradación del equipo, sobrecargas o comportamientos no esperados, habilitando alertas preventivas antes de una falla crítica.
-\end{itemize}
-
-\subsubsection{Estimación de potencia aparente}
-
-Dado que el sensor utilizado mide corriente (y no se mide voltaje instantáneo en esta primera versión), una aproximación útil y de bajo costo es la \textbf{potencia aparente} $S$, definida como:
-
-\begin{equation}
-S = V_{\text{RMS}} \cdot I_{\text{RMS}}
-\label{eq:potencia-aparente}
-\end{equation}
-
-Para el contexto mexicano, se utiliza $V_{\text{RMS}} \approx 127\,\text{V}$ como valor nominal de la red residencial. La potencia aparente (expresada en VA, y reportada en la interfaz OLED como ``W'' de forma aproximada para facilitar la interpretación del usuario) resulta valiosa porque:
-
-\begin{itemize}
-    \item Proporciona al usuario una referencia inmediata del nivel de demanda eléctrica.
-    \item Permite construir series de tiempo de consumo con suficiente resolución para visualizar hábitos y detectar sobreconsumo.
-    \item Mantiene bajo el costo del hardware al evitar, en esta etapa, medición simultánea de voltaje y cálculo de potencia activa y factor de potencia.
-\end{itemize}
-
-\textit{Nota técnica:} en trabajos futuros, la propuesta es extender el sistema para medir voltaje instantáneo y estimar potencia activa $P$ y factor de potencia $\cos\phi$, mejorando la precisión del indicador energético sin perder el enfoque de bajo costo.
-
-\subsection{Descripción de la arquitectura (Hardware $\rightarrow$ Firmware $\rightarrow$ Cloud)}
-
-La solución se organiza en tres capas, con un flujo de datos continuo desde la medición local hasta el almacenamiento histórico en la nube.
-
-\subsubsection{Capa de Hardware}
-
-El núcleo del sistema está compuesto por:
-
-\begin{itemize}
-    \item \textbf{ESP32:} microcontrolador de doble núcleo con WiFi integrado, encargado del muestreo, procesamiento digital y comunicación.
-    \item \textbf{SCT-013-030 (30A/1V):} sensor de corriente no invasivo basado en transformador de corriente (CT), que permite instalación sin intervenir el cableado.
-    \item \textbf{Circuito de acondicionamiento:} divisor resistivo y bias de 1.65\,V para adaptar la señal alterna al rango del ADC del ESP32 (0--3.3\,V).
-    \item \textbf{OLED SSD1306:} pantalla de 128$\times$64 píxeles para visualización local en tiempo real de corriente RMS (A) y potencia aparente estimada (W).
-\end{itemize}
-
-\subsubsection{Capa de Firmware}
-
-El firmware implementado en el ESP32 ejecuta las siguientes tareas de forma continua:
-
-\begin{enumerate}
-    \item Adquisición de muestras del ADC durante 10 ciclos de 60\,Hz.
-    \item Eliminación del offset (Ecuación~\ref{eq:offset-removal}).
-    \item Cálculo de corriente RMS (Ecuación~\ref{eq:rms}).
-    \item Estimación de potencia aparente (Ecuación~\ref{eq:potencia-aparente}).
-    \item Actualización de la pantalla OLED con los valores calculados.
-    \item Envío de datos a la nube cada 30 segundos mediante protocolo HTTP a una API REST.
-\end{enumerate}
-
-El intervalo de 30 segundos representa un balance óptimo entre granularidad de datos, eficiencia energética del dispositivo y carga en la infraestructura cloud.
-
-\subsubsection{Capa de Infraestructura Cloud}
-
-Para el almacenamiento histórico y gestión de datos se integra \textbf{Supabase}, una plataforma basada en PostgreSQL que permite:
-
-\begin{itemize}
-    \item Almacenamiento estructurado de datos históricos con marcas de tiempo.
-    \item Acceso mediante API REST para inserción y consulta.
-    \item Escalabilidad horizontal sin necesidad de infraestructura propia.
-    \item Integración futura con dashboards web, aplicaciones móviles y algoritmos de detección de anomalías basados en aprendizaje automático \cite{malhotra2015,laptev2015}.
-\end{itemize}
-
-El uso de Supabase facilita la generación de gráficas históricas, análisis estadístico y posibles algoritmos de detección de anomalías, sin requerir infraestructura propia compleja ni costos elevados de operación.
-
-\subsection{Impacto esperado (económico y ambiental)}
-
-\subsubsection{Impacto económico}
-
-El sistema permite al usuario:
-
-\begin{itemize}
-    \item Identificar electrodomésticos con consumo elevado o comportamiento anómalo.
-    \item Detectar incrementos sostenidos antes de recibir el recibo bimestral.
-    \item Ajustar hábitos de consumo para reducir costos.
-    \item Tomar decisiones informadas sobre mantenimiento preventivo o revisión técnica.
-\end{itemize}
-
-Al tratarse de una solución basada en ESP32 y sensores no invasivos de bajo costo, el dispositivo puede implementarse con una inversión significativamente menor que soluciones comerciales cerradas, promoviendo la democratización del monitoreo energético en el contexto mexicano.
-
-\subsubsection{Impacto ambiental}
-
-Desde la perspectiva de sostenibilidad, el monitoreo continuo fomenta:
-
-\begin{itemize}
-    \item Reducción del consumo innecesario de energía.
-    \item Disminución indirecta de emisiones asociadas a la generación eléctrica.
-    \item Conciencia energética en el usuario final, promoviendo hábitos responsables.
-\end{itemize}
-
-La disponibilidad de datos en tiempo real transforma el comportamiento del consumidor, permitiendo pasar de un modelo reactivo a uno preventivo y consciente. Esta transición no solo reduce costos individuales, sino que contribuye al uso eficiente de los recursos energéticos a nivel nacional, alineándose con objetivos de desarrollo sostenible y eficiencia energética.
-
-\subsection{Diagrama de arquitectura propuesto}
-
-La Figura~\ref{fig:arquitectura-iot} resume el flujo de datos y la separación por capas del sistema, desde la medición no invasiva hasta el almacenamiento histórico en la nube.
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}[
-    font=\small,
-    node distance=1.2cm and 1.4cm,
-    box/.style={draw, rounded corners, align=center, minimum width=3.3cm, minimum height=1.2cm},
-    line/.style={-Latex, thick},
-    group/.style={draw, dashed, rounded corners, inner sep=0.35cm}
-]
-
-% --- Hardware boxes ---
-\node[box, fill=shallowGreen, draw=deepGreen] (ct) {Sensor CT\\SCT-013-030\\(30A/1V)};
-\node[box, fill=shallowGreen, draw=deepGreen, right=of ct] (cond) {Acondicionamiento\\Divisor + Bias 1.65V\\(ADC safe)};
-\node[box, fill=shallowGreen, draw=deepGreen, right=of cond] (esp) {ESP32\\Muestreo (10 ciclos)\\Cálculo $I_{\mathrm{RMS}},\,S$};
-\node[box, fill=shallowGreen, draw=deepGreen, below=of esp] (oled) {OLED SSD1306\\Visualización local\\A y W};
-
-% --- Cloud boxes ---
-\node[box, fill=shallowBlue, draw=deepBlue, right=2.2cm of esp] (api) {API REST\\(HTTP)};
-\node[box, fill=shallowBlue, draw=deepBlue, right=of api] (sup) {Supabase\\PostgreSQL\\Histórico};
-
-\node[box, fill=shallowBlue, draw=deepBlue, below=of sup] (dash) {Dashboard / App\\Gráficas y alertas\\(futuro)};
-
-% --- Group frames ---
-\node[group, fit=(ct) (cond) (esp) (oled), label={[align=center]above:\textbf{Capa Hardware + Interfaz local}}] (g1) {};
-\node[group, fit=(api) (sup) (dash), label={[align=center]above:\textbf{Capa Cloud}}] (g2) {};
-
-% --- Arrows ---
-\draw[line] (ct) -- node[above]{Señal CA} (cond);
-\draw[line] (cond) -- node[above]{Señal acond.} (esp);
-\draw[line] (esp) -- node[above]{JSON cada 30 s} (api);
-\draw[line] (api) -- (sup);
-\draw[line] (esp) -- (oled);
-\draw[line] (sup) -- (dash);
-
-\end{tikzpicture}
-\caption{Arquitectura del Sistema de Monitoreo Energético Residencial IoT de Bajo Costo: medición no invasiva, procesamiento local y almacenamiento histórico en Supabase.}
-\label{fig:arquitectura-iot}
-\end{figure}
-
-\bigskip
-
-En síntesis, el Sistema de Monitoreo Energético Residencial IoT de Bajo Costo representa una solución técnicamente viable, económicamente accesible y ambientalmente responsable para el contexto mexicano. Su arquitectura modular permite futuras extensiones, como integración de medición de voltaje real, cálculo de potencia activa y factor de potencia, o implementación de algoritmos de detección de anomalías basados en aprendizaje automático \cite{malhotra2015,taylor2018prophet}.
   
 \chapter{Estado del Arte}   % => CAPÍTULO 2
 

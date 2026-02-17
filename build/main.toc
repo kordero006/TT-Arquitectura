@@ -9,28 +9,22 @@
 \contentsline {chapter}{\numberline {1}Planteamiento del problema}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Definición del problema}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Propuesta de solución}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Justificación técnica}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Fundamento de medición y ecuaciones empleadas}{4}{subsection.1.2.2}%
-\contentsline {subsubsection}{Acondicionamiento de señal para el ADC del ESP32}{4}{section*.8}%
-\contentsline {subsubsection}{Cálculo de corriente RMS}{4}{section*.9}%
-\contentsline {subsubsection}{Estimación de potencia aparente}{5}{section*.10}%
-\contentsline {subsection}{\numberline {1.2.3}Descripción de la arquitectura (Hardware $\rightarrow $ Firmware $\rightarrow $ Cloud)}{5}{subsection.1.2.3}%
-\contentsline {subsubsection}{Capa de Hardware}{6}{section*.11}%
-\contentsline {subsubsection}{Capa de Firmware}{6}{section*.12}%
-\contentsline {subsubsection}{Capa de Infraestructura Cloud}{6}{section*.13}%
-\contentsline {subsection}{\numberline {1.2.4}Impacto esperado (económico y ambiental)}{7}{subsection.1.2.4}%
-\contentsline {subsubsection}{Impacto económico}{7}{section*.14}%
-\contentsline {subsubsection}{Impacto ambiental}{7}{section*.15}%
-\contentsline {subsection}{\numberline {1.2.5}Diagrama de arquitectura propuesto}{7}{subsection.1.2.5}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{9}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{10}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ejemplos de código}{13}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{15}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{16}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{17}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{18}{appendix.C}%
-\contentsline {chapter}{Referencias}{19}{appendix*.17}%
+\contentsline {subsection}{\numberline {1.2.1}Descripción de los módulos del sistema}{3}{subsection.1.2.1}%
+\contentsline {subsubsection}{Módulo de Adquisición y Acondicionamiento}{4}{section*.8}%
+\contentsline {subsubsection}{Módulo de Procesamiento Local (Unidad Central)}{4}{section*.9}%
+\contentsline {subsubsection}{Módulo de Interfaz Local y Retroalimentación}{4}{section*.10}%
+\contentsline {subsubsection}{Módulo de Conectividad y Gestión Cloud}{4}{section*.11}%
+\contentsline {subsection}{\numberline {1.2.2}Metodología de operación}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Diagrama de bloques del sistema propuesto}{5}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{8}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{10}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ejemplos de código}{10}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{11}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{12}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{14}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{15}{appendix.C}%
+\contentsline {chapter}{Referencias}{16}{appendix*.12}%
