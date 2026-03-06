@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.17)  17 FEB 2026 02:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.17)  5 MAR 2026 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1351,7 +1351,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (d:\LaTeX\Pro_Terminal\build\main.bbl)
 Package biblatex Info: Reference section=0 on input line 94.
 Package biblatex Info: Reference segment=0 on input line 94.
-<logo-ipn-guinda.png, id=94, 397.485pt x 614.295pt>
+<logo-ipn-guinda.png, id=106, 397.485pt x 614.295pt>
 File: logo-ipn-guinda.png Graphic file (type png)
 <use logo-ipn-guinda.png>
 Package pdftex.def Info: logo-ipn-guinda.png  used on input line 115.
@@ -1390,7 +1390,7 @@ Overfull \hbox (41.54198pt too wide) in paragraph at lines 166--173
  [][] 
  []
 
-<logo-upiita.png, id=96, 284.7438pt x 284.7438pt>
+<logo-upiita.png, id=108, 284.7438pt x 284.7438pt>
 File: logo-upiita.png Graphic file (type png)
 <use logo-upiita.png>
 Package pdftex.def Info: logo-upiita.png  used on input line 183.
@@ -1419,13 +1419,26 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 10.
-)
+ [4
+
+])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- [4
+LaTeX Info: Redefining \sptext on input line 213.
+LaTeX Info: Redefining \. on input line 213.
+LaTeX Info: Redefining \% on input line 213.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 213.
 
-] (d:\LaTeX\Pro_Terminal\build\main.lot
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.35403pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.35403pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.35403pt}.
+
+[5] (d:\LaTeX\Pro_Terminal\build\main.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1436,7 +1449,7 @@ LaTeX Info: Redefining \% on input line 4.
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [5
+ [6
 
 ] (d:\LaTeX\Pro_Terminal\build\main.lof
 LaTeX Info: Redefining \sptext on input line 1.
@@ -1449,7 +1462,7 @@ LaTeX Info: Redefining \% on input line 4.
 \tf@lof=\write11
 \openout11 = `main.lof'.
 
- [6
+ [7
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1467,8 +1480,6 @@ Cap\'{\i }tulo 1.
 LaTeX Info: Redefining \sptext on input line 252.
 LaTeX Info: Redefining \. on input line 252.
 LaTeX Info: Redefining \% on input line 252.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 252.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1490,12 +1501,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+<sistema-propuesto.pdf, id=214, 1882.03125pt x 1882.03125pt>
+File: sistema-propuesto.pdf Graphic file (type pdf)
+<use sistema-propuesto.pdf>
+Package pdftex.def Info: sistema-propuesto.pdf  used on input line 274.
+(pdftex.def)             Requested size: 472.03123pt x 472.02869pt.
+LaTeX Info: Redefining \sptext on input line 283.
+LaTeX Info: Redefining \. on input line 283.
+LaTeX Info: Redefining \% on input line 283.
 
-LaTeX Warning: Reference `fig:diagrama-bloques' on page 5 undefined on input line 270.
-
-LaTeX Info: Redefining \sptext on input line 274.
-LaTeX Info: Redefining \. on input line 274.
-LaTeX Info: Redefining \% on input line 274.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1503,48 +1517,88 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[5 <./sistema-propuesto.pdf>]
+LaTeX Info: Redefining \sptext on input line 301.
+LaTeX Info: Redefining \. on input line 301.
+LaTeX Info: Redefining \% on input line 301.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 311.
+ (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \sptext on input line 328.
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7{C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Info: Redefining \sptext on input line 347.
+LaTeX Info: Redefining \. on input line 347.
+LaTeX Info: Redefining \% on input line 347.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
 Cap\'{\i }tulo 2.
-[6
-
-]
-Cap\'{\i }tulo 3.
-[7
-
-]
-Cap\'{\i }tulo 4.
-[8
-
-]
-Cap\'{\i }tulo 5.
 [9
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 3.
 [10
 
 ]
-Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 4.
 [11
 
 ]
-Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 5.
 [12
 
 ]
-Ap\'{e}ndice A.
+Cap\'{\i }tulo 6.
 [13
 
 ]
-Ap\'{e}ndice B.
+Cap\'{\i }tulo 7.
 [14
 
 ]
-Ap\'{e}ndice C.
+Cap\'{\i }tulo 8.
 [15
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 304.
+Ap\'{e}ndice A.
+[16
+
+]
+Ap\'{e}ndice B.
+[17
+
+]
+Ap\'{e}ndice C.
+[18
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 377.
  (C:\Users\puiyi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1553,7 +1607,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[16
+[19
 
 
 ] (d:\LaTeX\Pro_Terminal\build\main.aux
@@ -1568,36 +1622,27 @@ LaTeX Info: Redefining \% on input line 27.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AB6D58A02B3CB737ED0E1C01F3910C39;3478.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 4A15B2CF13E2E8B7B7CE13C6381CAA45;4007.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53024 strings out of 467866
- 1214199 string characters out of 5418325
- 2313836 words of memory out of 5000000
- 81076 multiletter control sequences out of 15000+600000
- 693848 words of font info for 87 fonts, out of 8000000 for 9000
+ 53122 strings out of 467866
+ 1216631 string characters out of 5418325
+ 2315658 words of memory out of 5000000
+ 81150 multiletter control sequences out of 15000+600000
+ 697215 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,104p,2509b,2179s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,104p,2509b,2499s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:iot} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (23 pages, 541007 bytes).
+<C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on d:\LaTeX\Pro_Terminal\build\main.pdf (27 pages, 694185 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,15 +16,25 @@
 \contentsline {subsubsection}{Módulo de Conectividad y Gestión Cloud}{4}{section*.11}%
 \contentsline {subsection}{\numberline {1.2.2}Metodología de operación}{4}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Diagrama de bloques del sistema propuesto}{5}{subsection.1.2.3}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{6}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{8}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{9}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{10}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ejemplos de código}{10}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{11}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{12}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{13}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{14}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{15}{appendix.C}%
-\contentsline {chapter}{Referencias}{16}{appendix*.12}%
+\contentsline {subsection}{\numberline {1.2.4}Descripción del sistema propuesto}{6}{subsection.1.2.4}%
+\contentsline {subsubsection}{Etapa de adquisición}{6}{section*.13}%
+\contentsline {subsubsection}{Etapa de procesamiento (ESP32)}{6}{section*.14}%
+\contentsline {subsubsection}{Etapa de salida e interacción con el usuario}{6}{section*.15}%
+\contentsline {subsection}{\numberline {1.2.5}Objetivos}{7}{subsection.1.2.5}%
+\contentsline {subsubsection}{Objetivo general}{7}{section*.16}%
+\contentsline {subsubsection}{Objetivos específicos}{7}{section*.17}%
+\contentsline {subsection}{\numberline {1.2.6}Alcances y limitaciones}{7}{subsection.1.2.6}%
+\contentsline {subsubsection}{Alcances}{8}{section*.18}%
+\contentsline {subsubsection}{Limitaciones}{8}{section*.19}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{11}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ejemplos de código}{13}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{15}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{17}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{18}{appendix.C}%
+\contentsline {chapter}{Referencias}{19}{appendix*.20}%

@@ -267,10 +267,83 @@ Este enfoque permite que el sistema no solo funcione como un medidor, sino como 
 
 \subsection{Diagrama de bloques del sistema propuesto}
 
-En la Figura~\ref{fig:diagrama-bloques} se presenta la interconexión de los módulos descritos, ilustrando el camino de la información desde la red eléctrica hasta el almacenamiento final en la nube.
+En la Figura~\ref{fig:sistema_propuesto} se presenta la interconexión de los módulos descritos, ilustrando el camino de la información desde la red eléctrica hasta el almacenamiento final en la nube.
 
-
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{sistema-propuesto.pdf}
+  \caption{Diagrama de bloques del sistema de monitoreo preventivo propuesto.}
+  \label{fig:sistema_propuesto}
+\end{figure}
   
+\subsection{Descripción del sistema propuesto}
+\label{subsec:desc_sistema_propuesto}
+
+La solución planteada se estructura como un sistema de monitoreo preventivo cuyo propósito es observar el comportamiento eléctrico de cargas domésticas y, a partir de ello, generar información útil para el usuario respecto a posibles condiciones anómalas o patrones de consumo inusuales. Para mantener claridad y escalabilidad, se adopta una arquitectura modular basada en tres etapas: adquisición, procesamiento y salida, tal como se muestra en la Figura~\ref{fig:sistema_propuesto}. Este enfoque es consistente con lineamientos generales de sistemas IoT, en donde se distinguen capas de obtención de datos, cómputo y exposición/consumo de información \cite{nist-sp800-183}.
+
+\subsubsection{Etapa de adquisición}
+\label{subsubsec:adquisicion}
+La etapa de adquisición obtiene la variable primaria de interés (corriente eléctrica) de manera no invasiva mediante un transformador de corriente tipo pinza (SCT-013). Este esquema permite instrumentar el sistema sin interrumpir el suministro, reduciendo complejidad de instalación y manteniendo un enfoque seguro para entornos residenciales. Dado que la señal capturada es analógica, se incorpora un bloque de acondicionamiento que adapta el nivel de voltaje y atenúa perturbaciones, con el fin de entregar una señal compatible con la electrónica de medición del microcontrolador.
+
+\subsubsection{Etapa de procesamiento (ESP32)}
+\label{subsubsec:procesamiento}
+En la etapa de procesamiento, el microcontrolador realiza el muestreo de la señal a través de su convertidor analógico-digital (ADC) y calcula parámetros eléctricos representativos del estado de operación de la carga (por ejemplo, valores eficaces y estimaciones de potencia/energía). Posteriormente, dichos parámetros alimentan una lógica determinista de detección de anomalías basada en ventanas de análisis y umbrales configurables. El objetivo de esta lógica no es ``detectar incendios'', sino \textit{prevenir} condiciones de riesgo o degradación (p.\,ej., sobreconsumos sostenidos, variaciones atípicas respecto al patrón esperado), permitiendo al usuario tomar acciones como revisión técnica, mantenimiento o sustitución oportuna.
+
+\subsubsection{Etapa de salida e interacción con el usuario}
+\label{subsubsec:salida}
+Para maximizar la utilidad del sistema, la etapa de salida contempla dos vías complementarias. En primer lugar, una interfaz local (pantalla OLED) presenta al usuario información inmediata para consulta en sitio. En segundo lugar, mediante conectividad Wi-Fi se habilita una interfaz remota para visualización histórica y notificaciones. Para esta comunicación se consideran protocolos ligeros de intercambio de mensajes ampliamente utilizados en IoT; por ejemplo, MQTT para telemetría o HTTP para integración con servicios web \cite{mqtt-oasis,fielding2000rest}. Esta separación entre visualización local y servicios remotos favorece que el sistema pueda operar de forma autónoma ante fallos de conectividad, mientras que el canal remoto incrementa el valor del monitoreo al permitir análisis de tendencia y trazabilidad de eventos.
+
+En conjunto, la arquitectura propuesta facilita la evolución del sistema (p.\,ej., incorporar nuevas métricas o reglas de detección) y promueve una presentación de resultados comprensible para el usuario final, alineando el desarrollo con un enfoque de prevención y mantenimiento oportuno.
+\subsection{Objetivos}
+\label{subsec:objetivos}
+
+Los objetivos del presente trabajo se establecen con la finalidad de orientar el desarrollo del sistema propuesto y delimitar el alcance del proyecto en términos de diseño, implementación y validación. En este sentido, se definen un objetivo general y un conjunto de objetivos específicos, los cuales permiten organizar las actividades y verificar el cumplimiento de los resultados esperados.
+
+\subsubsection{Objetivo general}
+\label{subsubsec:objetivo_general}
+
+Diseñar e implementar un sistema de monitoreo preventivo de bajo costo para el análisis del consumo eléctrico en cargas domésticas, capaz de identificar condiciones anómalas de operación y presentar información comprensible al usuario, con el propósito de apoyar la toma de decisiones orientadas al mantenimiento oportuno y la reducción de riesgos en el entorno residencial \cite{nist-sp800-183}.
+
+\subsubsection{Objetivos específicos}
+\label{subsubsec:objetivos_especificos}
+
+\begin{itemize}
+    \item Diseñar y construir el módulo de adquisición de datos basado en un sensor de corriente no invasivo (SCT-013), incorporando el acondicionamiento de señal necesario para garantizar compatibilidad eléctrica y seguridad en la lectura por parte del microcontrolador.
+    \item Implementar en el microcontrolador ESP32 las rutinas de muestreo y cálculo de parámetros eléctricos (p.\,ej., corriente eficaz y estimaciones de potencia/energía) que permitan caracterizar el comportamiento de consumo de las cargas monitoreadas.
+    \item Desarrollar una lógica determinista para la detección de anomalías basada en ventanas de análisis y umbrales configurables, orientada a identificar desviaciones relevantes respecto a patrones de consumo esperados \cite{chandola2009anomaly}.
+    \item Habilitar la comunicación y transmisión de datos mediante conectividad Wi-Fi, considerando el uso de protocolos ligeros para telemetría e integración con servicios web (p.\,ej., MQTT/HTTP) \cite{mqtt-oasis,fielding2000rest}.
+    \item Diseñar e integrar una interfaz local mediante pantalla OLED para visualización inmediata de variables clave, así como una interfaz remota (dashboard web/app) para consulta histórica y generación de alertas preventivas.
+    \item Validar el funcionamiento del sistema mediante pruebas con cargas domésticas reales, comparando las mediciones obtenidas con instrumentos convencionales y verificando la detección de eventos de interés en escenarios representativos.
+\end{itemize}
+
+\subsection{Alcances y limitaciones}
+\label{subsec:alcances_limitaciones}
+
+Para garantizar la viabilidad técnica y el cumplimiento de los objetivos planteados, es necesario delimitar el campo de acción del sistema propuesto, estableciendo tanto las capacidades que se pretenden alcanzar como las restricciones inherentes al diseño y la tecnología empleada.
+
+\subsubsection{Alcances}
+\label{subsubsec:alcances}
+
+El proyecto comprende el desarrollo integral de un prototipo funcional de monitoreo preventivo, abarcando desde la instrumentación física hasta la visualización de datos en plataformas digitales. Los alcances específicos incluyen:
+
+\begin{itemize}
+    \item \textbf{Monitoreo de corriente alterna (AC):} El sistema está diseñado para medir el consumo de corriente en una sola fase (monofásico) mediante el uso de un sensor no invasivo SCT-013, cubriendo el rango típico de operación de electrodomésticos residenciales (hasta 30A o 100A según el modelo del sensor).
+    \item \textbf{Procesamiento en tiempo real:} La unidad de procesamiento (ESP32) realizará el muestreo y cálculo de parámetros eléctricos (I\_RMS y potencia aparente estimada) con una frecuencia de actualización suficiente para detectar variaciones significativas en el consumo \cite{nist-sp800-183}.
+    \item \textbf{Detección de anomalías determinista:} El sistema identificará desviaciones de consumo basadas en umbrales predefinidos y ventanas de tiempo, permitiendo alertar sobre sobreconsumos sostenidos o comportamientos inusuales que sugieran degradación del equipo \cite{chandola2009anomaly}.
+    \item \textbf{Conectividad dual:} Se garantiza la disponibilidad de información tanto de forma local (pantalla OLED) como remota (dashboard web/app vía Wi-Fi), utilizando protocolos de comunicación eficientes como MQTT o HTTP \cite{mqtt-oasis}.
+\end{itemize}
+
+\subsubsection{Limitaciones}
+\label{subsubsec:limitaciones}
+
+Es importante señalar las restricciones del sistema para evitar interpretaciones fuera del contexto preventivo del diseño:
+
+\begin{itemize}
+    \item \textbf{Naturaleza preventiva, no reactiva:} El sistema no es un dispositivo de protección eléctrica (como un interruptor termomagnético o un GFCI). Su función es informar y alertar, mas no interrumpir el suministro eléctrico ante una falla crítica o cortocircuito.
+    \item \textbf{Dependencia de infraestructura de red:} La funcionalidad de la interfaz remota y el envío de notificaciones dependen de la disponibilidad y estabilidad de una red Wi-Fi con acceso a Internet. No obstante, el monitoreo local y la detección de anomalías operan de forma autónoma en el microcontrolador.
+    \item \textbf{Precisión del sensor:} Al utilizar un sensor de corriente no invasivo de bajo costo, la precisión puede verse afectada por interferencias electromagnéticas externas o por la calidad del acondicionamiento de señal, por lo que los datos deben considerarse como una referencia para mantenimiento y no como una medición de grado industrial o de facturación eléctrica.
+    \item \textbf{Alcance del análisis:} El sistema se limita al análisis de la magnitud de la corriente y potencia estimada. No contempla el análisis de armónicos complejos o calidad de la energía (THD), los cuales requerirían hardware de adquisición de mayor velocidad y capacidad de cómputo.
+\end{itemize}
 \chapter{Estado del Arte}   % => CAPÍTULO 2
 
 \chapter{Marco Teórico}   % => CAPÍTULO 3
