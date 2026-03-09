@@ -26,15 +26,22 @@
 \contentsline {subsection}{\numberline {1.2.6}Alcances y limitaciones}{7}{subsection.1.2.6}%
 \contentsline {subsubsection}{Alcances}{8}{section*.18}%
 \contentsline {subsubsection}{Limitaciones}{8}{section*.19}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{9}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{10}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ejemplos de código}{13}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{15}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{16}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{17}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{18}{appendix.C}%
-\contentsline {chapter}{Referencias}{19}{appendix*.20}%
+\contentsline {subsection}{\numberline {1.2.7}Justificación}{9}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Metodología}{9}{subsection.1.2.8}%
+\contentsline {subsubsection}{Fase 1: Levantamiento de requisitos y definición de alcance}{10}{section*.20}%
+\contentsline {subsubsection}{Fase 2: Diseño de arquitectura IoT del sistema}{10}{section*.21}%
+\contentsline {subsubsection}{Fase 3: Implementación del nodo IoT (adquisición y procesamiento local)}{10}{section*.22}%
+\contentsline {subsubsection}{Fase 4: Comunicación, gestión de datos e integración de servicios}{10}{section*.23}%
+\contentsline {subsubsection}{Fase 5: Pruebas, validación y ajuste iterativo}{11}{section*.24}%
+\contentsline {chapter}{\numberline {2}Estado del Arte}{12}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{16}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ejemplos de código}{16}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{18}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{19}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{20}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{21}{appendix.C}%
+\contentsline {chapter}{Referencias}{22}{appendix*.25}%

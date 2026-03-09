@@ -60,6 +60,35 @@
       \verb 10.1145/1541880.1541882
       \endverb
     \endentry
+    \entry{unam-incendios}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d8a0fb6813c72ecb5ae0673485f5e26}{%
+           family={{Contraloría de la Universidad Nacional Autónoma de México (UNAM)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{fullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{fullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{bibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorbibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authornamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorfullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorfullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Sitio web}
+      \field{note}{Consultado el 2026-03-06}
+      \field{title}{Incendios}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \endverb
+      \verb{url}
+      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \endverb
+    \endentry
     \entry{proteccion-civil-incendios-vivienda}{report}{}{}
       \name{author}{1}{}{%
         {{hash=58227a6352a273311b1590cfbba92565}{%
@@ -92,6 +121,37 @@
       \endverb
       \verb{url}
       \verb https://www.gob.mx/cenapred
+      \endverb
+    \endentry
+    \entry{azteca-fallas-electricas-incendios-2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=be511157f6d0f06a391d4ab564e32d2f}{%
+           family={Femat},
+           familyi={F\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{fullhash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{fullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{bibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorbibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authornamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorfullhash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorfullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Nota periodística en línea}
+      \field{note}{Consultado el 2026-03-06}
+      \field{title}{Detectan aumento de incendios en casas por fallas eléctricas}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
+      \endverb
+      \verb{url}
+      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
       \endverb
     \endentry
     \entry{fielding2000rest}{thesis}{}{}
@@ -313,6 +373,38 @@
       \field{note}{Ver versión vigente publicada en el Diario Oficial de la Federación (DOF)}
       \field{title}{Norma Oficial Mexicana NOM-001-SEDE (Instalaciones eléctricas -- Utilización)}
       \field{year}{2012}
+    \endentry
+    \entry{iota-arm-2013}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=2aca2879339d876e8efb446195a66df9}{%
+           family={{The IoT-A Consortium}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{fullhash}{2aca2879339d876e8efb446195a66df9}
+      \strng{fullhashraw}{2aca2879339d876e8efb446195a66df9}
+      \strng{bibnamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorbibnamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authornamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorfullhash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorfullhashraw}{2aca2879339d876e8efb446195a66df9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Internet of Things - Architectural Reference Model (IoT-A ARM)}
+      \field{type}{Project Deliverables}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iot-a.eu/
+      \endverb
+      \verb{url}
+      \verb https://www.iot-a.eu/
+      \endverb
     \endentry
     \entry{nist-sp800-183}{report}{}{}
       \name{author}{1}{}{%

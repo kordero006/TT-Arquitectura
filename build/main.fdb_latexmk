@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1772756663.50099 "build/main.bcf" "build/main.bbl" "build/main" 1772756665.02751 0
-  "build/main.bcf" 1772756580 109763 c60f9f7f4642bcba3454d8b70e347717 "pdflatex"
-  "referencias.bib" 1772756662 11690 ba18ae00bfffa99409a6925f8d4bbdc0 ""
+["biber build/main"] 1772765286.99427 "build/main.bcf" "build/main.bbl" "build/main" 1772766686.11129 0
+  "build/main.bcf" 1772766685 110555 877c821c697b315fd6c22aaf9c0cdca3 "pdflatex"
+  "referencias.bib" 1772765286 12794 bfaffa9471550bc4a8a259578d95d898 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1772756578.63985 "d:/LaTeX/Pro_Terminal/main.tex" "build/main.pdf" "main" 1772756665.02762 0
+["pdflatex"] 1772766683.27149 "d:/LaTeX/Pro_Terminal/main.tex" "build/main.pdf" "main" 1772766686.11177 0
   "C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771316035 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1771316928 13333862 33b2b63905fadac2a89e0041a3d64805 ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -296,17 +296,17 @@
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/puiyi/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
-  "build/main.aux" 1772756580 9306 201bc8067adcf0b1e5ad1f57d71934b6 "pdflatex"
-  "build/main.bbl" 1772756664 14503 75ad4168d6eb94c903c5de28254503bf "biber build/main"
-  "build/main.lof" 1772756580 487 e66b9b1df684ffaeb5a35afa7839bb15 "pdflatex"
-  "build/main.lot" 1772756580 340 75836b3f4778302d8719179c5b3b1568 "pdflatex"
-  "build/main.out" 1772756580 4007 4a15b2cf13e2e8b7b7ce13c6381caa45 "pdflatex"
-  "build/main.run.xml" 1772756580 2434 162d858ffb7c356f1e339b2ddbc1e62c "pdflatex"
-  "build/main.toc" 1772756580 2965 fc715d68abc7bba89c1aad3703e092c7 "pdflatex"
-  "d:/LaTeX/Pro_Terminal/main.tex" 1772756573 27360 def1b15748e437e831afbaae1c2fed3c ""
+  "build/main.aux" 1772766685 12121 645d524e8e6200c9239a60b2132caa2c "pdflatex"
+  "build/main.bbl" 1772765288 18642 fe3693645aa8c59739b2b3fa8aecbcf6 "biber build/main"
+  "build/main.lof" 1772766685 487 e66b9b1df684ffaeb5a35afa7839bb15 "pdflatex"
+  "build/main.lot" 1772766685 340 75836b3f4778302d8719179c5b3b1568 "pdflatex"
+  "build/main.out" 1772766685 4257 4c85855bac1e49a91a5763265abd32ac "pdflatex"
+  "build/main.run.xml" 1772766685 2434 162d858ffb7c356f1e339b2ddbc1e62c "pdflatex"
+  "build/main.toc" 1772766685 3677 e1680486c9e5d69fc7641aa87b7acfad "pdflatex"
+  "d:/LaTeX/Pro_Terminal/main.tex" 1772766682 35670 cdcc0e3b080eca307ea5a47f6425a692 ""
   "logo-ipn-guinda.png" 1756246063 336660 2239702f3eb35a00ec7470f258cafb69 ""
   "logo-upiita.png" 1756246067 103144 dfd5c4728aba7d468d5459dfc3c3be7f ""
-  "main.tex" 1772756573 27360 def1b15748e437e831afbaae1c2fed3c ""
+  "main.tex" 1772766682 35670 cdcc0e3b080eca307ea5a47f6425a692 ""
   "sistema-propuesto.pdf" 1772754561 106814 5fa74969adef9a98cce014cd6e72cf22 ""
   (generated)
   "build/main.acn"
