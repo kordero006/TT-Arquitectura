@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.11" bltxversion="3.21" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -502,6 +502,7 @@
     <bcf:option datatype="xml">inheritance</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">uniquenametemplate</bcf:option>
+    <bcf:option datatype="xml">namehashtemplate</bcf:option>
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
@@ -513,6 +514,7 @@
     <bcf:option datatype="string">alphaothers</bcf:option>
     <bcf:option datatype="string">sortalphaothers</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
+    <bcf:option datatype="string">citepagerange</bcf:option>
     <bcf:option datatype="string">texencoding</bcf:option>
     <bcf:option datatype="string">bibencoding</bcf:option>
     <bcf:option datatype="string">sortingtemplatename</bcf:option>
@@ -749,9 +751,10 @@
   </bcf:optionscope>
   <bcf:optionscope type="ENTRY">
     <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
     <bcf:option datatype="string" backendout="1">indexing</bcf:option>
@@ -828,9 +831,10 @@
     <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
@@ -844,9 +848,10 @@
     <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
+    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
@@ -1060,6 +1065,13 @@
     <bcf:namepart order="2" base="1">family</bcf:namepart>
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
+  <!-- NAME HASH TEMPLATES -->
+  <bcf:namehashtemplate name="global">
+    <bcf:namepart order="1" hashscope="full">family</bcf:namepart>
+    <bcf:namepart order="2" hashscope="full">given</bcf:namepart>
+    <bcf:namepart order="3" hashscope="full">prefix</bcf:namepart>
+    <bcf:namepart order="4" hashscope="full">suffix</bcf:namepart>
+  </bcf:namehashtemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
   <bcf:sortingnamekeytemplate name="global" visibility="sort">
     <bcf:keypart order="1">
@@ -2362,54 +2374,33 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">iota-arm-2013</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">iic-iira-2019</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">rami4-0</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">nist-iot-core-baseline</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">lee2015cyber</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">shi2016edge</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">satyanarayanan2017</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="7" intorder="2">coap-rfc7252</bcf:citekey>
-    <bcf:citekey order="7" intorder="3">opcuabook</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">nist-iot-core-baseline</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">lwm2m</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">coap-rfc7252</bcf:citekey>
-    <bcf:citekey order="10" intorder="3">opcuabook</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">laptev2015</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">malhotra2015</bcf:citekey>
-    <bcf:citekey order="11" intorder="3">taylor2018prophet</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">sener-balance-nacional-energia</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">proteccion-civil-incendios-vivienda</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">nom-electricidad-instalaciones</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">malhotra2015</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">laptev2015</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">chandola2009anomaly</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">chandola2009anomaly</bcf:citekey>
     <bcf:citekey order="12" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">coap-rfc7252</bcf:citekey>
-    <bcf:citekey order="12" intorder="3">fielding2000rest</bcf:citekey>
-    <bcf:citekey order="12" intorder="4">opcuabook</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">nist-iot-core-baseline</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">coap-rfc7252</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">dtls-rfc9147</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">fielding2000rest</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">opcuabook</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">cbor-rfc8949</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">protobuf</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">dtls-rfc9147</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">unam-incendios</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">azteca-fallas-electricas-incendios-2026</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">iota-arm-2013</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">iota-arm-2013</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">chandola2009anomaly</bcf:citekey>
     <bcf:citekey order="21" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">coap-rfc7252</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">opcuabook</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">kafka</bcf:citekey>
-    <bcf:citekey order="24" intorder="2">pulsar</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">influxdb</bcf:citekey>
-    <bcf:citekey order="25" intorder="2">timescale</bcf:citekey>
-    <bcf:citekey order="25" intorder="3">prometheus</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">flink</bcf:citekey>
-    <bcf:citekey order="26" intorder="2">spark-ss</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">kubernetes</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">azure-iot-edge</bcf:citekey>
-    <bcf:citekey order="28" intorder="2">aws-greengrass</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">grafana</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">nist-iot-core-baseline</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">fielding2000rest</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
@@ -2442,12 +2433,13 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nty/global//global/global"
+                name="nty/global//global/global/global"
                 type="entry"
                 sortingtemplatename="nty"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
-                labelalphanametemplatename="global">
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
   </bcf:datalist>
 </bcf:controlfile>
