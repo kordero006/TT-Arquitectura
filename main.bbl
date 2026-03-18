@@ -18,75 +18,40 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{chandola2009anomaly}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=818074037ed2f89ce51237af38dec11f}{%
-           family={Chandola},
-           familyi={C\bibinitperiod},
-           given={Varun},
-           giveni={V\bibinitperiod}}}%
-        {{hash=4ddb7b9c38d8c15a70bc573ba4e51ea9}{%
-           family={Banerjee},
-           familyi={B\bibinitperiod},
-           given={Arindam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=efb90d78e35ff61d3bc639f5c6f3d822}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Vipin},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{3843f6427d6ca01b54e95297405107bb}
-      \strng{fullhash}{135c55bbecd240d054a5541e3cf77609}
-      \strng{fullhashraw}{135c55bbecd240d054a5541e3cf77609}
-      \strng{bibnamehash}{135c55bbecd240d054a5541e3cf77609}
-      \strng{authorbibnamehash}{135c55bbecd240d054a5541e3cf77609}
-      \strng{authornamehash}{3843f6427d6ca01b54e95297405107bb}
-      \strng{authorfullhash}{135c55bbecd240d054a5541e3cf77609}
-      \strng{authorfullhashraw}{135c55bbecd240d054a5541e3cf77609}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM Computing Surveys}
-      \field{number}{3}
-      \field{title}{Anomaly Detection: A Survey}
-      \field{volume}{41}
-      \field{year}{2009}
-      \field{pages}{1\bibrangedash 58}
-      \range{pages}{58}
-      \verb{doi}
-      \verb 10.1145/1541880.1541882
-      \endverb
-    \endentry
-    \entry{unam-incendios}{misc}{}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{sener-balance-nacional-energia}{report}{}{}
       \name{author}{1}{}{%
-        {{hash=1d8a0fb6813c72ecb5ae0673485f5e26}{%
-           family={{Contraloría de la Universidad Nacional Autónoma de México (UNAM)}},
-           familyi={C\bibinitperiod}}}%
+        {{hash=39cb24fb6f3344503fcabf9c5e7411a7}{%
+           family={{Secretaría de Energía (SENER)}},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{fullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{fullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{bibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{authorbibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{authornamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{authorfullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \strng{authorfullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \list{institution}{1}{%
+        {Gobierno de México}%
+      }
+      \strng{namehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{fullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{fullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{bibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorbibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authornamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorfullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorfullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Sitio web}
-      \field{note}{Consultado el 2026-03-06}
-      \field{title}{Incendios}
-      \field{year}{2026}
+      \field{title}{Balance Nacional de Energía}
+      \field{urlday}{17}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \verb https://www.gob.mx/sener/acciones-y-programas/balance-nacional-de-energia
       \endverb
       \verb{url}
-      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \verb https://www.gob.mx/sener/acciones-y-programas/balance-nacional-de-energia
       \endverb
     \endentry
     \entry{proteccion-civil-incendios-vivienda}{report}{}{}
@@ -106,8 +71,8 @@
       \strng{authornamehash}{58227a6352a273311b1590cfbba92565}
       \strng{authorfullhash}{58227a6352a273311b1590cfbba92565}
       \strng{authorfullhashraw}{58227a6352a273311b1590cfbba92565}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Estadísticas y recomendaciones sobre incendios en casa habitación}
@@ -123,116 +88,250 @@
       \verb https://www.gob.mx/cenapred
       \endverb
     \endentry
-    \entry{azteca-fallas-electricas-incendios-2026}{misc}{}{}
+    \entry{nom-electricidad-instalaciones}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=be511157f6d0f06a391d4ab564e32d2f}{%
-           family={Femat},
-           familyi={F\bibinitperiod},
-           given={Dominique},
-           giveni={D\bibinitperiod}}}%
+        {{hash=39cb24fb6f3344503fcabf9c5e7411a7}{%
+           family={{Secretaría de Energía (SENER)}},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{fullhash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{fullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{bibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{authorbibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{authornamehash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{authorfullhash}{be511157f6d0f06a391d4ab564e32d2f}
-      \strng{authorfullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{fullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{fullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{bibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorbibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authornamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorfullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \strng{authorfullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Nota periodística en línea}
-      \field{note}{Consultado el 2026-03-06}
-      \field{title}{Detectan aumento de incendios en casas por fallas eléctricas}
-      \field{year}{2026}
-      \verb{urlraw}
-      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
-      \endverb
-      \verb{url}
-      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
-      \endverb
+      \field{howpublished}{Norma Oficial Mexicana}
+      \field{note}{Ver versión vigente publicada en el Diario Oficial de la Federación (DOF)}
+      \field{title}{Norma Oficial Mexicana NOM-001-SEDE (Instalaciones eléctricas -- Utilización)}
+      \field{year}{2012}
     \endentry
-    \entry{fielding2000rest}{thesis}{}{}
+    \entry{nist-sp800-183}{report}{}{}
       \name{author}{1}{}{%
-        {{hash=87dbbd44b3977c28b71d826a931add3e}{%
-           family={Fielding},
-           familyi={F\bibinitperiod},
-           given={Roy\bibnamedelima Thomas},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=881ed9cd38fc701dbb120de7d034fecc}{%
+           family={Voas},
+           familyi={V\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {University of California, Irvine}%
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology (NIST)}%
       }
-      \strng{namehash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{fullhash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{fullhashraw}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{bibnamehash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{authorbibnamehash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{authornamehash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{authorfullhash}{87dbbd44b3977c28b71d826a931add3e}
-      \strng{authorfullhashraw}{87dbbd44b3977c28b71d826a931add3e}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{fullhash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{fullhashraw}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{bibnamehash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{authorbibnamehash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{authornamehash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{authorfullhash}{881ed9cd38fc701dbb120de7d034fecc}
+      \strng{authorfullhashraw}{881ed9cd38fc701dbb120de7d034fecc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Architectural Styles and the Design of Network-based Software Architectures}
-      \field{type}{phdthesis}
+      \field{title}{NIST SP 800-183: Networks of 'Things'}
       \field{urlday}{6}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
-      \field{year}{2000}
+      \field{year}{2016}
       \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.6028/NIST.SP.800-183
+      \endverb
       \verb{urlraw}
-      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \verb https://csrc.nist.gov/publications/detail/sp/800-183/final
       \endverb
       \verb{url}
-      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \verb https://csrc.nist.gov/publications/detail/sp/800-183/final
       \endverb
     \endentry
-    \entry{laptev2015}{inproceedings}{}{}
-      \name{author}{3}{}{%
-        {{hash=3edebc6c30204bbbcffb396797ba6e28}{%
-           family={Laptev},
-           familyi={L\bibinitperiod},
-           given={Nikolay},
-           giveni={N\bibinitperiod}}}%
-        {{hash=67f4be18b623083865a8dea537d37f28}{%
-           family={Amizadeh},
-           familyi={A\bibinitperiod},
-           given={Saeed},
-           giveni={S\bibinitperiod}}}%
-        {{hash=ee4758e9562bf7badec66bc1e042fb91}{%
-           family={Flint},
-           familyi={F\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
+    \entry{iota-arm-2013}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=2aca2879339d876e8efb446195a66df9}{%
+           family={{The IoT-A Consortium}},
+           familyi={T\bibinitperiod}}}%
       }
-      \strng{namehash}{4407cc3b9dc9a73bb04d4427f68effff}
-      \strng{fullhash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \strng{fullhashraw}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \strng{bibnamehash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \strng{authorbibnamehash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \strng{authornamehash}{4407cc3b9dc9a73bb04d4427f68effff}
-      \strng{authorfullhash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \strng{authorfullhashraw}{17a6bbf6fd5e60cbd0e80f01641dae3d}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{fullhash}{2aca2879339d876e8efb446195a66df9}
+      \strng{fullhashraw}{2aca2879339d876e8efb446195a66df9}
+      \strng{bibnamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorbibnamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authornamehash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorfullhash}{2aca2879339d876e8efb446195a66df9}
+      \strng{authorfullhashraw}{2aca2879339d876e8efb446195a66df9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{ICML 2015 Workshop on Deep Learning}
-      \field{title}{Time-series Extreme Event Forecasting with Neural Networks at Uber}
+      \field{title}{Internet of Things - Architectural Reference Model (IoT-A ARM)}
+      \field{type}{Project Deliverables}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iot-a.eu/
+      \endverb
+      \verb{url}
+      \verb https://www.iot-a.eu/
+      \endverb
+    \endentry
+    \entry{iic-iira-2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=c1b5bcfd0778c0deab076e7c3eef3103}{%
+           family={{Industrial Internet Consortium}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Industrial Internet Consortium}%
+      }
+      \strng{namehash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{fullhash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{fullhashraw}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{bibnamehash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{authorbibnamehash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{authornamehash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{authorfullhash}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \strng{authorfullhashraw}{c1b5bcfd0778c0deab076e7c3eef3103}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Industrial Internet of Things, Volume G1: Reference Architecture v1.9}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iiconsortium.org/IIRA.htm
+      \endverb
+      \verb{url}
+      \verb https://www.iiconsortium.org/IIRA.htm
+      \endverb
+    \endentry
+    \entry{rami4-0}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d350093efbc48954a106b04a88912f1f}{%
+           family={{Plattform Industrie 4.0}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Plattform Industrie 4.0}%
+      }
+      \strng{namehash}{d350093efbc48954a106b04a88912f1f}
+      \strng{fullhash}{d350093efbc48954a106b04a88912f1f}
+      \strng{fullhashraw}{d350093efbc48954a106b04a88912f1f}
+      \strng{bibnamehash}{d350093efbc48954a106b04a88912f1f}
+      \strng{authorbibnamehash}{d350093efbc48954a106b04a88912f1f}
+      \strng{authornamehash}{d350093efbc48954a106b04a88912f1f}
+      \strng{authorfullhash}{d350093efbc48954a106b04a88912f1f}
+      \strng{authorfullhashraw}{d350093efbc48954a106b04a88912f1f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reference Architectural Model Industrie 4.0 (RAMI 4.0)}
       \field{urlday}{6}
       \field{urlmonth}{11}
       \field{urlyear}{2025}
       \field{year}{2015}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://arxiv.org/abs/1710.10917
+      \verb https://www.plattform-i40.de/
       \endverb
       \verb{url}
-      \verb https://arxiv.org/abs/1710.10917
+      \verb https://www.plattform-i40.de/
+      \endverb
+    \endentry
+    \entry{shi2016edge}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=f41bbc46c4cca943fa2a0c3bf70c8a04}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Weisong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9c40aa498e849f7f722883a4ae1fb336}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb6b65d4ecc7f7a867429776d35c7be7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Quan},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3753f139bbd88a53924ae0bdf3bafb76}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Youhuizi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e8e9d96c392da7b022a5897d8c64ca3c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Lanyu},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{fullhash}{9eda1f9615db9420697f36712b056545}
+      \strng{fullhashraw}{9eda1f9615db9420697f36712b056545}
+      \strng{bibnamehash}{9eda1f9615db9420697f36712b056545}
+      \strng{authorbibnamehash}{9eda1f9615db9420697f36712b056545}
+      \strng{authornamehash}{b13d56fe65b8052396f26390274b4978}
+      \strng{authorfullhash}{9eda1f9615db9420697f36712b056545}
+      \strng{authorfullhashraw}{9eda1f9615db9420697f36712b056545}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{number}{5}
+      \field{title}{Edge Computing: Vision and Challenges}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{pages}{637\bibrangedash 646}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JIOT.2016.2579198
+      \endverb
+    \endentry
+    \entry{satyanarayanan2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dad1fb554e5e561ff7cc2cab41c4bd71}{%
+           family={Satyanarayanan},
+           familyi={S\bibinitperiod},
+           given={Mahadev},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{fullhash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{fullhashraw}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{bibnamehash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{authorbibnamehash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{authornamehash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{authorfullhash}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \strng{authorfullhashraw}{dad1fb554e5e561ff7cc2cab41c4bd71}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer}
+      \field{number}{1}
+      \field{title}{The Emergence of Edge Computing}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{30\bibrangedash 39}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MC.2017.9
       \endverb
     \endentry
     \entry{malhotra2015}{inproceedings}{}{}
@@ -266,8 +365,8 @@
       \strng{authornamehash}{188cd65c41d431d5d7edef39504ff5a7}
       \strng{authorfullhash}{3ab9a1b07242170a27c892f83383c86c}
       \strng{authorfullhashraw}{3ab9a1b07242170a27c892f83383c86c}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 23rd European Symposium on Artificial Neural Networks (ESANN)}
@@ -284,6 +383,50 @@
       \verb https://arxiv.org/abs/1607.00148
       \endverb
     \endentry
+    \entry{laptev2015}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=3edebc6c30204bbbcffb396797ba6e28}{%
+           family={Laptev},
+           familyi={L\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod}}}%
+        {{hash=67f4be18b623083865a8dea537d37f28}{%
+           family={Amizadeh},
+           familyi={A\bibinitperiod},
+           given={Saeed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee4758e9562bf7badec66bc1e042fb91}{%
+           family={Flint},
+           familyi={F\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4407cc3b9dc9a73bb04d4427f68effff}
+      \strng{fullhash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \strng{fullhashraw}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \strng{bibnamehash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \strng{authorbibnamehash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \strng{authornamehash}{4407cc3b9dc9a73bb04d4427f68effff}
+      \strng{authorfullhash}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \strng{authorfullhashraw}{17a6bbf6fd5e60cbd0e80f01641dae3d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICML 2015 Workshop on Deep Learning}
+      \field{title}{Time-series Extreme Event Forecasting with Neural Networks at Uber}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1710.10917
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1710.10917
+      \endverb
+    \endentry
     \entry{mqtt-oasis}{online}{}{}
       \name{author}{1}{}{%
         {{hash=6ec60ab9ce327f5a12fbab109e691c73}{%
@@ -298,8 +441,8 @@
       \strng{authornamehash}{6ec60ab9ce327f5a12fbab109e691c73}
       \strng{authorfullhash}{6ec60ab9ce327f5a12fbab109e691c73}
       \strng{authorfullhashraw}{6ec60ab9ce327f5a12fbab109e691c73}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{MQTT Version 3.1.1 Plus Errata 01}
@@ -315,135 +458,596 @@
       \verb https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/
       \endverb
     \endentry
-    \entry{sener-balance-nacional-energia}{report}{}{}
+    \entry{fielding2000rest}{thesis}{}{}
       \name{author}{1}{}{%
-        {{hash=39cb24fb6f3344503fcabf9c5e7411a7}{%
-           family={{Secretaría de Energía (SENER)}},
-           familyi={S\bibinitperiod}}}%
+        {{hash=87dbbd44b3977c28b71d826a931add3e}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy\bibnamedelima Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Gobierno de México}%
+        {University of California, Irvine}%
       }
-      \strng{namehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{fullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{fullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{bibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorbibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authornamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorfullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorfullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \field{extraname}{1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{fullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{fullhashraw}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{bibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorbibnamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authornamehash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorfullhash}{87dbbd44b3977c28b71d826a931add3e}
+      \strng{authorfullhashraw}{87dbbd44b3977c28b71d826a931add3e}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Balance Nacional de Energía}
-      \field{urlday}{17}
-      \field{urlmonth}{2}
+      \field{title}{Architectural Styles and the Design of Network-based Software Architectures}
+      \field{type}{phdthesis}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+      \verb{url}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+    \endentry
+    \entry{chandola2009anomaly}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=818074037ed2f89ce51237af38dec11f}{%
+           family={Chandola},
+           familyi={C\bibinitperiod},
+           given={Varun},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4ddb7b9c38d8c15a70bc573ba4e51ea9}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Arindam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=efb90d78e35ff61d3bc639f5c6f3d822}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vipin},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3843f6427d6ca01b54e95297405107bb}
+      \strng{fullhash}{135c55bbecd240d054a5541e3cf77609}
+      \strng{fullhashraw}{135c55bbecd240d054a5541e3cf77609}
+      \strng{bibnamehash}{135c55bbecd240d054a5541e3cf77609}
+      \strng{authorbibnamehash}{135c55bbecd240d054a5541e3cf77609}
+      \strng{authornamehash}{3843f6427d6ca01b54e95297405107bb}
+      \strng{authorfullhash}{135c55bbecd240d054a5541e3cf77609}
+      \strng{authorfullhashraw}{135c55bbecd240d054a5541e3cf77609}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{3}
+      \field{title}{Anomaly Detection: A Survey}
+      \field{volume}{41}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 58}
+      \range{pages}{58}
+      \verb{doi}
+      \verb 10.1145/1541880.1541882
+      \endverb
+    \endentry
+    \entry{unam-incendios}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d8a0fb6813c72ecb5ae0673485f5e26}{%
+           family={{Contraloría de la Universidad Nacional Autónoma de México (UNAM)}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{fullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{fullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{bibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorbibnamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authornamehash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorfullhash}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \strng{authorfullhashraw}{1d8a0fb6813c72ecb5ae0673485f5e26}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Sitio web}
+      \field{note}{Consultado el 2026-03-06}
+      \field{title}{Incendios}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \endverb
+      \verb{url}
+      \verb http://www.contraloria.unam.mx/medidas-de-emergencia/incendios
+      \endverb
+    \endentry
+    \entry{azteca-fallas-electricas-incendios-2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=be511157f6d0f06a391d4ab564e32d2f}{%
+           family={Femat},
+           familyi={F\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{fullhash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{fullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{bibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorbibnamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authornamehash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorfullhash}{be511157f6d0f06a391d4ab564e32d2f}
+      \strng{authorfullhashraw}{be511157f6d0f06a391d4ab564e32d2f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Nota periodística en línea}
+      \field{note}{Consultado el 2026-03-06}
+      \field{title}{Detectan aumento de incendios en casas por fallas eléctricas}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
+      \endverb
+      \verb{url}
+      \verb https://www.aztecaaguascalientes.com/noticias/fallas-electricas-provocan-incendios-en-viviendas-principales-causas-riesgos
+      \endverb
+    \endentry
+    \entry{smart-energy-esp32-2024}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Results in Engineering}
+      \field{note}{Sistema de monitoreo energético basado en ESP32 con conectividad y actualización remota para el usuario}
+      \field{title}{A Smart Energy Monitoring System Using ESP32 Microcontroller}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
       \field{urlyear}{2026}
-      \field{year}{2023}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.gob.mx/sener/acciones-y-programas/balance-nacional-de-energia
+      \verb https://www.sciencedirect.com/science/article/pii/S2772671124002468
       \endverb
       \verb{url}
-      \verb https://www.gob.mx/sener/acciones-y-programas/balance-nacional-de-energia
+      \verb https://www.sciencedirect.com/science/article/pii/S2772671124002468
       \endverb
     \endentry
-    \entry{nom-electricidad-instalaciones}{misc}{}{}
+    \entry{iot-energy-meter-blynk}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=39cb24fb6f3344503fcabf9c5e7411a7}{%
-           family={{Secretaría de Energía (SENER)}},
-           familyi={S\bibinitperiod}}}%
+        {{hash=3466a6071c24dbcc31945fc4eb8b1529}{%
+           family={{How To Electronics}},
+           familyi={H\bibinitperiod}}}%
       }
-      \strng{namehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{fullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{fullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{bibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorbibnamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authornamehash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorfullhash}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \strng{authorfullhashraw}{39cb24fb6f3344503fcabf9c5e7411a7}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{fullhash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{fullhashraw}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{bibnamehash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{authorbibnamehash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{authornamehash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{authorfullhash}{3466a6071c24dbcc31945fc4eb8b1529}
+      \strng{authorfullhashraw}{3466a6071c24dbcc31945fc4eb8b1529}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Norma Oficial Mexicana}
-      \field{note}{Ver versión vigente publicada en el Diario Oficial de la Federación (DOF)}
-      \field{title}{Norma Oficial Mexicana NOM-001-SEDE (Instalaciones eléctricas -- Utilización)}
-      \field{year}{2012}
-    \endentry
-    \entry{iota-arm-2013}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=2aca2879339d876e8efb446195a66df9}{%
-           family={{The IoT-A Consortium}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{2aca2879339d876e8efb446195a66df9}
-      \strng{fullhash}{2aca2879339d876e8efb446195a66df9}
-      \strng{fullhashraw}{2aca2879339d876e8efb446195a66df9}
-      \strng{bibnamehash}{2aca2879339d876e8efb446195a66df9}
-      \strng{authorbibnamehash}{2aca2879339d876e8efb446195a66df9}
-      \strng{authornamehash}{2aca2879339d876e8efb446195a66df9}
-      \strng{authorfullhash}{2aca2879339d876e8efb446195a66df9}
-      \strng{authorfullhashraw}{2aca2879339d876e8efb446195a66df9}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Internet of Things - Architectural Reference Model (IoT-A ARM)}
-      \field{type}{Project Deliverables}
-      \field{urlday}{6}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2013}
+      \field{note}{Proyecto técnico de medidor energético IoT con ESP32, SCT-013, ZMPT101B y plataforma Blynk}
+      \field{title}{IoT Based Electricity Energy Meter using ESP32 \& Blynk}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.iot-a.eu/
+      \verb https://how2electronics.com/iot-based-electricity-energy-meter-using-esp32-blynk/
       \endverb
       \verb{url}
-      \verb https://www.iot-a.eu/
+      \verb https://how2electronics.com/iot-based-electricity-energy-meter-using-esp32-blynk/
       \endverb
     \endentry
-    \entry{nist-sp800-183}{report}{}{}
+    \entry{esp32-bill-predictor-2025}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=881ed9cd38fc701dbb120de7d034fecc}{%
-           family={Voas},
-           familyi={V\bibinitperiod},
-           given={Jeffrey},
-           giveni={J\bibinitperiod}}}%
+        {{hash=25267b3b369d75b142de9b94da66266f}{%
+           family={Devaraj},
+           familyi={D\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod}}}%
       }
-      \list{institution}{2}{%
-        {National Institute of Standards}%
-        {Technology (NIST)}%
-      }
-      \strng{namehash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{fullhash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{fullhashraw}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{bibnamehash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{authorbibnamehash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{authornamehash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{authorfullhash}{881ed9cd38fc701dbb120de7d034fecc}
-      \strng{authorfullhashraw}{881ed9cd38fc701dbb120de7d034fecc}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \strng{namehash}{25267b3b369d75b142de9b94da66266f}
+      \strng{fullhash}{25267b3b369d75b142de9b94da66266f}
+      \strng{fullhashraw}{25267b3b369d75b142de9b94da66266f}
+      \strng{bibnamehash}{25267b3b369d75b142de9b94da66266f}
+      \strng{authorbibnamehash}{25267b3b369d75b142de9b94da66266f}
+      \strng{authornamehash}{25267b3b369d75b142de9b94da66266f}
+      \strng{authorfullhash}{25267b3b369d75b142de9b94da66266f}
+      \strng{authorfullhashraw}{25267b3b369d75b142de9b94da66266f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{NIST SP 800-183: Networks of 'Things'}
-      \field{urlday}{6}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2016}
+      \field{note}{Proyecto de monitoreo energético con ESP32 y análisis de consumo para predicción de factura eléctrica}
+      \field{title}{Smart Energy Meter With ESP32 to Predict Electricity Bill}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronicsforu.com/electronics-projects/esp32-energy-monitor
+      \endverb
+      \verb{url}
+      \verb https://www.electronicsforu.com/electronics-projects/esp32-energy-monitor
+      \endverb
+    \endentry
+    \entry{real-time-anomaly-thesis}{thesis}{}{}
+      \list{institution}{1}{%
+        {DiVA Portal}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{note}{Tesis sobre monitoreo energético en tiempo real y detección de anomalías en arquitecturas IoT}
+      \field{title}{Real-Time Energy Monitoring and Anomaly Detection in IoT-Based Energy Systems}
+      \field{type}{mathesis}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.diva-portal.org/smash/get/diva2:1986256/FULLTEXT01.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.diva-portal.org/smash/get/diva2:1986256/FULLTEXT01.pdf
+      \endverb
+    \endentry
+    \entry{iot-anomaly-lstm-2024}{inproceedings}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Conference Proceedings}
+      \field{note}{Trabajo sobre detección de anomalías en consumo energético de sensores IoT mediante técnicas de aprendizaje automático}
+      \field{title}{Anomaly Detection in IoT Sensor Energy Consumption Using LSTM Neural Networks and Isolation Forest}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10756980/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10756980/
+      \endverb
+    \endentry
+    \entry{ijert-smart-meter-2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=9e12a279426b79dad120fa6c88903bd8}{%
+           family={Nalbalwar},
+           familyi={N\bibinitperiod},
+           given={Sanjay\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ed1ae84031aa12e12fe76685a924062c}{%
+           family={Jayaswal},
+           familyi={J\bibinitperiod},
+           given={Dharmendra\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=21f66ca79f77f87c980444ee33f6c7fa}{%
+           family={Fule},
+           familyi={F\bibinitperiod},
+           given={Smit\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=086e82e6bc67acca19900ea0f8a399f1}{%
+           family={Meshram},
+           familyi={M\bibinitperiod},
+           given={Uday\bibnamedelima D.},
+           giveni={U\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c11cab5f5f6788c7ccc4d07658dfc546}
+      \strng{fullhash}{3979f5e6d6316922403a6ef916640367}
+      \strng{fullhashraw}{3979f5e6d6316922403a6ef916640367}
+      \strng{bibnamehash}{3979f5e6d6316922403a6ef916640367}
+      \strng{authorbibnamehash}{3979f5e6d6316922403a6ef916640367}
+      \strng{authornamehash}{c11cab5f5f6788c7ccc4d07658dfc546}
+      \strng{authorfullhash}{3979f5e6d6316922403a6ef916640367}
+      \strng{authorfullhashraw}{3979f5e6d6316922403a6ef916640367}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Engineering Research \& Technology}
+      \field{number}{12}
+      \field{title}{IoT-Based Smart Energy Meter with Real-Time Monitoring and Theft Detection using Arduino and PZEM004T}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{2025}
       \field{urldateera}{ce}
       \verb{doi}
-      \verb 10.6028/NIST.SP.800-183
+      \verb 10.17577/IJERTV14IS120336
       \endverb
       \verb{urlraw}
-      \verb https://csrc.nist.gov/publications/detail/sp/800-183/final
+      \verb https://www.ijert.org/iot-based-smart-energy-meter-with-real-time-monitoring-and-theft-detection-using-arduino-and-pzem004t
       \endverb
       \verb{url}
-      \verb https://csrc.nist.gov/publications/detail/sp/800-183/final
+      \verb https://www.ijert.org/iot-based-smart-energy-meter-with-real-time-monitoring-and-theft-detection-using-arduino-and-pzem004t
+      \endverb
+    \endentry
+    \entry{ipn-esime-tesis}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=dae87fddf3e66982f272f4845d22feab}{%
+           family={{Instituto Politécnico Nacional}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{fullhash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{fullhashraw}{dae87fddf3e66982f272f4845d22feab}
+      \strng{bibnamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorbibnamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authornamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorfullhash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorfullhashraw}{dae87fddf3e66982f272f4845d22feab}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Página institucional con tesis del programa de posgrado en Ingeniería Eléctrica de ESIME}
+      \field{title}{Tesis -- Posgrado en Ingeniería Eléctrica, ESIME-IPN}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sepielectrica.esimez.ipn.mx/tesis.html
+      \endverb
+      \verb{url}
+      \verb https://sepielectrica.esimez.ipn.mx/tesis.html
+      \endverb
+    \endentry
+    \entry{ipn-monitoring-network}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=dae87fddf3e66982f272f4845d22feab}{%
+           family={{Instituto Politécnico Nacional}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{fullhash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{fullhashraw}{dae87fddf3e66982f272f4845d22feab}
+      \strng{bibnamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorbibnamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authornamehash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorfullhash}{dae87fddf3e66982f272f4845d22feab}
+      \strng{authorfullhashraw}{dae87fddf3e66982f272f4845d22feab}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documento institucional del IPN relacionado con una propuesta de sistema de monitoreo}
+      \field{title}{Propuesta de un Sistema de Monitoreo para la Red de ESIME}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tesis.ipn.mx/jspui/bitstream/123456789/5456/1/PROPUESTASISTEMA.pdf
+      \endverb
+      \verb{url}
+      \verb https://tesis.ipn.mx/jspui/bitstream/123456789/5456/1/PROPUESTASISTEMA.pdf
+      \endverb
+    \endentry
+    \entry{reza2024smart}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8f015d0d3b115b40c5bc1154da230e8c}{%
+           family={Reza},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{fullhash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{fullhashraw}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{bibnamehash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{authorbibnamehash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{authornamehash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{authorfullhash}{8b31d275981ef1122e4d69f6fba0eb38}
+      \strng{authorfullhashraw}{8b31d275981ef1122e4d69f6fba0eb38}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Results in Engineering}
+      \field{note}{Antecedente internacional: Implementación de bajo costo con ESP32 y sensores no invasivos.}
+      \field{title}{A Smart Energy Monitoring System Using ESP32 Microcontroller}
+      \field{volume}{22}
+      \field{year}{2024}
+      \field{pages}{102146}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rineng.2024.102146
+      \endverb
+    \endentry
+    \entry{perez2023iot}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=0bce5847780b537899d1c889f340bbae}{%
+           family={Pérez-Lombard},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{fullhash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{fullhashraw}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{bibnamehash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{authorbibnamehash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{authornamehash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{authorfullhash}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \strng{authorfullhashraw}{c480be48d7ff6a3f7b75fee5d3c191b6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE International Conference on Consumer Electronics (ICCE)}
+      \field{note}{Revisión técnica: Justifica el uso de protocolos ligeros como MQTT en el hogar.}
+      \field{title}{IoT-based Residential Energy Management: A Review of Architectures and Protocols}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICCE56477.2023.10043456
+      \endverb
+    \endentry
+    \entry{garcia2022monitoreo}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=62624b3984cde95b0ae1bb05469c4f7c}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidad Autónoma de Querétaro (UAQ)}%
+      }
+      \strng{namehash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{fullhash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{fullhashraw}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{bibnamehash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{authorbibnamehash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{authornamehash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{authorfullhash}{62624b3984cde95b0ae1bb05469c4f7c}
+      \strng{authorfullhashraw}{62624b3984cde95b0ae1bb05469c4f7c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Proyecto universitario nacional: Enfoque en la eficiencia y visualización remota.}
+      \field{title}{Sistema de monitoreo de variables eléctricas en tiempo real mediante IoT para el ahorro energético}
+      \field{type}{Tesis de Licenciatura}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://ri-ng.uaq.mx/handle/123456789/4125
+      \endverb
+      \verb{url}
+      \verb http://ri-ng.uaq.mx/handle/123456789/4125
+      \endverb
+    \endentry
+    \entry{martinez2021diseno}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=35ba1ac25f72bd253f48f8a2b889af8d}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Tecnológico de Monterrey (ITESM)}%
+      }
+      \strng{namehash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{fullhash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{fullhashraw}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{bibnamehash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{authorbibnamehash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{authornamehash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{authorfullhash}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \strng{authorfullhashraw}{35ba1ac25f72bd253f48f8a2b889af8d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Proyecto universitario nacional: Antecedente en la detección de anomalías eléctricas.}
+      \field{title}{Diseño de un prototipo de medidor de energía inteligente con detección de fallas}
+      \field{type}{Proyecto de Grado}
+      \field{year}{2021}
+    \endentry
+    \entry{ipn2023sistema}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=67b503a9c8a178e0d731a9ae8de33221}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Politécnico Nacional (ESIME)}%
+      }
+      \strng{namehash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{fullhash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{fullhashraw}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{bibnamehash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{authorbibnamehash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{authornamehash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{authorfullhash}{67b503a9c8a178e0d731a9ae8de33221}
+      \strng{authorfullhashraw}{67b503a9c8a178e0d731a9ae8de33221}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Antecedente institucional IPN: Enfoque en instrumentación y redes de baja tensión.}
+      \field{title}{Sistema de adquisición de datos para el monitoreo de parámetros eléctricos en redes de baja tensión}
+      \field{type}{Tesis de Grado}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://tesis.ipn.mx/
+      \endverb
+      \verb{url}
+      \verb https://tesis.ipn.mx/
+      \endverb
+    \endentry
+    \entry{kelly2013low}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=134c610133306194809f60ee7a42a53d}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelimb D.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=440f89d5db3dfd8df8cd0341f20c4970}{%
+           family={Suryadevara},
+           familyi={S\bibinitperiod},
+           given={Nagender\bibnamedelima Kumar},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9afe33131a7de7de186a2ae3741d6cda}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Subhas\bibnamedelima Chandra},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0009094def8e59659ad097decefa66b}
+      \strng{fullhash}{a480c22104ab9479f6f4de6cc088abdd}
+      \strng{fullhashraw}{a480c22104ab9479f6f4de6cc088abdd}
+      \strng{bibnamehash}{a480c22104ab9479f6f4de6cc088abdd}
+      \strng{authorbibnamehash}{a480c22104ab9479f6f4de6cc088abdd}
+      \strng{authornamehash}{f0009094def8e59659ad097decefa66b}
+      \strng{authorfullhash}{a480c22104ab9479f6f4de6cc088abdd}
+      \strng{authorfullhashraw}{a480c22104ab9479f6f4de6cc088abdd}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{number}{10}
+      \field{title}{Towards the Implementation of IoT for Environmental Condition Monitoring in Homes}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{pages}{3846\bibrangedash 3853}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/JSEN.2013.2263379
       \endverb
     \endentry
   \enddatalist

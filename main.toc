@@ -9,39 +9,46 @@
 \contentsline {chapter}{\numberline {1}Planteamiento del problema}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Definición del problema}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Propuesta de solución}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Descripción de los módulos del sistema}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Descripción de los módulos del sistema}{4}{subsection.1.2.1}%
 \contentsline {subsubsection}{Módulo de Adquisición y Acondicionamiento}{4}{section*.8}%
-\contentsline {subsubsection}{Módulo de Procesamiento Local (Unidad Central)}{4}{section*.9}%
-\contentsline {subsubsection}{Módulo de Interfaz Local y Retroalimentación}{4}{section*.10}%
-\contentsline {subsubsection}{Módulo de Conectividad y Gestión Cloud}{4}{section*.11}%
-\contentsline {subsection}{\numberline {1.2.2}Metodología de operación}{4}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Diagrama de bloques del sistema propuesto}{5}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Descripción del sistema propuesto}{6}{subsection.1.2.4}%
-\contentsline {subsubsection}{Etapa de adquisición}{6}{section*.13}%
-\contentsline {subsubsection}{Etapa de procesamiento (ESP32)}{6}{section*.14}%
-\contentsline {subsubsection}{Etapa de salida e interacción con el usuario}{6}{section*.15}%
-\contentsline {subsection}{\numberline {1.2.5}Objetivos}{7}{subsection.1.2.5}%
-\contentsline {subsubsection}{Objetivo general}{7}{section*.16}%
-\contentsline {subsubsection}{Objetivos específicos}{7}{section*.17}%
-\contentsline {subsection}{\numberline {1.2.6}Alcances y limitaciones}{7}{subsection.1.2.6}%
-\contentsline {subsubsection}{Alcances}{8}{section*.18}%
-\contentsline {subsubsection}{Limitaciones}{8}{section*.19}%
-\contentsline {subsection}{\numberline {1.2.7}Justificación}{9}{subsection.1.2.7}%
-\contentsline {subsection}{\numberline {1.2.8}Metodología}{9}{subsection.1.2.8}%
-\contentsline {subsubsection}{Fase 1: Levantamiento de requisitos y definición de alcance}{10}{section*.20}%
-\contentsline {subsubsection}{Fase 2: Diseño de arquitectura IoT del sistema}{10}{section*.21}%
-\contentsline {subsubsection}{Fase 3: Implementación del nodo IoT (adquisición y procesamiento local)}{10}{section*.22}%
-\contentsline {subsubsection}{Fase 4: Comunicación, gestión de datos e integración de servicios}{10}{section*.23}%
-\contentsline {subsubsection}{Fase 5: Pruebas, validación y ajuste iterativo}{11}{section*.24}%
-\contentsline {chapter}{\numberline {2}Estado del Arte}{12}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{13}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Análisis del Sistema}{14}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Diseño del Sistema}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Implementación del Sistema}{16}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ejemplos de código}{16}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{17}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{18}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Guía de despliegue}{19}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{20}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Documentación adicional}{21}{appendix.C}%
-\contentsline {chapter}{Referencias}{22}{appendix*.25}%
+\contentsline {subsubsection}{Módulo de Procesamiento Local (Unidad Central)}{4}{section*.10}%
+\contentsline {subsubsection}{Módulo de Interfaz Local y Retroalimentación}{5}{section*.12}%
+\contentsline {subsubsection}{Módulo de Conectividad y Gestión Cloud}{6}{section*.14}%
+\contentsline {subsection}{\numberline {1.2.2}Metodología de operación}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Diagrama de bloques del sistema propuesto}{6}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Descripción del sistema propuesto}{8}{subsection.1.2.4}%
+\contentsline {subsubsection}{Etapa de adquisición}{8}{section*.17}%
+\contentsline {subsubsection}{Etapa de procesamiento (ESP32)}{8}{section*.18}%
+\contentsline {subsubsection}{Etapa de salida e interacción con el usuario}{8}{section*.19}%
+\contentsline {subsection}{\numberline {1.2.5}Objetivos}{9}{subsection.1.2.5}%
+\contentsline {subsubsection}{Objetivo general}{9}{section*.20}%
+\contentsline {subsubsection}{Objetivos específicos}{9}{section*.21}%
+\contentsline {subsection}{\numberline {1.2.6}Alcances y limitaciones}{10}{subsection.1.2.6}%
+\contentsline {subsubsection}{Alcances}{10}{section*.22}%
+\contentsline {subsubsection}{Limitaciones}{10}{section*.23}%
+\contentsline {subsection}{\numberline {1.2.7}Justificación}{11}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Metodología}{12}{subsection.1.2.8}%
+\contentsline {subsubsection}{Fase 1: Levantamiento de requisitos y definición de alcance}{12}{section*.24}%
+\contentsline {subsubsection}{Fase 2: Diseño de arquitectura IoT del sistema}{12}{section*.25}%
+\contentsline {subsubsection}{Fase 3: Implementación del nodo IoT (adquisición y procesamiento local)}{12}{section*.26}%
+\contentsline {subsubsection}{Fase 4: Comunicación, gestión de datos e integración de servicios}{13}{section*.27}%
+\contentsline {subsubsection}{Fase 5: Pruebas, validación y ajuste iterativo}{13}{section*.28}%
+\contentsline {subsection}{\numberline {1.2.9}Plan de trabajo}{13}{subsection.1.2.9}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{15}{chapter.2}%
+\contentsline {subsubsection}{Soluciones de monitoreo energético basadas en ESP32 e IoT}{15}{section*.30}%
+\contentsline {subsubsection}{Trabajos académicos sobre detección de anomalías en consumo energético}{16}{section*.31}%
+\contentsline {subsubsection}{Proyectos universitarios y desarrollos académicos aplicados}{16}{section*.32}%
+\contentsline {subsubsection}{Antecedente institucional en el Instituto Politécnico Nacional}{17}{section*.33}%
+\contentsline {subsubsection}{Síntesis del análisis}{17}{section*.34}%
+\contentsline {subsubsection}{Análisis Comparativo y Diferenciación}{17}{section*.35}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{20}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{22}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ejemplos de código}{23}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{24}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{25}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{26}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{27}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{28}{appendix.C}%
+\contentsline {chapter}{Referencias}{29}{appendix*.37}%

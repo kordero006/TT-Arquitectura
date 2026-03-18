@@ -172,7 +172,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -2378,64 +2378,72 @@
     <bcf:citekey order="2" intorder="1">proteccion-civil-incendios-vivienda</bcf:citekey>
     <bcf:citekey order="2" intorder="2">nom-electricidad-instalaciones</bcf:citekey>
     <bcf:citekey order="3" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">malhotra2015</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">laptev2015</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">fielding2000rest</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">chandola2009anomaly</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">fielding2000rest</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">chandola2009anomaly</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">unam-incendios</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">azteca-fallas-electricas-incendios-2026</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">iota-arm-2013</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">nist-sp800-183</bcf:citekey>
-    <bcf:citekey order="19" intorder="2">iota-arm-2013</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">chandola2009anomaly</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">mqtt-oasis</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">iota-arm-2013</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">iic-iira-2019</bcf:citekey>
+    <bcf:citekey order="4" intorder="3">rami4-0</bcf:citekey>
+    <bcf:citekey order="4" intorder="4">shi2016edge</bcf:citekey>
+    <bcf:citekey order="4" intorder="5">satyanarayanan2017</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">malhotra2015</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">laptev2015</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">chandola2009anomaly</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">chandola2009anomaly</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">unam-incendios</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">azteca-fallas-electricas-incendios-2026</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">iota-arm-2013</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">nist-sp800-183</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">iota-arm-2013</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">chandola2009anomaly</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">mqtt-oasis</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">fielding2000rest</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">smart-energy-esp32-2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">iot-energy-meter-blynk</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">esp32-bill-predictor-2025</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">real-time-anomaly-thesis</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">iot-anomaly-lstm-2024</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">ijert-smart-meter-2025</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">smart-energy-esp32-2024</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">esp32-bill-predictor-2025</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">ipn-esime-tesis</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">ipn-monitoring-network</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">ipn-monitoring-network</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">reza2024smart</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">reza2024smart</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">perez2023iot</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">perez2023iot</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">garcia2022monitoreo</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">garcia2022monitoreo</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">martinez2021diseno</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">martinez2021diseno</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">ipn2023sistema</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">ipn2023sistema</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">kelly2013low</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">kelly2013low</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nty">
+  <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nty/global//global/global/global"
+                name="none/global//global/global/global"
                 type="entry"
-                sortingtemplatename="nty"
+                sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

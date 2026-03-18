@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(cd *)",
+      "Bash(python *)",
+      "Bash(python *)",
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(powershell *)",
+      "Bash(cmd *)",
+      "Bash(cmd *)",
+      "Bash(cmd *)"
+    ]
+  }
+}
