@@ -88,7 +88,7 @@
 
 % ========================= Bibliografía (opcional, recomendado) =========================
 % Descomenta si vas a usar .bib
-\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\usepackage[backend=biber,style=ieee,sorting=none,natbib=true]{biblatex}
 \addbibresource{referencias.bib}
 
 % ========================= Título y autor (para metadatos; no se usa portada automática) =========================
@@ -604,7 +604,102 @@ Para finalizar el análisis del estado del arte, se presenta la Tabla~\ref{tab:c
 \end{table}
 
 Como se observa en la Tabla~\ref{tab:comparativa_proyectos}, ninguno de los trabajos previos integra de manera simultánea el \textbf{sensado no invasivo}, el \textbf{procesamiento local en tiempo real} y un \textbf{enfoque orientado a la seguridad preventiva} del hogar. La propuesta de este trabajo terminal cubre estas brechas mediante una arquitectura accesible y replicable, diseñada específicamente para el contexto de la vivienda mexicana.
-\chapter{Marco Teórico}   % => CAPÍTULO 3
+\chapter{Marco Teórico}
+\label{cap:marco_teorico}
+
+El presente capítulo establece los fundamentos físicos, electrónicos y computacionales que sustentan el desarrollo del sistema de monitoreo preventivo. Se aborda desde la teoría de circuitos eléctricos en corriente alterna hasta la arquitectura de procesamiento embebido, proporcionando el rigor técnico necesario para la implementación de la solución propuesta.
+
+\section{Fundamentos de energía eléctrica en entornos residenciales}
+\label{sec:fundamentos_electricos}
+
+El análisis del consumo eléctrico en el sector residencial mexicano requiere la comprensión de la naturaleza de la Corriente Alterna (AC). En México, el suministro doméstico estándar se rige por una frecuencia nominal de 60 Hz y una tensión eficaz de 127 V AC, bajo la normativa vigente de la Comisión Federal de Electricidad (CFE).
+
+\subsection{Magnitudes eléctricas fundamentales}
+Para caracterizar una carga eléctrica, es necesario definir las variables que determinan su comportamiento energético. Según \citeauthor{alexander2017fundamentos}, la potencia instantánea $p(t)$ es el producto del voltaje $v(t)$ y la corriente $i(t)$. Sin embargo, en sistemas de AC, se utilizan valores eficaces o RMS (Root Mean Square) para representar la magnitud de señales sinusoidales de manera equivalente a una señal de corriente continua (DC).
+
+\begin{equation}
+    I_{RMS} = \sqrt{\frac{1}{T} \int_{0}^{T} i^2(t) dt}
+\end{equation}
+
+\subsection{Triángulo de potencias}
+En cargas residenciales, especialmente aquellas con componentes inductivos (motores de refrigeradores, lavadoras o bombas de agua), existe un desfase angular $\theta$ entre la onda de voltaje y la de corriente. Esto da lugar a tres tipos de potencia:
+\begin{itemize}
+    \item \textbf{Potencia Activa ($P$):} Medida en Watts (W), representa la energía transformada en trabajo útil.
+    \item \textbf{Potencia Reactiva ($Q$):} Medida en VAR, asociada a campos magnéticos en bobinas.
+    \item \textbf{Potencia Aparente ($S$):} Medida en VA, es la magnitud total de la energía entregada al sistema, definida como $S = V_{RMS} \cdot I_{RMS}$.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{triangulo-potencias.pdf}
+  \caption{Diagrama de triángulo de potencias.}
+  \label{fig:sistema_propuesto}
+\end{figure}
+% TODO: FIGURA 3.1 - Insertar diagrama del triángulo de potencias (P, Q, S y ángulo theta).
+% Este diagrama es vital para que el sínodo vea que entiendes la diferencia entre Watts y VA.
+
+\section{Monitoreo de consumo eléctrico y sensado no invasivo}
+\label{sec:monitoreo_sensado}
+
+El monitoreo de cargas puede clasificarse en intrusivo (ILM) y no invasivo (NILM). El presente proyecto opta por el enfoque NILM debido a su seguridad y facilidad de despliegue en instalaciones existentes.
+
+\subsection{Transformadores de Corriente (CT)}
+El sensado no invasivo se basa en el principio de inducción electromagnética descrito por la Ley de Faraday. Un transformador de corriente, como el SCT-013, consta de un núcleo ferromagnético que rodea al conductor de fase. El flujo magnético variable producido por la corriente primaria ($I_p$) induce una corriente secundaria proporcional ($I_s$) en el devanado del sensor \cite{ziegler2009current}.
+
+\subsection{Sensor SCT-013 y Acondicionamiento de Señal}
+El sensor SCT-013 entrega una señal de corriente de salida (o voltaje, si incluye resistencia de carga interna). Dado que el microcontrolador solo puede procesar voltajes positivos en el rango de 0V a 3.3V, es imperativo implementar un circuito de acondicionamiento.
+\begin{itemize}
+    \item \textbf{Resistencia de Carga (Burden):} Convierte la corriente inducida en un voltaje medible.
+    \item \textbf{Divisor de Voltaje (Bias):} Desplaza la señal senoidal (offset) para que su semiciclo negativo no dañe el ADC del microcontrolador.
+\end{itemize}
+
+% TODO: FIGURA 3.2 - Insertar esquema del circuito de acondicionamiento (divisor de tensión + capacitor de desacople + resistencia burden).
+% Es la figura más importante de esta sección para un ingeniero.
+
+\section{Sistemas embebidos para adquisición y procesamiento}
+\label{sec:sistemas_embebidos}
+
+La etapa de procesamiento requiere una plataforma con alta capacidad de cómputo y periféricos de comunicación integrados, características que definen a los sistemas embebidos modernos.
+
+\subsection{Microcontrolador ESP32}
+El ESP32 es un System-on-Chip (SoC) diseñado por Espressif Systems. Su arquitectura se basa en el microprocesador Xtensa® Dual-Core de 32 bits, operando hasta 240 MHz \cite{esp32_datasheet}. Para este proyecto, el uso de dos núcleos permite una arquitectura de software concurrente: un núcleo dedicado exclusivamente al muestreo de alta velocidad del ADC y el otro a la gestión de la pila de protocolos de red (Wi-Fi/MQTT).
+
+\subsection{Conversión Analógico-Digital (ADC)}
+El ESP32 integra convertidores analógico-digitales de 12 bits de resolución. El proceso de digitalización implica dos etapas críticas:
+\begin{enumerate}
+    \item \textbf{Muestreo:} Captura de valores instantáneos de la señal analógica. Según el Teorema de Nyquist, la frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima de la señal para evitar el \textit{aliasing}.
+    \item \textbf{Cuantización:} Conversión del valor analógico a un valor digital discreto (0-4095 para 12 bits).
+\end{enumerate}
+
+% TODO: FIGURA 3.3 - Insertar diagrama de bloques interno del ESP32 resaltando el ADC y los núcleos de procesamiento.
+
+\section{Internet de las Cosas aplicado al monitoreo energético}
+\label{sec:iot_monitoreo}
+
+\subsection{Definición y arquitectura funcional de IoT}
+\subsection{Procesamiento en el borde (Edge Computing)}
+\subsection{Integración de sensado, procesamiento y servicios}
+
+\section{Protocolos de comunicación para telemetría}
+\label{sec:protocolos_comunicacion}
+
+\subsection{Comunicación basada en HTTP/REST}
+\subsection{Protocolo MQTT}
+\subsection{Comparación entre HTTP y MQTT en aplicaciones IoT}
+
+\section{Detección de anomalías en el consumo eléctrico}
+\label{sec:deteccion_anomalias}
+
+\subsection{Concepto de anomalía en series de tiempo}
+\subsection{Anomalías en patrones de consumo eléctrico}
+\subsection{Enfoques de detección basados en reglas, umbrales y ventanas de tiempo}
+
+\section{Visualización de datos y apoyo a la toma de decisiones}
+\label{sec:visualizacion_datos}
+
+\subsection{Visualización local mediante pantalla OLED}
+\subsection{Monitoreo remoto y consulta histórica}
+\subsection{Utilidad de la retroalimentación para mantenimiento preventivo}
 
 \chapter{Análisis del Sistema}    % => CAPÍTULO 4
 
