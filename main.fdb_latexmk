@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1773800279.46124 "main.bcf" "main.bbl" "main" 1773800351.72033 0
-  "main.bcf" 1773800351 111798 ed74b1ba03abf1c7931a84a6312d6242 "pdflatex"
+["biber main"] 1773800279.46124 "main.bcf" "main.bbl" "main" 1773878574.44451 0
+  "main.bcf" 1773878574 111798 ed74b1ba03abf1c7931a84a6312d6242 "pdflatex"
   "referencias.bib" 1773799857 19057 445c5bdd083c6409566c44fff8f695f9 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1773800348.7057 "d:/LaTeX/Pro_Terminal/main.tex" "main.pdf" "main" 1773800351.72081 0
+["pdflatex"] 1773878571.5552 "d:/LaTeX/Pro_Terminal/main.tex" "main.pdf" "main" 1773878574.44497 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1256929440 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
@@ -303,18 +303,18 @@
   "C:/Program Files/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773122994 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1773123060 13323782 f6238cb6555535f7b57295b8b72f6596 ""
-  "d:/LaTeX/Pro_Terminal/main.tex" 1773800345 54068 7279814787a85e8346308dd83d5f04a8 ""
+  "d:/LaTeX/Pro_Terminal/main.tex" 1773878568 53990 c55d78509d9e45195ba5f3eb8a2c7215 ""
   "esp32.png" 1773788127 2317872 85571674b0f0f3eb0d162773f3480e02 ""
   "logo-ipn-guinda.png" 1756246063 336660 2239702f3eb35a00ec7470f258cafb69 ""
   "logo-upiita.png" 1756246067 103144 dfd5c4728aba7d468d5459dfc3c3be7f ""
-  "main.aux" 1773800351 18853 678f88f94619a6dfa9372402d6c64861 "pdflatex"
+  "main.aux" 1773878574 19068 296bb2bd9ffbad827e590d102dfc5a83 "pdflatex"
   "main.bbl" 1773800280 45134 d70bcb9bfdd5da125b012a558dd97068 "biber main"
-  "main.lof" 1773800351 1120 51c6449cf6320b297a43c24054fcff54 "pdflatex"
-  "main.lot" 1773800351 623 3e15c0b0c83fd585fd64de66b153bd1b "pdflatex"
-  "main.out" 1773800351 4400 f01ae70fd76b9c47eb7d4265f370916e "pdflatex"
-  "main.run.xml" 1773800351 2434 162d858ffb7c356f1e339b2ddbc1e62c "pdflatex"
-  "main.tex" 1773800345 54068 7279814787a85e8346308dd83d5f04a8 ""
-  "main.toc" 1773800351 4386 7a82a0557183e42ffb5fd0c6040cb70e "pdflatex"
+  "main.lof" 1773878574 1120 51c6449cf6320b297a43c24054fcff54 "pdflatex"
+  "main.lot" 1773878574 623 f02c5d64128a035b029a68d0f43bfc42 "pdflatex"
+  "main.out" 1773878574 8788 be506d2c08cd05d6c9fd07afbff9857f "pdflatex"
+  "main.run.xml" 1773878574 2434 162d858ffb7c356f1e339b2ddbc1e62c "pdflatex"
+  "main.tex" 1773878568 53990 c55d78509d9e45195ba5f3eb8a2c7215 ""
+  "main.toc" 1773878574 4591 6dd0b7bf90c5e27e5b2bc2ce0ff759d2 "pdflatex"
   "oled-pantalla.png" 1773788209 307884 47f4d6310ad6b00276d45d745b19e62a ""
   "sct013.png" 1773788079 54657 c3fcf9ee09f30b084715b90d12d89bfb ""
   "sistema-propuesto.pdf" 1773789853 38131 0b874dd46d0d4bbc6513c0c771cfc312 ""

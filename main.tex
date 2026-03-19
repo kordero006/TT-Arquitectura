@@ -345,17 +345,17 @@ Para maximizar la utilidad del sistema, la etapa de salida contempla dos vías c
 Esta separación entre visualización local y servicios remotos favorece que el sistema pueda operar de forma autónoma ante fallos de conectividad, mientras que el canal remoto incrementa el valor del monitoreo al permitir análisis de tendencia y trazabilidad de eventos.
 
 En conjunto, la arquitectura propuesta facilita la evolución del sistema (p.\,ej., incorporar nuevas métricas o reglas de detección) y promueve una presentación de resultados comprensible para el usuario final, alineando el desarrollo con un enfoque de prevención y mantenimiento oportuno.
-\subsection{Objetivos}
+\section{Objetivos}
 \label{subsec:objetivos}
 
 Los objetivos del presente trabajo se establecen con la finalidad de orientar el desarrollo del sistema propuesto y delimitar el alcance del proyecto en términos de diseño, implementación y validación. En este sentido, se definen un objetivo general y un conjunto de objetivos específicos, los cuales permiten organizar las actividades y verificar el cumplimiento de los resultados esperados.
 
-\subsubsection{Objetivo general}
+\subsection{Objetivo general}
 \label{subsubsec:objetivo_general}
 
 Diseñar e implementar un sistema de monitoreo preventivo de bajo costo para el análisis del consumo eléctrico en cargas domésticas, capaz de identificar condiciones anómalas de operación y presentar información comprensible al usuario, con el propósito de apoyar la toma de decisiones orientadas al mantenimiento oportuno y la reducción de riesgos en el entorno residencial \cite{nist-sp800-183}.
 
-\subsubsection{Objetivos específicos}
+\subsection{Objetivos específicos}
 \label{subsubsec:objetivos_especificos}
 
 \begin{itemize}
@@ -367,12 +367,12 @@ Diseñar e implementar un sistema de monitoreo preventivo de bajo costo para el 
     \item Validar el funcionamiento del sistema mediante pruebas con cargas domésticas reales, comparando las mediciones obtenidas con instrumentos convencionales y verificando la detección de eventos de interés en escenarios representativos.
 \end{itemize}
 
-\subsection{Alcances y limitaciones}
+\section{Alcances y limitaciones}
 \label{subsec:alcances_limitaciones}
 
 Para garantizar la viabilidad técnica y el cumplimiento de los objetivos planteados, es necesario delimitar el campo de acción del sistema propuesto, estableciendo tanto las capacidades que se pretenden alcanzar como las restricciones inherentes al diseño y la tecnología empleada.
 
-\subsubsection{Alcances}
+\subsection{Alcances}
 \label{subsubsec:alcances}
 
 El proyecto comprende el desarrollo integral de un prototipo funcional de monitoreo preventivo, abarcando desde la instrumentación física hasta la visualización de datos en plataformas digitales. Los alcances específicos incluyen:
@@ -384,7 +384,7 @@ El proyecto comprende el desarrollo integral de un prototipo funcional de monito
     \item \textbf{Conectividad dual:} Se garantiza la disponibilidad de información tanto de forma local (pantalla OLED) como remota (dashboard web/app vía Wi-Fi), utilizando protocolos de comunicación eficientes como MQTT o HTTP \cite{mqtt-oasis}.
 \end{itemize}
 
-\subsubsection{Limitaciones}
+\subsection{Limitaciones}
 \label{subsubsec:limitaciones}
 
 Es importante señalar las restricciones del sistema para evitar interpretaciones fuera del contexto preventivo del diseño:
@@ -396,7 +396,7 @@ Es importante señalar las restricciones del sistema para evitar interpretacione
     \item \textbf{Alcance del análisis:} El sistema se limita al análisis de la magnitud de la corriente y potencia estimada. No contempla el análisis de armónicos complejos o calidad de la energía (THD), los cuales requerirían hardware de adquisición de mayor velocidad y capacidad de cómputo.
 \end{itemize}
 
-\subsection{Justificación}
+\section{Justificación}
 \label{subsec:justificacion}
 
 En el contexto residencial, el uso continuo de electrodomésticos y dispositivos eléctricos constituye una necesidad cotidiana; sin embargo, el envejecimiento de las instalaciones, la falta de mantenimiento y la operación simultánea de múltiples cargas pueden incrementar el riesgo de fallas por sobrecarga o conexiones defectuosas. Diversas guías de prevención describen que, en incendios urbanos, los cortocircuitos, las sobrecargas, la falta de mantenimiento de los sistemas eléctricos y la operación inadecuada de aparatos eléctricos representan causas recurrentes \cite{unam-incendios}. Asimismo, reportes periodísticos recientes en México señalan un aumento de incidentes asociados a fallas eléctricas y destacan como factores comunes las instalaciones antiguas, cables deteriorados y la conexión simultánea de varios aparatos a una misma fuente \cite{azteca-fallas-electricas-incendios-2026}.
@@ -407,38 +407,38 @@ Adicionalmente, la propuesta es justificable desde un criterio de accesibilidad 
 
 En síntesis, el desarrollo del sistema propuesto se justifica por su contribución a la reducción de riesgos asociados al uso prolongado de equipos y posibles condiciones de sobrecarga en el hogar, así como por su potencial para fomentar una cultura de mantenimiento preventivo basada en información objetiva y accesible para el usuario final.
 
-\subsection{Metodología}
+\section{Metodología}
 \label{subsec:metodologia}
 
 El desarrollo del sistema propuesto se llevará a cabo mediante una metodología por fases, orientada a la construcción de una arquitectura IoT completa desde la adquisición de datos hasta su explotación por el usuario. Este enfoque permite asegurar trazabilidad entre requisitos, decisiones de diseño e implementación, y es consistente con la visión de sistemas IoT descrita en la literatura, donde se distinguen componentes de captura de información, procesamiento, comunicación y entrega de servicios \cite{nist-sp800-183}. Asimismo, se considera una organización modular alineada con arquitecturas de referencia ampliamente citadas para sistemas IoT, las cuales promueven separaciones claras entre capas funcionales y facilitan la escalabilidad del sistema \cite{iota-arm-2013}.
 
-\subsubsection{Fase 1: Levantamiento de requisitos y definición de alcance}
+\subsection{Fase 1: Levantamiento de requisitos y definición de alcance}
 \label{subsubsec:met_req}
 
 En primera instancia se establecerán los requisitos funcionales y no funcionales del sistema. Entre los requisitos funcionales se incluyen: medición no invasiva de corriente, cálculo de parámetros eléctricos representativos, identificación de condiciones anómalas y visualización local y remota. En cuanto a requisitos no funcionales, se priorizan: seguridad de operación (no intervenir en la instalación eléctrica), bajo costo, facilidad de instalación, operación autónoma y tolerancia a fallos de conectividad (mantener operación local aun sin Internet). Como resultado de esta fase se definirá el alcance de medición (p.\,ej., tipo de cargas, rango del sensor) y los criterios de aceptación para validar el prototipo.
 
-\subsubsection{Fase 2: Diseño de arquitectura IoT del sistema}
+\subsection{Fase 2: Diseño de arquitectura IoT del sistema}
 \label{subsubsec:met_arq}
 
 Con los requisitos definidos, se diseñará la arquitectura lógica y física del sistema, especificando módulos y sus interfaces. En particular, se delimitarán: (i) la etapa de adquisición (sensor y acondicionamiento), (ii) la etapa de procesamiento en el borde (\textit{edge}) a cargo del microcontrolador, y (iii) la etapa de interacción/servicios (visualización, almacenamiento y notificación). Esta separación se justifica porque facilita el mantenimiento y permite evolucionar el sistema (por ejemplo, ajustar reglas de detección o cambiar la plataforma de visualización) sin rediseñar la totalidad del prototipo \cite{nist-sp800-183,iota-arm-2013}. El resultado de esta fase será el diagrama de bloques del sistema y la especificación de los flujos de datos (telemetría, eventos y parámetros).
 
-\subsubsection{Fase 3: Implementación del nodo IoT (adquisición y procesamiento local)}
+\subsection{Fase 3: Implementación del nodo IoT (adquisición y procesamiento local)}
 \label{subsubsec:met_nodo}
 
 En esta fase se implementará el nodo IoT basado en ESP32. Se desarrollará el módulo de muestreo para digitalizar la señal acondicionada y se implementarán los cálculos de parámetros eléctricos necesarios para caracterizar el comportamiento de consumo. Posteriormente se integrará una lógica determinista de detección de anomalías basada en ventanas temporales y umbrales configurables, con el objetivo de identificar desviaciones relevantes en el consumo sin depender de modelos complejos, privilegiando la interpretabilidad de los resultados \cite{chandola2009anomaly}. De manera paralela se integrará la interfaz local (pantalla OLED) para consulta inmediata.
 
-\subsubsection{Fase 4: Comunicación, gestión de datos e integración de servicios}
+\subsection{Fase 4: Comunicación, gestión de datos e integración de servicios}
 \label{subsubsec:met_com}
 
 Una vez validado el funcionamiento del nodo en operación local, se habilitará el intercambio de datos con la plataforma remota. Para telemetría y publicación de datos se considerará el uso de protocolos ligeros, particularmente MQTT, debido a su adopción en escenarios IoT y su eficiencia para dispositivos con recursos limitados \cite{mqtt-oasis}. En caso de integración con servicios web, se empleará un esquema basado en HTTP/REST para facilitar interoperabilidad con tableros y aplicaciones \cite{fielding2000rest}. En esta fase se implementará el almacenamiento histórico y la visualización remota, con el objetivo de permitir análisis de tendencia, consulta por periodos y trazabilidad de eventos.
 
-\subsubsection{Fase 5: Pruebas, validación y ajuste iterativo}
+\subsection{Fase 5: Pruebas, validación y ajuste iterativo}
 \label{subsubsec:met_valid}
 
 Finalmente, se ejecutará un plan de pruebas con cargas domésticas representativas para evaluar: estabilidad de muestreo, consistencia de parámetros calculados, desempeño de la detección de anomalías y utilidad de las interfaces. Se compararán mediciones con instrumentos convencionales (p.\,ej., pinza amperimétrica o medidor de energía comercial) para estimar precisión y repetibilidad, y se documentarán escenarios de uso donde el sistema aporte valor preventivo. Con base en los resultados se realizarán ajustes iterativos en umbrales, ventanas de análisis, frecuencia de reporte y criterios de notificación, buscando un equilibrio entre sensibilidad (detectar eventos relevantes) y robustez (reducir falsas alertas).
 
 En conjunto, esta metodología permite desarrollar una arquitectura IoT completa y verificable, asegurando que cada componente (sensado, cómputo en el borde, comunicación y visualización) contribuya de manera coherente al objetivo del proyecto.
-\subsection{Plan de trabajo}
+\section{Plan de trabajo}
 \label{subsec:plan_trabajo}
 
 Con base en la metodología planteada, se establece un plan de trabajo estructurado por fases, cuyo propósito es organizar de manera secuencial las actividades necesarias para el desarrollo del sistema IoT propuesto. Este plan permite relacionar cada etapa del proyecto con productos concretos, facilitando el seguimiento del avance, la validación de resultados y la integración progresiva de los distintos módulos del sistema.
@@ -509,7 +509,7 @@ El desarrollo de sistemas para monitoreo eléctrico residencial ha evolucionado 
 
 En este contexto, el estado del arte puede analizarse desde tres perspectivas complementarias: soluciones tecnológicas orientadas al monitoreo energético, trabajos académicos enfocados en el análisis de consumo y detección de anomalías, y desarrollos universitarios o institucionales que emplean arquitecturas embebidas e IoT para resolver problemas de supervisión eléctrica.
 
-\subsubsection{Soluciones de monitoreo energético basadas en ESP32 e IoT}
+\section{Soluciones de monitoreo energético basadas en ESP32 e IoT}
 
 Un primer grupo de antecedentes corresponde a desarrollos recientes que utilizan microcontroladores con conectividad inalámbrica para integrar medición, procesamiento local y comunicación con plataformas remotas. En esta línea, el trabajo \textit{A Smart Energy Monitoring System Using ESP32 Microcontroller} presenta un sistema de monitoreo energético donde el ESP32 funge como nodo central de adquisición y procesamiento, integrando sensores de medición eléctrica y mecanismos de envío de información hacia el usuario mediante conectividad Wi-Fi \cite{smart-energy-esp32-2024}. La relevancia de este antecedente radica en que confirma la viabilidad del ESP32 como elemento principal en arquitecturas IoT de bajo costo orientadas al monitoreo energético, lo cual guarda relación directa con la propuesta de este proyecto.
 
@@ -517,25 +517,25 @@ De manera semejante, algunos desarrollos técnicos recientes orientados a protot
 
 Un antecedente adicional dentro de esta misma tendencia es el sistema \textit{Smart Energy Meter With ESP32 to Predict Electricity Bill}, el cual amplía el monitoreo energético incorporando almacenamiento de datos y una capa de análisis orientada a la predicción del consumo y la generación de alertas ante incrementos inusuales de carga \cite{esp32-bill-predictor-2025}. Este trabajo es valioso para el estado del arte porque evidencia una transición conceptual importante: del simple monitoreo de variables eléctricas hacia la interpretación de patrones de comportamiento, aspecto que también es central en la arquitectura propuesta en este proyecto.
 
-\subsubsection{Trabajos académicos sobre detección de anomalías en consumo energético}
+\section{Trabajos académicos sobre detección de anomalías en consumo energético}
 
 Además del monitoreo en tiempo real, la literatura reciente muestra un interés creciente por detectar anomalías o desviaciones en el comportamiento energético a partir del análisis de datos históricos o corrientes. En este sentido, la tesis \textit{Real-Time Energy Monitoring and Anomaly Detection in ...} reporta el diseño e implementación de un sistema de monitoreo energético con capacidad de detección de anomalías en tiempo real, integrando una arquitectura IoT y estrategias de análisis sobre los datos adquiridos \cite{real-time-anomaly-thesis}. Aunque el enfoque analítico de dicho trabajo puede involucrar técnicas más avanzadas que las consideradas en este proyecto, su aporte principal consiste en demostrar que la supervisión energética adquiere mayor valor cuando la información recopilada no se limita a ser visualizada, sino que también se utiliza para identificar comportamientos atípicos.
 
 Asimismo, en la literatura especializada existen propuestas centradas en detección de anomalías dentro de redes o sistemas IoT energéticos, como el trabajo \textit{Anomaly Detection in IoT Sensor Energy Consumption Using LSTM Neural Networks and Isolation Forest}, que evidencia la relevancia del análisis de patrones anormales de consumo dentro de entornos instrumentados \cite{iot-anomaly-lstm-2024}. Si bien este tipo de métodos suele implicar una mayor complejidad computacional, su inclusión en el estado del arte resulta pertinente porque permite ubicar el proyecto dentro de una línea más amplia de investigación, donde el monitoreo eléctrico deja de ser únicamente descriptivo y se convierte en una herramienta preventiva.
 
-\subsubsection{Proyectos universitarios y desarrollos académicos aplicados}
+\section{Proyectos universitarios y desarrollos académicos aplicados}
 
 En el ámbito universitario, diversos trabajos han explorado el uso de plataformas embebidas e IoT para la supervisión de variables eléctricas, normalmente con énfasis en el bajo costo, la accesibilidad de implementación y la posibilidad de construir prototipos funcionales para entornos reales. Un ejemplo de ello es el artículo \textit{IoT-Based Smart Energy Meter with Real-Time Monitoring and Theft Detection using Arduino and PZEM004T}, desarrollado en un entorno académico universitario, donde se plantea una arquitectura basada en medición eléctrica en tiempo real, visualización local, servicios IoT y generación de alertas \cite{ijert-smart-meter-2025}. Aunque el objetivo principal del trabajo se orienta a la detección de robo de energía, su estructura modular de sensado, procesamiento y comunicación guarda similitud con la propuesta del presente proyecto.
 
 Otro antecedente académico de interés es el conjunto de investigaciones y desarrollos universitarios recientes que emplean ESP32 como plataforma de supervisión eléctrica y energética. En particular, la adopción de arquitecturas basadas en adquisición de corriente y voltaje, procesamiento local y publicación remota de datos se ha consolidado como una estrategia recurrente en prototipos de laboratorio y proyectos terminales, debido a la flexibilidad del hardware, su conectividad integrada y su adecuación a esquemas de bajo costo \cite{smart-energy-esp32-2024,esp32-bill-predictor-2025}. Estos trabajos confirman que el diseño de nodos IoT para supervisión energética constituye una línea de desarrollo activa y pertinente en contextos universitarios.
 
-\subsubsection{Antecedente institucional en el Instituto Politécnico Nacional}
+\section{Antecedente institucional en el Instituto Politécnico Nacional}
 
 En el caso del Instituto Politécnico Nacional, la evidencia disponible en su repositorio y en páginas institucionales muestra una trayectoria de trabajos relacionados con monitoreo, instrumentación, redes y sistemas eléctricos, particularmente en unidades como ESIME \cite{ipn-esime-tesis,ipn-monitoring-network}. Aunque no todos estos desarrollos corresponden exactamente a sistemas IoT residenciales de monitoreo eléctrico, sí reflejan un entorno académico donde el diseño de sistemas de medición, supervisión y análisis constituye una línea de trabajo consolidada. Este marco institucional resulta importante para el presente proyecto, ya que ubica su desarrollo dentro de una tradición de investigación y aplicación tecnológica orientada a resolver problemas de monitoreo y control con base en plataformas electrónicas y de comunicación.
 
 De manera específica, el documento \textit{Propuesta de un Sistema de Monitoreo para la Red de ESIME} representa un antecedente institucional relevante al mostrar que dentro del IPN existe experiencia en el planteamiento de arquitecturas de monitoreo apoyadas en infraestructura tecnológica y comunicación de datos \cite{ipn-monitoring-network}. Aunque dicho trabajo está enfocado a un contexto distinto al residencial, su inclusión permite evidenciar que el Politécnico ha desarrollado propuestas formales de supervisión de sistemas, lo cual aporta pertinencia institucional al presente trabajo terminal.
 
-\subsubsection{Síntesis del análisis}
+\section{Síntesis del análisis}
 
 A partir de los antecedentes revisados, puede observarse que el monitoreo energético mediante arquitecturas IoT se encuentra ampliamente respaldado tanto por desarrollos experimentales como por trabajos académicos y soluciones aplicadas. Los antecedentes revisados coinciden en varios elementos: uso de nodos embebidos con conectividad, medición en tiempo real, despliegue local o remoto de información y creciente incorporación de mecanismos para detectar comportamientos anómalos.
 
@@ -543,7 +543,7 @@ Sin embargo, también se identifica que muchos de estos trabajos privilegian la 
 
 % ... Aquí termina la redacción de los antecedentes que ya tenemos ...
 
-\subsubsection{Análisis Comparativo y Diferenciación}
+\section{Análisis Comparativo y Diferenciación}
 
 Para finalizar el análisis del estado del arte, se presenta la Tabla~\ref{tab:comparativa_proyectos}, la cual sintetiza las características técnicas de cada trabajo revisado frente a la propuesta de este proyecto terminal, permitiendo identificar las brechas existentes y justificar la pertinencia de la solución desarrollada.
 

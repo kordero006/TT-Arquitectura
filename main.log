@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  17 MAR 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.10)  18 MAR 2026 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1371,7 +1371,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 98.
 Package biblatex Info: Reference segment=0 on input line 98.
-<logo-ipn-guinda.png, id=118, 397.485pt x 614.295pt>
+<logo-ipn-guinda.png, id=178, 397.485pt x 614.295pt>
 File: logo-ipn-guinda.png Graphic file (type png)
 <use logo-ipn-guinda.png>
 Package pdftex.def Info: logo-ipn-guinda.png  used on input line 119.
@@ -1410,7 +1410,7 @@ Overfull \hbox (41.54195pt too wide) in paragraph at lines 170--177
  [][] 
  []
 
-<logo-upiita.png, id=120, 284.7438pt x 284.7438pt>
+<logo-upiita.png, id=180, 284.7438pt x 284.7438pt>
 File: logo-upiita.png Graphic file (type png)
 <use logo-upiita.png>
 Package pdftex.def Info: logo-upiita.png  used on input line 187.
@@ -1497,12 +1497,12 @@ LaTeX Info: Redefining \sptext on input line 263.
 LaTeX Info: Redefining \. on input line 263.
 LaTeX Info: Redefining \% on input line 263.
  [3{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<sct013.png, id=244, 803.0pt x 803.0pt>
+<sct013.png, id=319, 803.0pt x 803.0pt>
 File: sct013.png Graphic file (type png)
 <use sct013.png>
 Package pdftex.def Info: sct013.png  used on input line 272.
 (pdftex.def)             Requested size: 212.41261pt x 212.41415pt.
-<esp32.png, id=245, 301.125pt x 301.125pt>
+<esp32.png, id=320, 301.125pt x 301.125pt>
 File: esp32.png Graphic file (type png)
 <use esp32.png>
 Package pdftex.def Info: esp32.png  used on input line 282.
@@ -1511,7 +1511,7 @@ LaTeX Info: Redefining \sptext on input line 286.
 LaTeX Info: Redefining \. on input line 286.
 LaTeX Info: Redefining \% on input line 286.
  [4 <./sct013.png>]
-<oled-pantalla.png, id=252, 1430.34375pt x 1430.34375pt>
+<oled-pantalla.png, id=327, 1430.34375pt x 1430.34375pt>
 File: oled-pantalla.png Graphic file (type png)
 <use oled-pantalla.png>
 Package pdftex.def Info: oled-pantalla.png  used on input line 292.
@@ -1520,7 +1520,7 @@ LaTeX Info: Redefining \sptext on input line 299.
 LaTeX Info: Redefining \. on input line 299.
 LaTeX Info: Redefining \% on input line 299.
  [5 <./esp32.png> <./oled-pantalla.png>]
-<supabase-dashboard.png, id=260, 1866.22218pt x 944.7797pt>
+<supabase-dashboard.png, id=335, 1866.22218pt x 944.7797pt>
 File: supabase-dashboard.png Graphic file (type png)
 <use supabase-dashboard.png>
 Package pdftex.def Info: supabase-dashboard.png  used on input line 302.
@@ -1528,7 +1528,7 @@ Package pdftex.def Info: supabase-dashboard.png  used on input line 302.
 
 
 pdfTeX warning: pdflatex (file ./sistema-propuesto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<sistema-propuesto.pdf, id=262, 751.10611pt x 944.4284pt>
+<sistema-propuesto.pdf, id=337, 751.10611pt x 944.4284pt>
 File: sistema-propuesto.pdf Graphic file (type pdf)
 <use sistema-propuesto.pdf>
 Package pdftex.def Info: sistema-propuesto.pdf  used on input line 319.
@@ -1589,13 +1589,22 @@ LaTeX Info: Redefining \. on input line 505.
 LaTeX Info: Redefining \% on input line 505.
 [14]
 Cap\'{\i }tulo 2.
+
+Overfull \hbox (19.21497pt too wide) in paragraph at lines 512--512
+[]\T1/lmr/bx/n/17.28 Soluciones de mo-ni-to-reo ener-gé-ti-co ba-sa-das en ESP32
+ []
+
 [15
 
 ]
-LaTeX Info: Redefining \sptext on input line 531.
-LaTeX Info: Redefining \. on input line 531.
-LaTeX Info: Redefining \% on input line 531.
+LaTeX Info: Redefining \sptext on input line 529.
+LaTeX Info: Redefining \. on input line 529.
+LaTeX Info: Redefining \% on input line 529.
  [16]
+LaTeX Info: Redefining \sptext on input line 543.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
+ [17]
 Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []|\T1/lmr/bx/n/12 Tecnología
  []
@@ -1728,11 +1737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 603--603
 LaTeX Info: Redefining \sptext on input line 607.
 LaTeX Info: Redefining \. on input line 607.
 LaTeX Info: Redefining \% on input line 607.
-[17]
-LaTeX Info: Redefining \sptext on input line 607.
-LaTeX Info: Redefining \. on input line 607.
-LaTeX Info: Redefining \% on input line 607.
- [18]
+[18]
 LaTeX Info: Redefining \sptext on input line 607.
 LaTeX Info: Redefining \. on input line 607.
 LaTeX Info: Redefining \% on input line 607.
@@ -1814,26 +1819,26 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F01AE70FD76B9C47EB7D4265F370916E;4400.
+(rerunfilecheck)             Checksum: BE506D2C08CD05D6C9FD07AFBFF9857F;8788.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54011 strings out of 467867
- 1221607 string characters out of 5428401
- 2350432 words of memory out of 5000000
- 81970 multiletter control sequences out of 15000+600000
+ 54026 strings out of 467867
+ 1221842 string characters out of 5428401
+ 2350454 words of memory out of 5000000
+ 81985 multiletter control sequences out of 15000+600000
  700210 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,104p,2509b,2550s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,104p,2509b,2507s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:iot} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (39 pages, 3455809 bytes).
+Output written on main.pdf (39 pages, 3466674 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
+ 657 PDF objects out of 1000 (max. 8388607)
  130 named destinations out of 1000 (max. 500000)
- 272 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
 
