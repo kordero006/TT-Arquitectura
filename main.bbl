@@ -1050,6 +1050,113 @@
       \verb 10.1109/JSEN.2013.2263379
       \endverb
     \endentry
+    \entry{alexander2017fundamentos}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=38f17d4baab84e2e893ad24888815193}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Charles\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=acd2910fdff85c25e324e4401e07500d}{%
+           family={Sadiku},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelimb N.\bibnamedelimi O.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{fullhash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{fullhashraw}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{bibnamehash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{authorbibnamehash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{authornamehash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{authorfullhash}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \strng{authorfullhashraw}{b97a3bcc6d3ea40a2118e7ebcabd0af4}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{isbn}{978-1-259-25132-0}
+      \field{title}{Fundamentos de circuitos eléctricos}
+      \field{year}{2017}
+    \endentry
+    \entry{ziegler2009current}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c09f75c17399952ff5a9d2f328004296}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Silvio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a7af593d922957dd3cdcc0a389010638}{%
+           family={Woodward},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f24e1d10dbbc62e7eb20b671d96f7565}{%
+           family={Iu},
+           familyi={I\bibinitperiod},
+           given={Herbert\bibnamedelima Ho-Ching},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=f0ae2dcdc207bdc3e1fc0156f44b0165}{%
+           family={Borle},
+           familyi={B\bibinitperiod},
+           given={Lawrence\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b9f42c700569ed234c1cba97bb8037d}
+      \strng{fullhash}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \strng{fullhashraw}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \strng{bibnamehash}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \strng{authorbibnamehash}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \strng{authornamehash}{0b9f42c700569ed234c1cba97bb8037d}
+      \strng{authorfullhash}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \strng{authorfullhashraw}{0a701a7f0eb4b0f116b6313ce5d43e09}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{number}{4}
+      \field{title}{Current Sensing Techniques: A Review}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{354\bibrangedash 376}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1109/JSEN.2009.2013914
+      \endverb
+    \endentry
+    \entry{esp32_datasheet}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=66589871a3c3f27bcbf3891133af42b1}{%
+           family={{Espressif Systems}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{fullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{bibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorbibnamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authornamehash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhash}{66589871a3c3f27bcbf3891133af42b1}
+      \strng{authorfullhashraw}{66589871a3c3f27bcbf3891133af42b1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{v4.3}
+      \field{title}{ESP32 Series Datasheet}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

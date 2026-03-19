@@ -2429,6 +2429,9 @@
     <bcf:citekey order="42" intorder="1">ipn2023sistema</bcf:citekey>
     <bcf:citekey order="43" intorder="1">kelly2013low</bcf:citekey>
     <bcf:citekey order="44" intorder="1">kelly2013low</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">alexander2017fundamentos</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">ziegler2009current</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">esp32_datasheet</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -426,6 +426,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-natbib.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
@@ -614,6 +617,16 @@ INPUT .\sistema-propuesto.pdf
 INPUT .\sistema-propuesto.pdf
 INPUT .\sistema-propuesto.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT .\triangulo-potencias.pdf
+INPUT .\triangulo-potencias.pdf
+INPUT .\triangulo-potencias.pdf
+INPUT .\triangulo-potencias.pdf
+INPUT .\triangulo-potencias.pdf
+INPUT .\triangulo-potencias.pdf
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
@@ -631,6 +644,12 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
@@ -639,5 +658,7 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
