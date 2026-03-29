@@ -1,5 +1,9 @@
 % makeindex style file created by the glossaries package
+<<<<<<< HEAD
 % for document 'main' on 2026-3-25
+=======
+% for document 'main' on 2026-3-19
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
 actual '?'
 encap '|'
 level '!'

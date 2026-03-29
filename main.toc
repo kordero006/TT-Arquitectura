@@ -45,11 +45,16 @@
 \contentsline {section}{\numberline {3.1}Fundamentos de energía eléctrica en entornos residenciales}{20}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Magnitudes eléctricas fundamentales}{20}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Triángulo de potencias}{20}{subsection.3.1.2}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {3.2}Monitoreo de consumo eléctrico y sensado no invasivo}{21}{section.3.2}%
+=======
+\contentsline {section}{\numberline {3.2}Monitoreo de consumo eléctrico y sensado no invasivo}{22}{section.3.2}%
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
 \contentsline {subsection}{\numberline {3.2.1}Transformadores de Corriente (CT)}{22}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Sensor SCT-013 y Acondicionamiento de Señal}{22}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Sistemas embebidos para adquisición y procesamiento}{22}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Microcontrolador ESP32}{22}{subsection.3.3.1}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.3.2}Conversión Analógico-Digital (ADC)}{22}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Internet de las Cosas aplicado al monitoreo energético}{23}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Definición y arquitectura funcional de IoT}{23}{subsection.3.4.1}%
@@ -77,3 +82,32 @@
 \contentsline {chapter}{\numberline {B}Datasets e instrumentación}{30}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Documentación adicional}{31}{appendix.C}%
 \contentsline {chapter}{Referencias}{32}{appendix*.23}%
+=======
+\contentsline {subsection}{\numberline {3.3.2}Conversión Analógico-Digital (ADC)}{23}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Internet de las Cosas aplicado al monitoreo energético}{24}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Definición y arquitectura funcional de IoT}{24}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Procesamiento en el borde (Edge Computing)}{24}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Integración de sensado, procesamiento y servicios}{24}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Protocolos de comunicación para telemetría}{24}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Comunicación basada en HTTP/REST}{24}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Protocolo MQTT}{24}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Comparación entre HTTP y MQTT en aplicaciones IoT}{24}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Detección de anomalías en el consumo eléctrico}{24}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Concepto de anomalía en series de tiempo}{24}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Anomalías en patrones de consumo eléctrico}{24}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Enfoques de detección basados en reglas, umbrales y ventanas de tiempo}{24}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}Visualización de datos y apoyo a la toma de decisiones}{24}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Visualización local mediante pantalla OLED}{24}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Monitoreo remoto y consulta histórica}{24}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Utilidad de la retroalimentación para mantenimiento preventivo}{24}{subsection.3.7.3}%
+\contentsline {chapter}{\numberline {4}Análisis del Sistema}{25}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Diseño del Sistema}{26}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Implementación del Sistema}{27}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ejemplos de código}{27}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Pruebas y Resultados}{28}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Trabajo Futuro}{29}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Guía de despliegue}{30}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Datasets e instrumentación}{31}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Documentación adicional}{32}{appendix.C}%
+\contentsline {chapter}{Referencias}{33}{appendix*.23}%
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255

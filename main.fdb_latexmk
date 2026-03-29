@@ -1,12 +1,21 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["biber main"] 1773899250.08456 "main.bcf" "main.bbl" "main" 1774472699.22183 0
   "main.bcf" 1774472698 112023 06903cec42365969cb5639d5f347e7da "pdflatex"
+=======
+["biber main"] 1773899250.08456 "main.bcf" "main.bbl" "main" 1773901356.66814 0
+  "main.bcf" 1773901356 112023 06903cec42365969cb5639d5f347e7da "pdflatex"
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
   "referencias.bib" 1773899129 21672 95a22521e3ca92abc6435785200234c5 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
+<<<<<<< HEAD
 ["pdflatex"] 1774472696.24089 "d:/LaTeX/Pro_Terminal/main.tex" "main.pdf" "main" 1774472699.22232 0
+=======
+["pdflatex"] 1773901353.62097 "d:/LaTeX/Pro_Terminal/main.tex" "main.pdf" "main" 1773901356.66868 0
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -312,6 +321,7 @@
   "C:/Program Files/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773122994 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/puiyi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1773123060 13323782 f6238cb6555535f7b57295b8b72f6596 ""
+<<<<<<< HEAD
   "d:/LaTeX/Pro_Terminal/main.tex" 1774472692 60722 ef0628727c7a424b4ad7d7c4ec70a4ce ""
   "esp32.png" 1773788127 2317872 85571674b0f0f3eb0d162773f3480e02 ""
   "logo-ipn-guinda.png" 1756246063 336660 2239702f3eb35a00ec7470f258cafb69 ""
@@ -324,11 +334,29 @@
   "main.run.xml" 1774472698 2468 f09c0adc52803469ff65b74c0494c4af "pdflatex"
   "main.tex" 1774472692 60722 ef0628727c7a424b4ad7d7c4ec70a4ce ""
   "main.toc" 1774472698 7390 07751b90f1fc162acdffec1f6e7a3908 "pdflatex"
+=======
+  "d:/LaTeX/Pro_Terminal/main.tex" 1773901350 60713 42079a57d52d414996e24dad326a6cf7 ""
+  "esp32.png" 1773788127 2317872 85571674b0f0f3eb0d162773f3480e02 ""
+  "logo-ipn-guinda.png" 1756246063 336660 2239702f3eb35a00ec7470f258cafb69 ""
+  "logo-upiita.png" 1756246067 103144 dfd5c4728aba7d468d5459dfc3c3be7f ""
+  "main.aux" 1773901356 24522 895abf38d533b4434c83539f83e11fd9 "pdflatex"
+  "main.bbl" 1773899251 49905 68763d5926312e3328c28d2f09b0c703 "biber main"
+  "main.lof" 1773901356 1238 8bf835b11d5eb260a83ce5ee8461070a "pdflatex"
+  "main.lot" 1773901356 623 f02c5d64128a035b029a68d0f43bfc42 "pdflatex"
+  "main.out" 1773901356 16083 98a4540f476c2088dcbc0e2d439d6958 "pdflatex"
+  "main.run.xml" 1773901356 2468 f09c0adc52803469ff65b74c0494c4af "pdflatex"
+  "main.tex" 1773901350 60713 42079a57d52d414996e24dad326a6cf7 ""
+  "main.toc" 1773901356 7390 a8828f9c0e93ced897c578ed9b64b380 "pdflatex"
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
   "oled-pantalla.png" 1773788209 307884 47f4d6310ad6b00276d45d745b19e62a ""
   "sct013.png" 1773788079 54657 c3fcf9ee09f30b084715b90d12d89bfb ""
   "sistema-propuesto.pdf" 1773789853 38131 0b874dd46d0d4bbc6513c0c771cfc312 ""
   "supabase-dashboard.png" 1773789137 105991 6e6e861784ff2306291376c13d7b6d45 ""
+<<<<<<< HEAD
   "triangulo-potencias.pdf" 1774472244 10092 7f5f133c2eb85b076b3b75aa8e3acc28 ""
+=======
+  "triangulo-potencias.pdf" 1773901078 10098 121e93568a0b638c52ce0e134b2b7355 ""
+>>>>>>> 9ea4b6451d309c11fae80f107034d63c91169255
   (generated)
   "main.acn"
   "main.aux"
